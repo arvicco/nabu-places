@@ -1,0 +1,6 @@
+theme: jekyll-theme-primer
+title: nabu-places
+description: >-
+  A curated registry of place-matching decisions — which gazetteer
+  identity each source's verbatim place-name string denotes, with
+  unlocatable and region as first-class answers.
