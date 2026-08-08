@@ -1,0 +1,1104 @@
+# nabu-places names.yml — the matching DECISIONS registry.
+#
+# One section per consuming-catalog source slug; keys are the source's
+# VERBATIM place-name strings (byte-exact). A row is a recorded decision;
+# an UNLISTED name is honestly unmatched (identity-default — the lects
+# doctrine). Statuses: matched (refs required) | unlocatable | region |
+# ghost | rejected (note required). alias_of redirects to another verbatim
+# key in the same section; certainty defaults to high.
+#
+# Seed wave (2026-08-08, P63-6): cdli + oracc rows generated from CIGS
+# v1.7's own keys — legacy_name IS the CDLI house composite, so exact and
+# ?-suffix matches are CIGS's own authority (598/598 sites carry CDLI
+# provenience ids); oracc bare names matched via anc/transc names where
+# UNIQUE (2 ambiguous names deliberately left unlisted). Coverage at seed:
+# cdli 250,484/273,210 docs · oracc 87,706/112,198.
+cdli:
+  Adab (mod. Bismaya):
+    refs:
+    - cigs:ADB
+    - pleiades:787747618
+    status: matched
+  Adab (mod. Bismaya) ?:
+    alias_of: Adab (mod. Bismaya)
+  Akhetaten (mod. el-Amarna):
+    refs:
+    - cigs:AKH
+    - pleiades:149576487
+    status: matched
+  Antipatris (mod. Tel Aphek):
+    refs:
+    - cigs:APH
+    - pleiades:687996
+    status: matched
+  Anšan (mod. Tell Malyan):
+    refs:
+    - cigs:ANS
+    - pleiades:922729
+    status: matched
+  Arrapha (mod. Kirkuk):
+    refs:
+    - cigs:ARR
+    - pleiades:893941
+    status: matched
+  Asdūdu (mod. Ashdod):
+    refs:
+    - cigs:ASD
+    - pleiades:687838
+    status: matched
+  Assur (mod. Qalat Sherqat):
+    refs:
+    - cigs:ASS
+    - pleiades:893945
+    status: matched
+  Assur (mod. Qalat Sherqat) ?:
+    alias_of: Assur (mod. Qalat Sherqat)
+  Ašnakkum (mod. Chagar Bazar):
+    refs:
+    - cigs:ASZ
+    - pleiades:480215077
+    status: matched
+  Bad-Tibira (mod. Tell Medinah):
+    refs:
+    - cigs:BTB
+    - pleiades:771224406
+    status: matched
+  Bad-Tibira (mod. Tell Medinah) ?:
+    alias_of: Bad-Tibira (mod. Tell Medinah)
+  Burmarina (mod. Tell Shiukh Fawqani):
+    refs:
+    - cigs:BUR
+    - pleiades:193113381
+    status: matched
+  Der (mod. Tell Aqar):
+    refs:
+    - cigs:DER
+    - pleiades:903013
+    status: matched
+  Der (mod. Tell Aqar) ?:
+    alias_of: Der (mod. Tell Aqar)
+  Dilmun (mod. Qal'at al-Bahrain):
+    refs:
+    - cigs:DLM
+    - pleiades:932478
+    status: matched
+  Dur-Katlimmu (mod. Tall Shekh Hamad):
+    refs:
+    - cigs:DKA
+    - pleiades:893991
+    status: matched
+  Dur-Kurigalzu (mod. Aqar Quf):
+    refs:
+    - cigs:AQA
+    - pleiades:893988
+    status: matched
+  Dur-Untaš (mod. Chogha Zanbil):
+    refs:
+    - cigs:COZ
+    - pleiades:459393126
+    status: matched
+  Dur-Untaš (mod. Chogha Zanbil) ?:
+    alias_of: Dur-Untaš (mod. Chogha Zanbil)
+  Dur-Šarrukin (mod. Khorsabad):
+    refs:
+    - cigs:SAR
+    - pleiades:874458
+    status: matched
+  Ekalte (mod. Tell Munbaqa):
+    refs:
+    - cigs:EKA
+    - pleiades:703315102
+    status: matched
+  Emar (mod. Tell Meskene):
+    refs:
+    - cigs:EMR
+    - pleiades:279984092
+    status: matched
+  Emar (mod. Tell Meskene) ?:
+    alias_of: Emar (mod. Tell Meskene)
+  Eridu (mod. Abu Shahrain):
+    refs:
+    - cigs:ERI
+    - pleiades:912845
+    status: matched
+  Eridu (mod. Abu Shahrain) ?:
+    alias_of: Eridu (mod. Abu Shahrain)
+  Ešnunna (mod. Tell Asmar):
+    refs:
+    - cigs:ESH
+    - pleiades:90720956
+    status: matched
+  Ešnunna (mod. Tell Asmar) ?:
+    alias_of: Ešnunna (mod. Tell Asmar)
+  Garšana (mod. uncertain):
+    refs:
+    - cigs:GRS
+    - pleiades:922752947
+    status: matched
+  Garšana (mod. uncertain) ?:
+    alias_of: Garšana (mod. uncertain)
+  Gasur/Nuzi (mod. Yorgan Tepe):
+    refs:
+    - cigs:NUZ
+    - pleiades:894054
+    status: matched
+  Gasur/Nuzi (mod. Yorgan Tepe) ?:
+    alias_of: Gasur/Nuzi (mod. Yorgan Tepe)
+  Girsu (mod. Tello):
+    refs:
+    - cigs:GIR
+    - pleiades:912855
+    status: matched
+  Girsu (mod. Tello) ?:
+    alias_of: Girsu (mod. Tello)
+  Gubla (mod. Byblos):
+    refs:
+    - cigs:BYB
+    - pleiades:668216
+    status: matched
+  Guzana (mod. Tell Halaf):
+    refs:
+    - cigs:HLF
+    - pleiades:874739
+    status: matched
+  Halicarnassus (mod. Halicarnassus):
+    refs:
+    - cigs:HAL
+    - pleiades:461581651
+    status: matched
+  Hamath (mod. Hama):
+    refs:
+    - cigs:HAM
+    - pleiades:668182
+    status: matched
+  Harradum (mod. Khirbet ed-Diniye):
+    refs:
+    - cigs:HRD
+    - pleiades:894003
+    status: matched
+  Harran (mod. Harran):
+    refs:
+    - cigs:HAR
+    - pleiades:658427
+    status: matched
+  Harran (mod. Harran) ?:
+    alias_of: Harran (mod. Harran)
+  Huzirina (mod. Sultantepe):
+    refs:
+    - cigs:HUZ
+    - pleiades:249509021
+    status: matched
+  Idu (mod. Hīt):
+    refs:
+    - cigs:IDU
+    - pleiades:692346284
+    status: matched
+  Irisagrig (mod. uncertain):
+    refs:
+    - cigs:IRS
+    - pleiades:237830124
+    status: matched
+  Irisagrig (mod. uncertain) ?:
+    alias_of: Irisagrig (mod. uncertain)
+  Isin (mod. Bahriyat):
+    refs:
+    - cigs:ISN
+    - pleiades:912868
+    status: matched
+  Isin (mod. Bahriyat) ?:
+    alias_of: Isin (mod. Bahriyat)
+  Isqalluna (mod. Ashkelon):
+    refs:
+    - cigs:SQL
+    - pleiades:687839
+    status: matched
+  Kahat (mod. Tell Barri):
+    refs:
+    - cigs:KHT
+    - pleiades:874732
+    status: matched
+  Kanesh (mod. Kültepe):
+    refs:
+    - cigs:KNS
+    - pleiades:628923
+    status: matched
+  Kanesh (mod. Kültepe) ?:
+    alias_of: Kanesh (mod. Kültepe)
+  Kar-Tukulti-Ninurta (mod. Tulul al-ʿAqir):
+    refs:
+    - cigs:KTN
+    - pleiades:430344980
+    status: matched
+  Karkemish (mod. Djerabis):
+    refs:
+    - cigs:KRK
+    - pleiades:658465
+    status: matched
+  Karkemish (mod. Djerabis) ?:
+    alias_of: Karkemish (mod. Djerabis)
+  Kian (Tell Shmid):
+    refs:
+    - cigs:SAM
+    status: matched
+  Kilizu (mod. Qasr Shamamuk):
+    refs:
+    - cigs:QSH
+    - pleiades:894027
+    status: matched
+  Kisurra (mod. Abu Hatab):
+    refs:
+    - cigs:KSR
+    - pleiades:797093165
+    status: matched
+  Kisurra (mod. Abu Hatab) ?:
+    alias_of: Kisurra (mod. Abu Hatab)
+  Kišesim (mod. Najafabad):
+    refs:
+    - cigs:NJF
+    status: matched
+  Kutalla (mod. Tell Sifr):
+    refs:
+    - cigs:SFR
+    status: matched
+  Kutha (mod. Tell Ibrahim):
+    refs:
+    - cigs:GUD
+    - pleiades:893977
+    status: matched
+  Kutha (mod. Tell Ibrahim) ?:
+    alias_of: Kutha (mod. Tell Ibrahim)
+  Lagash (mod. El-Hiba):
+    refs:
+    - cigs:LAG
+    - pleiades:959120263
+    status: matched
+  Lagash (mod. El-Hiba) ?:
+    alias_of: Lagash (mod. El-Hiba)
+  Larsa (mod. Tell as-Senkereh):
+    refs:
+    - cigs:LAR
+    - pleiades:912897
+    status: matched
+  Larsa (mod. Tell as-Senkereh) ?:
+    alias_of: Larsa (mod. Tell as-Senkereh)
+  Marad (mod. Wanna-wa-Sadum):
+    refs:
+    - cigs:MRD
+    - pleiades:912901
+    status: matched
+  Marad (mod. Wanna-wa-Sadum) ?:
+    alias_of: Marad (mod. Wanna-wa-Sadum)
+  Mardaman (mod. Bassetki):
+    refs:
+    - cigs:BAS
+    - pleiades:48906851
+    status: matched
+  Mari (mod. Tell Hariri):
+    refs:
+    - cigs:MAR
+    - pleiades:286681704
+    status: matched
+  Mari (mod. Tell Hariri) ?:
+    alias_of: Mari (mod. Tell Hariri)
+  Marqasu (mod. Kahramanmaraş):
+    refs:
+    - cigs:KAH
+    - pleiades:658474
+    status: matched
+  Maškan-šapir (mod. Tell Abu Duwari):
+    refs:
+    - cigs:MSK
+    - pleiades:715980704
+    status: matched
+  Melidu (mod. Arslantepe):
+    refs:
+    - cigs:MLD
+    - pleiades:25078867
+    status: matched
+  Nereb (mod. Neirab) ?:
+    refs:
+    - cigs:NER
+    - pleiades:633912597
+    status: matched
+    certainty: low
+    note: upstream ?-qualified; base name "Nereb (mod. Neirab)" per CIGS NER
+  Nerebtum (mod. Iščali):
+    refs:
+    - cigs:NRB
+    status: matched
+  Nerebtum (mod. Iščali) ?:
+    alias_of: Nerebtum (mod. Iščali)
+  Nineveh:
+    refs:
+    - cigs:NNV
+    - pleiades:874621
+    status: matched
+  Nineveh (mod. Kuyunjik):
+    refs:
+    - cigs:NNV
+    - pleiades:874621
+    status: matched
+  Nineveh (mod. Kuyunjik) ?:
+    alias_of: Nineveh (mod. Kuyunjik)
+  Nippur (mod. Nuffar):
+    refs:
+    - cigs:NIP
+    - pleiades:912910
+    status: matched
+  Nippur (mod. Nuffar) ?:
+    alias_of: Nippur (mod. Nuffar)
+  Pašime (mod. Tell Abu Sheeja):
+    refs:
+    - cigs:PAS
+    - pleiades:108542249
+    status: matched
+  Puzriš-Dagan (mod. Drehem):
+    refs:
+    - cigs:DRE
+    - pleiades:359215729
+    status: matched
+  Puzriš-Dagan (mod. Drehem) ?:
+    alias_of: Puzriš-Dagan (mod. Drehem)
+  Pārśa (mod. Persepolis):
+    refs:
+    - cigs:PRS
+    - pleiades:922695
+    status: matched
+  Pārśa (mod. Persepolis) ?:
+    alias_of: Pārśa (mod. Persepolis)
+  Pī-Kasî (mod. Tell Abu Antiq):
+    refs:
+    - cigs:ANT
+    - pleiades:552857304
+    status: matched
+  Pī-Kasî (mod. Tell Abu Antiq) ?:
+    alias_of: Pī-Kasî (mod. Tell Abu Antiq)
+  Qasr-i Abu Nasr (mod. uncertain):
+    refs:
+    - cigs:QAN
+    status: matched
+  Qattara (mod. Tell al Rimah):
+    refs:
+    - cigs:QAT
+    - pleiades:356369838
+    status: matched
+  Qattara (mod. Tell al Rimah) ?:
+    alias_of: Qattara (mod. Tell al Rimah)
+  Rusahinili (mod. Toprakkale):
+    refs:
+    - cigs:RUS
+    - pleiades:874771
+    status: matched
+  Samal (mod. Zinčirli):
+    refs:
+    - cigs:ZCR
+    - pleiades:192555966
+    status: matched
+  Samerina (mod. Samaria):
+    refs:
+    - cigs:SMA
+    - pleiades:678370
+    status: matched
+  Seleucia (mod. Tell 'Umar):
+    refs:
+    - cigs:SEL
+    - pleiades:894178
+    status: matched
+  Shuruppak (mod. Fara):
+    refs:
+    - cigs:SUR
+    - pleiades:326150788
+    status: matched
+  Sippar-Amnanum (mod. Tell ed-Der):
+    refs:
+    - cigs:SIP
+    - pleiades:392373882
+    status: matched
+  Sippar-Amnanum (mod. Tell ed-Der) ?:
+    alias_of: Sippar-Amnanum (mod. Tell ed-Der)
+  Sippar-Yahrurum (mod. Tell Abu Habbah):
+    refs:
+    - cigs:SAP
+    - pleiades:894089
+    status: matched
+  Sippar-Yahrurum (mod. Tell Abu Habbah) ?:
+    alias_of: Sippar-Yahrurum (mod. Tell Abu Habbah)
+  Surkh Dum (mod. Sorḵdom):
+    refs:
+    - cigs:SDM
+    status: matched
+  Susa (mod. Shush):
+    refs:
+    - cigs:SUS
+    - pleiades:912936
+    status: matched
+  Susa (mod. Shush) ?:
+    alias_of: Susa (mod. Shush)
+  Susarra (mod. Tell Shemshara):
+    refs:
+    - cigs:SZU
+    status: matched
+  Tall-I Takht (mod. Pasargadae):
+    refs:
+    - cigs:PSG
+    - pleiades:922693
+    status: matched
+  Tarbisu (mod. Tell Sherif Khan):
+    refs:
+    - cigs:SKH
+    - pleiades:30774368
+    status: matched
+  Tema (mod. Tayma):
+    refs:
+    - cigs:TYM
+    - pleiades:814739
+    status: matched
+  Terqa (mod. Ashara):
+    refs:
+    - cigs:TRQ
+    - pleiades:894158
+    status: matched
+  Terqa (mod. Ashara) ?:
+    alias_of: Terqa (mod. Ashara)
+  Til Barsip (mod. Tell Ahmar):
+    refs:
+    - cigs:TBP
+    - pleiades:658410
+    status: matched
+  Tunip (mod. Acharneh):
+    refs:
+    - cigs:TNP
+    status: matched
+  Tushhan (mod. Ziyaret Tepe):
+    refs:
+    - cigs:ZTP
+    status: matched
+  Tuttul (mod. Tell Bi'a):
+    refs:
+    - cigs:TUT
+    - pleiades:582993625
+    status: matched
+  Tutub (mod. Khafaje):
+    refs:
+    - cigs:TTB
+    - pleiades:490043590
+    status: matched
+  Tutub (mod. Khafaje) ?:
+    alias_of: Tutub (mod. Khafaje)
+  Ugarit (mod. Ras Shamra):
+    refs:
+    - cigs:UGA
+    - pleiades:668295
+    status: matched
+  Ugarit (mod. Ras Shamra) ?:
+    alias_of: Ugarit (mod. Ras Shamra)
+  Umma (mod. Tell Jokha):
+    refs:
+    - cigs:JOK
+    - pleiades:44626252
+    status: matched
+  Umma (mod. Tell Jokha) ?:
+    alias_of: Umma (mod. Tell Jokha)
+  Unqi (mod. Tell Ta'ynat):
+    refs:
+    - cigs:TAY
+    - pleiades:913163220
+    status: matched
+  Upi (mod. Opis):
+    refs:
+    - cigs:UPI
+    - pleiades:894056
+    status: matched
+  Ur (mod. Tell Muqayyar):
+    refs:
+    - cigs:URI
+    - pleiades:912985
+    status: matched
+  Ur (mod. Tell Muqayyar) ?:
+    alias_of: Ur (mod. Tell Muqayyar)
+  Urkesh (mod. Tell Mozan):
+    refs:
+    - cigs:URK
+    - pleiades:404687441
+    status: matched
+  Uruk (mod. Warka):
+    refs:
+    - cigs:URU
+    - pleiades:912986
+    status: matched
+  Uruk (mod. Warka) ?:
+    alias_of: Uruk (mod. Warka)
+  Šapinuwa (mod. Ortaköy):
+    refs:
+    - cigs:ORT
+    - pleiades:964671598
+    status: matched
+  Šubat-Enlil (mod. Leilan):
+    refs:
+    - cigs:SZE
+    - pleiades:223856813
+    status: matched
+  Šubat-Enlil (mod. Leilan) ?:
+    alias_of: Šubat-Enlil (mod. Leilan)
+  Ḫadatu (mod. Arslan Tash):
+    refs:
+    - cigs:ART
+    - pleiades:658399
+    status: matched
+  Ḫarbe (mod. Tell Chuera):
+    refs:
+    - cigs:CHU
+    - pleiades:677382294
+    status: matched
+  Ḫattusa (mod. Boğazkale):
+    refs:
+    - cigs:HAT
+    - pleiades:283602441
+    status: matched
+oracc:
+  Adab:
+    refs:
+    - cigs:ADB
+    - pleiades:787747618
+    status: matched
+  Ahtamar:
+    status: unlocatable
+    note: 'CIGS AHT: location uncertain'
+  Akhetaten:
+    refs:
+    - cigs:AKH
+    - pleiades:149576487
+    status: matched
+  Aliler:
+    refs:
+    - cigs:ALI
+    - pleiades:291498921
+    status: matched
+  Altıntepe:
+    status: unlocatable
+    note: 'CIGS ALT: location uncertain'
+  Anšan:
+    refs:
+    - cigs:ANS
+    - pleiades:922729
+    status: matched
+  Arinçkus:
+    refs:
+    - cigs:ARK
+    - pleiades:658093017
+    status: matched
+  Armavir:
+    refs:
+    - cigs:ARM
+    - pleiades:863745
+    status: matched
+  Ashkelon:
+    refs:
+    - cigs:SQL
+    - pleiades:687839
+    status: matched
+  Assur:
+    refs:
+    - cigs:ASS
+    - pleiades:893945
+    status: matched
+  Assur (mod. Qalat Sherqat):
+    refs:
+    - cigs:ASS
+    - pleiades:893945
+    status: matched
+  Aznavurtepe:
+    refs:
+    - cigs:AZN
+    - pleiades:939417484
+    status: matched
+  Aşağı Anzaf:
+    status: unlocatable
+    note: 'CIGS ASA: location uncertain'
+  Babylon:
+    refs:
+    - cigs:BAB
+    - pleiades:893951
+    status: matched
+  Bad-Tibira:
+    refs:
+    - cigs:BTB
+    - pleiades:771224406
+    status: matched
+  Bad-tibira:
+    refs:
+    - cigs:BTB
+    - pleiades:771224406
+    status: matched
+  Bahçecik:
+    status: unlocatable
+    note: 'CIGS BAH: location uncertain'
+  Başbulak:
+    status: unlocatable
+    note: 'CIGS BBK: location uncertain'
+  Başkale:
+    status: unlocatable
+    note: 'CIGS BSK: location uncertain'
+  Bingöl Dağ:
+    status: unlocatable
+    note: 'CIGS BIN: location uncertain'
+  Borsippa:
+    refs:
+    - cigs:BOR
+    - pleiades:893964
+    status: matched
+  Bostankaya:
+    status: unlocatable
+    note: 'CIGS BOS: location uncertain'
+  Burmageçit:
+    refs:
+    - cigs:BRM
+    - pleiades:124319310
+    status: matched
+  Daskyleion:
+    refs:
+    - cigs:DAS
+    - pleiades:511225
+    status: matched
+  Davti-blur:
+    refs:
+    - cigs:DVB
+    - pleiades:85366721
+    status: matched
+  Der:
+    refs:
+    - cigs:DER
+    - pleiades:903013
+    status: matched
+  Değirmenköy:
+    status: unlocatable
+    note: 'CIGS DEG: location uncertain'
+  Dilbat:
+    refs:
+    - cigs:DLB
+    - pleiades:893987
+    status: matched
+  Diqdiqqah:
+    status: unlocatable
+    note: 'CIGS DQD: location uncertain'
+  Dur-Šarrukin:
+    refs:
+    - cigs:SAR
+    - pleiades:874458
+    status: matched
+  Düzceli:
+    status: unlocatable
+    note: 'CIGS DUZ: location uncertain'
+  Ebla:
+    refs:
+    - cigs:EBA
+    - pleiades:869702586
+    status: matched
+  Edremit:
+    status: unlocatable
+    note: 'CIGS EDR: location uncertain'
+  Ekalte:
+    refs:
+    - cigs:EKA
+    - pleiades:703315102
+    status: matched
+  Elar:
+    status: unlocatable
+    note: 'CIGS ELA: location uncertain'
+  Emar:
+    refs:
+    - cigs:EMR
+    - pleiades:279984092
+    status: matched
+  Ererin:
+    status: unlocatable
+    note: 'CIGS ERN: location uncertain'
+  Eridu:
+    refs:
+    - cigs:ERI
+    - pleiades:912845
+    status: matched
+  Ešnunna (mod. Tell Asmar):
+    refs:
+    - cigs:ESH
+    - pleiades:90720956
+    status: matched
+  Garni:
+    status: unlocatable
+    note: 'CIGS GAR: location uncertain'
+  Garšana:
+    refs:
+    - cigs:GRS
+    - pleiades:922752947
+    status: matched
+  Garšana (mod. uncertain):
+    refs:
+    - cigs:GRS
+    - pleiades:922752947
+    status: matched
+  Gasur:
+    refs:
+    - cigs:NUZ
+    - pleiades:894054
+    status: matched
+  Gezer:
+    status: unlocatable
+    note: 'CIGS GZR: location uncertain'
+  Girsu:
+    refs:
+    - cigs:GIR
+    - pleiades:912855
+    status: matched
+  Girsu (mod. Tello):
+    refs:
+    - cigs:GIR
+    - pleiades:912855
+    status: matched
+  Gövelek:
+    status: unlocatable
+    note: 'CIGS GOV: location uncertain'
+  Hazine Piri Kapısı:
+    status: unlocatable
+    note: 'CIGS HPK: location uncertain'
+  Huzirina:
+    refs:
+    - cigs:HUZ
+    - pleiades:249509021
+    status: matched
+  Irisagrig (mod. uncertain):
+    refs:
+    - cigs:IRS
+    - pleiades:237830124
+    status: matched
+  Isin:
+    refs:
+    - cigs:ISN
+    - pleiades:912868
+    status: matched
+  Kabnak:
+    refs:
+    - cigs:KBN
+    - pleiades:379400932
+    status: matched
+  Kadembas:
+    status: unlocatable
+    note: 'CIGS KAD: location uncertain'
+  Kahat (Mod. Tell Barri):
+    refs:
+    - cigs:KHT
+    - pleiades:874732
+    status: matched
+  Kalecik:
+    status: unlocatable
+    note: 'CIGS KLC: location uncertain'
+  Kalhu:
+    refs:
+    - cigs:NIM
+    - pleiades:894019
+    status: matched
+  Karagündüz:
+    status: unlocatable
+    note: 'CIGS KRG: location uncertain'
+  Karahan:
+    refs:
+    - cigs:KRH
+    - pleiades:625114447
+    status: matched
+  Karakala:
+    refs:
+    - cigs:KKL
+    - pleiades:268144622
+    status: matched
+  Karataş:
+    status: unlocatable
+    note: 'CIGS KRT: location uncertain'
+  Kasımoğlu:
+    status: unlocatable
+    note: 'CIGS KSM: location uncertain'
+  Kef Kalesi:
+    status: unlocatable
+    note: 'CIGS KFK: location uncertain'
+  Kevenli:
+    status: unlocatable
+    note: 'CIGS KEV: location uncertain'
+  Keçikıran:
+    status: unlocatable
+    note: 'CIGS KEC: location uncertain'
+  Kisurra:
+    refs:
+    - cigs:KSR
+    - pleiades:797093165
+    status: matched
+  Kiš:
+    refs:
+    - cigs:KSH
+    - pleiades:894028
+    status: matched
+  Koçyatağı:
+    status: unlocatable
+    note: 'CIGS KCT: location uncertain'
+  Köşk:
+    status: unlocatable
+    note: 'CIGS KOK: location uncertain'
+  Larak:
+    refs:
+    - cigs:LRK
+    - pleiades:762762282
+    status: matched
+  Larsa:
+    refs:
+    - cigs:LAR
+    - pleiades:912897
+    status: matched
+  Malazgirt:
+    status: unlocatable
+    note: 'CIGS MAL: location uncertain'
+  Malgium:
+    refs:
+    - cigs:TYA
+    status: matched
+  Marad:
+    refs:
+    - cigs:MRD
+    - pleiades:912901
+    status: matched
+  Mari:
+    refs:
+    - cigs:MAR
+    - pleiades:286681704
+    status: matched
+  Megiddo:
+    status: unlocatable
+    note: 'CIGS MGD: location uncertain'
+  Meher Kapısı:
+    status: unlocatable
+    note: 'CIGS MHR: location uncertain'
+  Mergeh Karvan:
+    status: unlocatable
+    note: 'CIGS MKA: location uncertain'
+  Mila Mergi:
+    status: unlocatable
+    note: 'CIGS MMG: location uncertain'
+  Muhrapert:
+    status: unlocatable
+    note: 'CIGS MUH: location uncertain'
+  Muradiye:
+    status: unlocatable
+    note: 'CIGS MUR: location uncertain'
+  Muş:
+    status: unlocatable
+    note: 'CIGS MUS: location uncertain'
+  Nagar:
+    refs:
+    - cigs:BRK
+    - pleiades:874735
+    status: matched
+  Nalbandyan:
+    status: unlocatable
+    note: 'CIGS NAL: location uncertain'
+  Nerebtum:
+    refs:
+    - cigs:NRB
+    status: matched
+  Nineveh:
+    refs:
+    - cigs:NNV
+    - pleiades:874621
+    status: matched
+  Nineveh (mod. Kuyunjik):
+    refs:
+    - cigs:NNV
+    - pleiades:874621
+    status: matched
+  Nippur:
+    refs:
+    - cigs:NIP
+    - pleiades:912910
+    status: matched
+  Nippur (mod. Nuffar):
+    refs:
+    - cigs:NIP
+    - pleiades:912910
+    status: matched
+  Ojasar-Ilandağ:
+    status: unlocatable
+    note: 'CIGS OJA: location uncertain'
+  Ortadamla:
+    status: unlocatable
+    note: 'CIGS ORD: location uncertain'
+  Ortakent:
+    status: unlocatable
+    note: 'CIGS OTK: location uncertain'
+  Patnos:
+    status: unlocatable
+    note: 'CIGS PAT: location uncertain'
+  Pirabat:
+    status: unlocatable
+    note: 'CIGS PIR: location uncertain'
+  Puzriš-Dagan:
+    refs:
+    - cigs:DRE
+    - pleiades:359215729
+    status: matched
+  Puzriš-Dagan (mod. Drehem):
+    refs:
+    - cigs:DRE
+    - pleiades:359215729
+    status: matched
+  Rutschi Tig:
+    status: unlocatable
+    note: 'CIGS RUT: location uncertain'
+  Salmanağa:
+    status: unlocatable
+    note: 'CIGS SAL: location uncertain'
+  Sarmaç:
+    status: unlocatable
+    note: 'CIGS SRM: location uncertain'
+  Sihke:
+    status: unlocatable
+    note: 'CIGS SIH: location uncertain'
+  Sippar:
+    refs:
+    - cigs:SAP
+    - pleiades:894089
+    status: matched
+  Sippar-Amnanum:
+    refs:
+    - cigs:SIP
+    - pleiades:392373882
+    status: matched
+  Sippar-Yahrurum (mod. Tell Abu Habbah):
+    refs:
+    - cigs:SAP
+    - pleiades:894089
+    status: matched
+  Sultantepe:
+    refs:
+    - cigs:HUZ
+    - pleiades:249509021
+    status: matched
+  Susa:
+    refs:
+    - cigs:SUS
+    - pleiades:912936
+    status: matched
+  Taşköprü:
+    status: unlocatable
+    note: 'CIGS TKP: location uncertain'
+  Terqa:
+    refs:
+    - cigs:TRQ
+    - pleiades:894158
+    status: matched
+  Tilmen Höyük:
+    status: unlocatable
+    note: 'CIGS THY: location uncertain'
+  Toprakkale:
+    refs:
+    - cigs:RUS
+    - pleiades:874771
+    status: matched
+  Tsovak:
+    status: unlocatable
+    note: 'CIGS TVK: location uncertain'
+  Tunip:
+    refs:
+    - cigs:TNP
+    status: matched
+  Tutub:
+    refs:
+    - cigs:TTB
+    - pleiades:490043590
+    status: matched
+  Ugarit:
+    refs:
+    - cigs:UGA
+    - pleiades:668295
+    status: matched
+  Ugarit (mod. Ras Shamra):
+    refs:
+    - cigs:UGA
+    - pleiades:668295
+    status: matched
+  Umma:
+    refs:
+    - cigs:JOK
+    - pleiades:44626252
+    status: matched
+  Umma (mod. Tell Jokha):
+    refs:
+    - cigs:JOK
+    - pleiades:44626252
+    status: matched
+  Ur:
+    refs:
+    - cigs:URI
+    - pleiades:912985
+    status: matched
+  Ur (mod. Tell Muqayyar):
+    refs:
+    - cigs:URI
+    - pleiades:912985
+    status: matched
+  Uruk:
+    refs:
+    - cigs:URU
+    - pleiades:912986
+    status: matched
+  Uruk (mod. Warka):
+    refs:
+    - cigs:URU
+    - pleiades:912986
+    status: matched
+  Yalçınkaya:
+    status: unlocatable
+    note: 'CIGS YAL: location uncertain'
+  Yazılıtaş:
+    status: unlocatable
+    note: 'CIGS YAZ: location uncertain'
+  Yukarı Anzaf:
+    status: unlocatable
+    note: 'CIGS AZF: location uncertain'
+  Zabalam:
+    refs:
+    - cigs:ZAB
+    - pleiades:921099766
+    status: matched
+  Çavuştepe:
+    refs:
+    - cigs:CAV
+    - pleiades:825333700
+    status: matched
+  Çelebibağı:
+    status: unlocatable
+    note: 'CIGS CEL: location uncertain'
+  Šaduppûm:
+    refs:
+    - cigs:SDP
+    - pleiades:821129014
+    status: matched
+  Šibaniba:
+    refs:
+    - cigs:SHI
+    - pleiades:237391811
+    status: matched
+  Šubat-Enlil:
+    refs:
+    - cigs:SZE
+    - pleiades:223856813
+    status: matched
+  Šuruppak:
+    refs:
+    - cigs:SUR
+    - pleiades:326150788
+    status: matched
+  Ḫarbe (mod. Tell Chuera):
+    refs:
+    - cigs:CHU
+    - pleiades:677382294
+    status: matched
+  Ḫattusa (mod. Boğazkale):
+    refs:
+    - cigs:HAT
+    - pleiades:283602441
+    status: matched

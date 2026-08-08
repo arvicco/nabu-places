@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# nabu-places structural validator — dependency-free (stdlib YAML only).
+# Refuses loudly; exit 0 = valid. Consumers re-run this against their
+# pinned copy (the nabu-lects drift-guard pattern).
+require "yaml"
+
+ROOT = File.expand_path("..", __dir__)
+STATUSES = %w[matched unlocatable region ghost rejected].freeze
+CERTAINTIES = %w[high low].freeze
+NOTE_REQUIRED = %w[unlocatable rejected].freeze
+
+errors = []
+
+namespaces = YAML.safe_load_file(File.join(ROOT, "namespaces.yml"))
+namespaces.each do |ns, decl|
+  errors << "namespaces.yml: #{ns}: missing id_shape" unless decl["id_shape"]
+end
+shapes = namespaces.transform_values { |d| /\A#{d["id_shape"]}\z/ }
+
+raw = File.read(File.join(ROOT, "names.yml"))
+# YAML silently last-wins on duplicate keys (the P61-3 shadowing incident);
+# refuse duplicates structurally: top-level source keys and per-section
+# name keys are each counted on the raw text.
+top_keys = raw.scan(/^([a-z][a-z0-9-]*):\s*$/).flatten
+top_keys.tally.each { |k, n| errors << "names.yml: duplicate source section #{k}" if n > 1 }
+
+names = YAML.safe_load(raw)
+names.each do |source, rows|
+  errors << "#{source}: section is not a map" && next unless rows.is_a?(Hash)
+
+  keys = rows.keys
+  keys.tally.each { |k, n| errors << "#{source}: duplicate name key #{k.inspect}" if n > 1 }
+  rows.each do |name, row|
+    where = "#{source} → #{name.inspect}"
+    unless row.is_a?(Hash)
+      errors << "#{where}: row is not a map"
+      next
+    end
+    if row.key?("alias_of")
+      errors << "#{where}: alias_of target missing" unless keys.include?(row["alias_of"])
+      extra = row.keys - %w[alias_of certainty note]
+      errors << "#{where}: alias rows carry only alias_of/certainty/note (got #{extra})" unless extra.empty?
+    else
+      status = row["status"]
+      errors << "#{where}: status #{status.inspect} not in #{STATUSES}" unless STATUSES.include?(status)
+      if status == "matched"
+        refs = row["refs"]
+        errors << "#{where}: matched needs at least one ref" unless refs.is_a?(Array) && !refs.empty?
+        Array(refs).each do |ref|
+          ns, id = ref.to_s.split(":", 2)
+          if !shapes.key?(ns)
+            errors << "#{where}: unknown namespace #{ns.inspect} in #{ref.inspect}"
+          elsif id.nil? || !id.match?(shapes[ns])
+            errors << "#{where}: id #{id.inspect} fails #{ns} shape"
+          end
+        end
+      elsif refs = row["refs"]
+        errors << "#{where}: only matched rows carry refs (status #{status})" unless refs.nil?
+      end
+      errors << "#{where}: status #{status} requires a note" if NOTE_REQUIRED.include?(status) && row["note"].to_s.strip.empty?
+    end
+    if (c = row["certainty"]) && !CERTAINTIES.include?(c)
+      errors << "#{where}: certainty #{c.inspect} not in #{CERTAINTIES}"
+    end
+  end
+end
+
+if errors.empty?
+  rows = names.values.sum(&:size)
+  puts "nabu-places valid: #{names.size} sources · #{rows} decision rows · #{namespaces.size} namespaces"
+else
+  errors.each { |e| warn "INVALID: #{e}" }
+  exit 1
+end
