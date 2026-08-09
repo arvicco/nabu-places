@@ -13,3 +13,11 @@
   (16 legacy + 115 unique anc/transc name matches; covers
   87,706/112,198). Two ambiguous oracc names and the 395-name long tail
   deliberately UNLISTED (identity-default: unmatched is visible).
+
+## Unreleased — 2026-08-09
+
+- Doctrine correction (owner ruling): nabu-places is NOT only glue —
+  `places.yml` + namespace `np:` mint the registry's OWN place records
+  where scholarship establishes a place no gazetteer registers.
+  Evidence required per record; validator enforces np-ref existence,
+  evidence presence, lat/lon pairing, and related-refs-are-context.

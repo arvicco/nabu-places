@@ -17,6 +17,12 @@ that "Irisagrig (mod. uncertain)" is honestly **unlocatable**. Matching by
 code heuristics buries those judgments; this registry records them as
 reviewable rows.
 
+And the registry is **not only glue between existing datasets**: where
+text analysis, enrichment, or AI-assisted scholarship establishes a place
+no gazetteer registers, the registry **mints its own record** (`places.yml`,
+namespace `np:`) — with a required evidence trail, so a minted place is a
+reviewable scholarly claim, not a heuristic's residue.
+
 ## The files
 
 - **`names.yml`** — one section per source slug; keys are the source's
@@ -25,11 +31,18 @@ reviewable rows.
   `{status: unlocatable, note: …}` · `{status: region, note: …}` ·
   `{status: ghost}` · `{status: rejected, note: …}` ·
   `{alias_of: "Roma", certainty: low}`.
-- **`namespaces.yml`** — the citable gazetteer namespaces and their id
-  shapes. Namespaces are parallel; cross-namespace equivalences are the
-  gazetteers' own crosswalk data, never inferred here.
+- **`places.yml`** — the registry's OWN minted records (`np:<ID>`): name,
+  optional WGS84 point, REQUIRED `evidence:`, optional *related* gazetteer
+  refs (context, never identity — if a gazetteer holds the place, match it
+  in names.yml instead of minting). names.yml rows cite minted places as
+  ordinary refs.
+- **`namespaces.yml`** — the citable namespaces and their id shapes: the
+  gazetteers plus `np` (this registry's native records). Namespaces are
+  parallel; cross-namespace equivalences are the gazetteers' own crosswalk
+  data, never inferred here.
 - **`bin/validate`** — dependency-free structural validator (run in CI and
-  by consumers against their pinned copy).
+  by consumers against their pinned copy); np refs must have a places.yml
+  record, minted records must carry evidence.
 
 ## The doctrine
 

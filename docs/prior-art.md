@@ -55,3 +55,11 @@ licensed for reuse — the
 [nabu-lects](https://arvicco.github.io/nabu-lects/) registry pattern
 (identity-default, closed vocabulary, honest non-answers) applied to
 place identity.
+
+And one step beyond glue: when scholarship over the texts themselves —
+joins across itineraries, enrichment, AI-assisted argument — establishes
+a place **no gazetteer registers at all**, the registry mints its own
+evidence-bearing record (`places.yml`, namespace `np:`) rather than
+forcing the claim into someone else's id space or losing it. Gazetteers
+remain the authorities for what they cover; the native lane exists for
+what they don't yet.
