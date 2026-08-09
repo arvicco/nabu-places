@@ -1102,3 +1102,1438 @@ oracc:
     - cigs:HAT
     - pleiades:283602441
     status: matched
+edr:
+  Abellinum:
+    refs:
+    - pleiades:432618
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Aeclanum:
+    refs:
+    - pleiades:442451
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Aesernia:
+    refs:
+    - pleiades:432652
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ager Albanus:
+    refs:
+    - pleiades:371030888
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Alba Fucens:
+    refs:
+    - pleiades:413005
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Alba Pompeia:
+    refs:
+    - pleiades:383564
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Albingaunum:
+    refs:
+    - pleiades:157803
+    - tm:31683
+    status: matched
+    note: the settlement record; the amphitheater sub-record rejected
+  Albintimilium:
+    refs:
+    - pleiades:157802
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Aletrium:
+    refs:
+    - pleiades:432664
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Allifae:
+    refs:
+    - tm:14443
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Altinum:
+    refs:
+    - pleiades:393374
+    - tm:8430
+    status: matched
+    note: the Venetia Altinum; Pannonian/Moesian homonyms rejected
+  Altinum?:
+    alias_of: Altinum
+    certainty: low
+  Ameria:
+    refs:
+    - tm:11849
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Amiternum:
+    refs:
+    - pleiades:413013
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Anagnia:
+    refs:
+    - pleiades:422833
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ancona:
+    refs:
+    - tm:3362
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Antium:
+    refs:
+    - pleiades:422837
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Aquae Statiellae:
+    refs:
+    - pleiades:383574
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Aquileia:
+    refs:
+    - pleiades:187290
+    status: matched
+    note: the Venetia Aquileia; the Raetian homonym rejected
+  Aquinum:
+    refs:
+    - pleiades:432695
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ariminum:
+    refs:
+    - pleiades:393379
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Arretium:
+    refs:
+    - pleiades:413032
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Asculum Picenum:
+    refs:
+    - tm:14408
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Asisium:
+    refs:
+    - pleiades:413037
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ateste:
+    refs:
+    - pleiades:393382
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Atina:
+    status: rejected
+    note: two Italian homonyms (Latium 432708 / Lucania 442481) both inside EDR scope
+      — needs per-document evidence
+  Augusta Bagiennorum:
+    refs:
+    - pleiades:383578
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Augusta Praetoria:
+    refs:
+    - pleiades:383579
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Augusta Taurinorum:
+    refs:
+    - pleiades:383580
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Auximum:
+    refs:
+    - pleiades:413045
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Bellunum:
+    refs:
+    - pleiades:187311
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Beneventum:
+    refs:
+    - pleiades:432721
+    - tm:3305
+    status: matched
+    note: Beneventum/Maleventum in Samnium; the Cisalpine homonym rejected
+  Bergomum:
+    refs:
+    - pleiades:383589
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Bononia:
+    refs:
+    - pleiades:393421
+    - tm:14370
+    status: matched
+    note: Felsina/Bononia (Bologna); Gallic/Moesian homonyms rejected
+  Bovillae:
+    refs:
+    - pleiades:422852
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Brixia:
+    refs:
+    - pleiades:383603
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Brundisium:
+    refs:
+    - pleiades:442509
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Caere:
+    refs:
+    - pleiades:422859
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Cales:
+    refs:
+    - pleiades:413058
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Camarina:
+    refs:
+    - pleiades:462126
+    status: matched
+    note: the Sicilian city; the swamp record rejected
+  Canusium:
+    refs:
+    - pleiades:442525
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Capena:
+    refs:
+    - pleiades:413062
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Capua:
+    refs:
+    - pleiades:432754
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Capua?:
+    refs:
+    - pleiades:432754
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Carsulae:
+    refs:
+    - pleiades:413065
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Casilinum:
+    refs:
+    - pleiades:432763
+    - tm:32416
+    status: matched
+    note: the Campanian Casilinum
+  Casinum:
+    refs:
+    - pleiades:432764
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Catina:
+    refs:
+    - pleiades:462270
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Centumcellae:
+    refs:
+    - tm:32032
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Cereatae Marianae:
+    refs:
+    - pleiades:432776
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Clusium:
+    refs:
+    - pleiades:413096
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Comum:
+    refs:
+    - pleiades:383627
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Corfinium:
+    refs:
+    - pleiades:413105
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Cumae:
+    refs:
+    - pleiades:432808
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Cupra Maritima:
+    refs:
+    - pleiades:413112
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Fabrateria Nova:
+    refs:
+    - pleiades:432825
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Falerii Novi:
+    refs:
+    - tm:32052
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Falerio Picenus:
+    refs:
+    - tm:14407
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Fanum Fortunae:
+    refs:
+    - pleiades:413129
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ferentinum:
+    refs:
+    - pleiades:432830
+    - tm:32459
+    status: matched
+    note: the Hernician Ferentinum
+  Ferentium:
+    refs:
+    - pleiades:413132
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ferrara:
+    refs:
+    - tm:31904
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ficulea:
+    refs:
+    - pleiades:422922
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Firmum Picenum:
+    refs:
+    - pleiades:413135
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Florentia:
+    refs:
+    - pleiades:413138
+    - tm:32051
+    status: matched
+    note: the Etruscan Florentia (Florence)
+  Formiae:
+    refs:
+    - pleiades:432839
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Forum Novum:
+    status: rejected
+    note: three Italian homonyms (Sabina/Aemilia/Samnium) inside EDR scope — needs
+      per-document evidence
+  Forum Sempronii:
+    refs:
+    - pleiades:413149
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Fulginiae:
+    refs:
+    - pleiades:413151
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Fundi:
+    refs:
+    - pleiades:432855
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Gabii:
+    refs:
+    - pleiades:422932
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Gela:
+    refs:
+    - pleiades:462214
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Gnathia:
+    refs:
+    - pleiades:442573
+    - tm:14267
+    status: matched
+    note: Egnatia/Gnathia the settlement; sub-records rejected
+  Herculaneum:
+    refs:
+    - pleiades:432873
+    - tm:3365
+    status: matched
+    note: the Vesuvian city
+  Herdonia:
+    refs:
+    - tm:14279
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Himera:
+    refs:
+    - pleiades:462244
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hispellum:
+    refs:
+    - pleiades:413170
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Histonium:
+    refs:
+    - pleiades:413171
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Iguvium:
+    refs:
+    - pleiades:413174
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Interamna Lirenas:
+    refs:
+    - pleiades:432884
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Interamna Nahars:
+    refs:
+    - pleiades:413178
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Interamnia Praetuttiorum:
+    refs:
+    - pleiades:413179
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Interpromium:
+    refs:
+    - pleiades:413182
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Iulia Concordia:
+    refs:
+    - pleiades:393441
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Iulium Carnicum:
+    refs:
+    - pleiades:187430
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lanuvium:
+    refs:
+    - pleiades:422956
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Laus Pompeia:
+    refs:
+    - pleiades:383691
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lavinium:
+    refs:
+    - pleiades:422960
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lipara:
+    refs:
+    - tm:22311
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Locri:
+    refs:
+    - pleiades:344424
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Luceria:
+    refs:
+    - pleiades:442640
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lucus Feroniae:
+    refs:
+    - pleiades:413184
+    status: matched
+    note: the Capena-territory colonia; the Latium homonym rejected
+  Luna:
+    refs:
+    - pleiades:403235
+    - tm:31016
+    status: matched
+    note: the Etruscan Luna (Luni)
+  Mediolanum:
+    refs:
+    - pleiades:383706
+    status: matched
+    note: the Insubrian Milan (index title Mediolan(i)um); Gallic/British homonyms
+      rejected
+  Mevania:
+    refs:
+    - pleiades:413200
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Minturnae:
+    refs:
+    - pleiades:432940
+    - tm:14433
+    status: matched
+    note: the Latium adiectum city
+  Misenum:
+    refs:
+    - pleiades:432941
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Misenum?:
+    refs:
+    - pleiades:432941
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Mutina:
+    refs:
+    - pleiades:383715
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Narnia:
+    refs:
+    - pleiades:413225
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Neapolis:
+    refs:
+    - pleiades:433014
+    status: matched
+    note: Parthenope/Neapolis (Naples) — the dominant EDR referent
+  Nola:
+    refs:
+    - pleiades:432981
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nomentum:
+    refs:
+    - pleiades:422986
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nora:
+    refs:
+    - pleiades:471979
+    - tm:22201
+    status: matched
+    note: the Sardinian Nora; the Cappadocian homonym rejected
+  Novaria:
+    refs:
+    - pleiades:383717
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nuceria Alfaterna:
+    refs:
+    - tm:14513
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nursia:
+    refs:
+    - pleiades:413229
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ocriculum:
+    refs:
+    - pleiades:413231
+    - tm:32219
+    status: matched
+    note: the Umbrian city
+  Opitergium:
+    refs:
+    - pleiades:393459
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ostia:
+    refs:
+    - pleiades:422995
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Paestum:
+    refs:
+    - pleiades:442733
+    - tm:14483
+    status: matched
+    note: Poseidonia/Paestum the settlement; monument sub-records rejected
+  Parma:
+    refs:
+    - pleiades:383737
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Patavium:
+    refs:
+    - pleiades:393473
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Peltuinum:
+    refs:
+    - pleiades:413247
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Perusia:
+    refs:
+    - pleiades:413248
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Pisaurum:
+    refs:
+    - pleiades:413256
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Placentia:
+    refs:
+    - pleiades:383741
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Pollentia:
+    refs:
+    - pleiades:383745
+    - tm:19887
+    status: matched
+    note: the Ligurian Pollentia; the Mallorcan homonym is outside EDR scope
+  Pompeii:
+    refs:
+    - pleiades:433032
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Potentia:
+    status: rejected
+    note: two Italian homonyms (Picenum 413272 / Lucania 442735) both inside EDR scope
+      — needs per-document evidence
+  Praeneste:
+    refs:
+    - pleiades:423013
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Privernum:
+    refs:
+    - pleiades:433052
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Puteoli:
+    refs:
+    - pleiades:432815
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Puteoli?:
+    refs:
+    - pleiades:432815
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ravenna:
+    refs:
+    - pleiades:393480
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Reate:
+    refs:
+    - pleiades:413283
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Regium Lepidum:
+    refs:
+    - pleiades:383755
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Roma:
+    refs:
+    - pleiades:423025
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Roma?:
+    refs:
+    - pleiades:423025
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Rusellae:
+    refs:
+    - pleiades:413288
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Saepinum:
+    refs:
+    - pleiades:433073
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Salernum:
+    refs:
+    - pleiades:433075
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Saturnia:
+    refs:
+    - pleiades:413044
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Selinus:
+    refs:
+    - pleiades:462489
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Sentinum:
+    refs:
+    - pleiades:413312
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Septempeda:
+    refs:
+    - pleiades:413314
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Sora:
+    refs:
+    - pleiades:433126
+    - tm:11856
+    status: matched
+    note: the Latium Sora; the Paphlagonian homonym rejected
+  Spoletium:
+    refs:
+    - pleiades:413320
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Suasa:
+    refs:
+    - pleiades:413324
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Suessa Aurunca:
+    refs:
+    - pleiades:433132
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Sulci:
+    refs:
+    - tm:22208
+    status: matched
+    note: the Sardinian Sulci
+  Sulmo:
+    refs:
+    - pleiades:433134
+    - tm:14425
+    status: matched
+    note: the Paelignian Sulmo (Ovid)
+  Superaequum:
+    refs:
+    - pleiades:413326
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Surrentum:
+    refs:
+    - pleiades:433139
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tarentum:
+    refs:
+    - pleiades:442810
+    - tm:2267
+    status: matched
+    note: Taras/Tarentum
+  Tarquinii:
+    refs:
+    - pleiades:413332
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tarracina:
+    refs:
+    - tm:32551
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Teanum Sidicinum:
+    refs:
+    - pleiades:433146
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Telesia:
+    refs:
+    - pleiades:433147
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tergeste:
+    refs:
+    - pleiades:187578
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Terventum:
+    refs:
+    - pleiades:433149
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Thermae Himeraeae:
+    refs:
+    - pleiades:462513
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tibur:
+    refs:
+    - pleiades:423081
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ticinum:
+    refs:
+    - pleiades:383798
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Trebula Suffenas:
+    refs:
+    - pleiades:423103
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tridentum:
+    refs:
+    - tm:12288
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tuder:
+    refs:
+    - pleiades:413354
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tuficum:
+    refs:
+    - pleiades:413355
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Turris Libisonis:
+    refs:
+    - pleiades:472035
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tusculum:
+    refs:
+    - pleiades:423108
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Urbs Salvia:
+    refs:
+    - pleiades:413364
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Urvinum Hortense:
+    refs:
+    - pleiades:413365
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Veii:
+    refs:
+    - pleiades:423116
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Veleia:
+    refs:
+    - pleiades:383811
+    - tm:31971
+    status: matched
+    note: the Aemilian Veleia (tabula alimentaria); the Hispanic homonym rejected
+  Velia:
+    refs:
+    - pleiades:452488
+    - tm:2495
+    status: matched
+    note: Velia/Elea in Lucania; Rome's Velia hill rides Roma findspots
+  Velitrae:
+    refs:
+    - pleiades:423117
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Venafrum:
+    refs:
+    - pleiades:433185
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Venusia:
+    refs:
+    - pleiades:442847
+    - tm:11901
+    status: matched
+    note: the Apulian Venusia (Horace); the Samnite homonym rejected
+  Vercellae:
+    refs:
+    - pleiades:383815
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Verona:
+    refs:
+    - pleiades:383816
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Vibo Valentia:
+    refs:
+    - pleiades:452337
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Vicetia:
+    refs:
+    - pleiades:393513
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Volaterrae:
+    refs:
+    - pleiades:403292
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Volcei:
+    refs:
+    - pleiades:442855
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Volsinii:
+    refs:
+    - pleiades:413389
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+iip:
+  Ahmadiyye:
+    refs:
+    - tm:37353
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Apollonia:
+    status: rejected
+    note: many homonyms; the Levantine Apollonia/Arsuf not disambiguated at name grain
+  Ashdod:
+    refs:
+    - pleiades:687838
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Bahan:
+    refs:
+    - tm:58374
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ben Shemen:
+    refs:
+    - tm:52704
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Beth Loya:
+    refs:
+    - tm:58345
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Bethennim:
+    refs:
+    - tm:52725
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Bethlehem:
+    refs:
+    - pleiades:687856
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Betthar:
+    refs:
+    - pleiades:678066
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Birsama:
+    refs:
+    - pleiades:687864
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Caesarea:
+    refs:
+    - pleiades:678401
+    status: matched
+    note: Caesarea Maritima (Stratonos Pyrgos); Anatolian homonyms rejected
+  Carmiel:
+    refs:
+    - tm:52709
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Dabbura:
+    refs:
+    - pleiades:678105
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Dor:
+    refs:
+    - tm:16824
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ein Nashot:
+    refs:
+    - tm:37382
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  El-Al:
+    refs:
+    - tm:52717
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Emmaus:
+    refs:
+    - pleiades:687891
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Evron:
+    refs:
+    - tm:52710
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Fakhem:
+    refs:
+    - tm:37362
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Farj:
+    refs:
+    - tm:37363
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Gaza:
+    refs:
+    - pleiades:687902
+    - tm:697
+    status: matched
+    note: the Palestinian Gaza; the Sogdian homonym rejected
+  Gezer:
+    refs:
+    - tm:50828
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Gophna:
+    refs:
+    - pleiades:687910
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hafar:
+    refs:
+    - tm:37381
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hammath Tiberias:
+    refs:
+    - tm:52711
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hammatha:
+    refs:
+    - tm:52712
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hebron:
+    refs:
+    - pleiades:687915
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Horvat Hani:
+    refs:
+    - tm:61906
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Horvat Tinshemet:
+    refs:
+    - tm:61909
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hura:
+    refs:
+    - tm:37397
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Iethira:
+    refs:
+    - pleiades:687929
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Jebel Moneijah:
+    refs:
+    - pleiades:746751
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Jericho:
+    refs:
+    - pleiades:687917
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Jueizeh:
+    refs:
+    - tm:37365
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Jurniyye:
+    refs:
+    - tm:37366
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Kafr Harib:
+    refs:
+    - tm:52718
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Kafr Kama:
+    refs:
+    - tm:37401
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Kafr Nafakh:
+    refs:
+    - pleiades:678216
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khirbet Beit Sila:
+    refs:
+    - tm:37407
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khirbet Habra:
+    refs:
+    - tm:37420
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khirbet Za'aquqa:
+    refs:
+    - tm:61973
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khirbet el-Makhrum:
+    refs:
+    - tm:37411
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khirbet el-Merd:
+    refs:
+    - tm:52731
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khisfin:
+    refs:
+    - tm:37421
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Khushniyye:
+    refs:
+    - tm:37369
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Kibbutz Lahav:
+    refs:
+    - tm:52736
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Kissufim:
+    refs:
+    - tm:58354
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lachish:
+    refs:
+    - pleiades:687951
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Lydda:
+    refs:
+    - pleiades:687953
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Ma'ayan Barukh:
+    refs:
+    - tm:30355
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Magen:
+    refs:
+    - tm:37428
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Mampsis:
+    refs:
+    - pleiades:687963
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Masada:
+    refs:
+    - pleiades:687968
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Megiddo:
+    refs:
+    - tm:51013
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Meroth:
+    refs:
+    - pleiades:678285
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Mumsiyye:
+    refs:
+    - tm:37372
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Na'aran:
+    refs:
+    - pleiades:687981
+    status: matched
+    note: the Jericho-area synagogue site; the Galilee homonym rejected
+    certainty: low
+  Narran:
+    refs:
+    - tm:52719
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nazareth:
+    refs:
+    - pleiades:678299
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Nessana:
+    refs:
+    - pleiades:687988
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Oboda:
+    refs:
+    - tm:4137
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Qumran:
+    refs:
+    - pleiades:688011
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Rafid:
+    refs:
+    - tm:37374
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Rama:
+    refs:
+    - pleiades:678356
+    status: matched
+    note: the Galilee Rama; Alpine/Judean homonyms rejected
+  Ramsaniyye:
+    refs:
+    - tm:37375
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Saura:
+    refs:
+    - pleiades:678377
+    - tm:37155
+    status: matched
+    note: the Golan Saura
+  Sebaste:
+    refs:
+    - pleiades:678370
+    status: matched
+    note: Samaria/Sebaste; Anatolian homonyms rejected
+  Sepphoris:
+    refs:
+    - pleiades:678387
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Shiloh:
+    refs:
+    - tm:37463
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Shuni:
+    refs:
+    - tm:37465
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Squffiye:
+    refs:
+    - tm:52722
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Suhmata:
+    refs:
+    - tm:58372
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Surman:
+    refs:
+    - pleiades:678402
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tel Jezreel:
+    refs:
+    - tm:37472
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tel Kerioth:
+    refs:
+    - tm:37474
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tel Mikhal:
+    refs:
+    - tm:37476
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tel Qasile:
+    refs:
+    - tm:52705
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tel Shalem:
+    refs:
+    - tm:30322
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tell Basul:
+    refs:
+    - pleiades:678413
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Tiberias:
+    refs:
+    - pleiades:678431
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Wadi Haggag:
+    refs:
+    - pleiades:746833
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+elephantine:
+  Abydos:
+    refs:
+    - pleiades:756512
+    - tm:34
+    status: matched
+    note: Abydos/Ebot in Upper Egypt; the Hellespontine homonym rejected
+  Apollonopolites:
+    refs:
+    - tm:2717
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Egypt:
+    refs:
+    - tm:49
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Elephantine:
+    refs:
+    - pleiades:786021
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hermonthis:
+    refs:
+    - pleiades:786036
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Hermopolis Magna:
+    refs:
+    - pleiades:756574
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Koptites:
+    refs:
+    - tm:2996
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Koptos:
+    refs:
+    - tm:1159
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Letopolis:
+    refs:
+    - pleiades:727149
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Memphis:
+    refs:
+    - pleiades:736963
+    - tm:1344
+    status: matched
+    note: the Egyptian Memphis
+  Ombites:
+    refs:
+    - tm:2975
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Pathyrites:
+    refs:
+    - tm:2849
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Philae:
+    refs:
+    - pleiades:786089
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Piauo:
+    refs:
+    - tm:6592
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Sais:
+    refs:
+    - pleiades:727217
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Thebais:
+    refs:
+    - pleiades:991398
+    status: matched
+    note: the Upper-Egyptian province record (region-scale place, matched as such)
+  Thebes:
+    refs:
+    - tm:2355
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+  Upper Egypt:
+    refs:
+    - tm:2766
+    status: matched
+    note: unique exact-title match (P64-1 wave 2)
+papyri-ddbdp:
+  Dura - Europos:
+    refs:
+    - tm:604
+    status: matched
+    note: spelling variant; TM standard Doura (Dura-Europos)
+  Oberägypten:
+    status: region
+    note: regional bin, not a place (P64-1)
+  Theben:
+    refs:
+    - tm:2355
+    status: matched
+    note: German exonym; TM standard Thebes
+  unbekannt:
+    status: rejected
+    note: the cataloguer's unknown-location marker, not a toponym
+  Ägypten:
+    status: region
+    note: regional bin, not a place (P64-1)
+aes:
+  Delta:
+    status: region
+    note: regional bin, not a place (P64-1)
+  Eastern Desert:
+    status: region
+    note: regional bin, not a place (P64-1)
+  Middle Egypt (from Kairo to Assiut):
+    status: region
+    note: regional bin, not a place (P64-1)
+  Nubia:
+    status: region
+    note: regional bin, not a place (P64-1)
+  Upper Egypt (South of Assiut):
+    status: region
+    note: regional bin, not a place (P64-1)
+  Western Asia and Europe:
+    status: region
+    note: regional bin, not a place (P64-1)
+  Western Desert:
+    status: region
+    note: regional bin, not a place (P64-1)
