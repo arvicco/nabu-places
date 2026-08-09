@@ -89,9 +89,32 @@ names.each do |source, rows|
   end
 end
 
+# crosswalks.csv — asserted cross-namespace equivalences with provenance
+# (a harvest source + retrieval date per row); both sides must be declared
+# namespaces with shape-valid ids. Optional file; absent = no crosswalks.
+xwalk_rows = 0
+xwalk_path = File.join(ROOT, "crosswalks.csv")
+if File.file?(xwalk_path)
+  require "csv"
+  CSV.foreach(xwalk_path, headers: true).with_index(2) do |row, line|
+    %w[gazetteer_a gazetteer_b].each do |side|
+      ns = row[side].to_s
+      id = row[side.sub("gazetteer", "id")].to_s
+      if !shapes.key?(ns)
+        errors << "crosswalks.csv:#{line}: unknown namespace #{ns.inspect}"
+      elsif !id.match?(shapes[ns])
+        errors << "crosswalks.csv:#{line}: #{ns} id #{id.inspect} fails shape"
+      end
+    end
+    errors << "crosswalks.csv:#{line}: needs source + retrieved" if row["source"].to_s.empty? || row["retrieved"].to_s.empty?
+    xwalk_rows += 1
+  end
+end
+
 if errors.empty?
   rows = names.values.sum(&:size)
-  puts "nabu-places valid: #{names.size} sources · #{rows} decision rows · #{namespaces.size} namespaces"
+  puts "nabu-places valid: #{names.size} sources · #{rows} decision rows · #{namespaces.size} namespaces" \
+       "#{xwalk_rows.positive? ? " · #{xwalk_rows} crosswalk rows" : ''}"
 else
   errors.each { |e| warn "INVALID: #{e}" }
   exit 1
