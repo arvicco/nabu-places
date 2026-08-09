@@ -21,3 +21,7 @@
   where scholarship establishes a place no gazetteer registers.
   Evidence required per record; validator enforces np-ref existence,
   evidence presence, lat/lon pairing, and related-refs-are-context.
+
+- 2026-08-09 · crosswalks.csv: 2,108 tm⇄pleiades equivalences harvested
+  from Wikidata (P1958⇄P1584, CC0; SPARQL, retrieved 2026-08-09) with
+  per-row source+date provenance; validator checks namespaces/shapes.
