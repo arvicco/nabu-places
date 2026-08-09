@@ -40,6 +40,16 @@ provenience). Namespaces are declared in `namespaces.yml` with id
 shapes; they are **parallel** claims — equivalences between gazetteers
 are the gazetteers' own crosswalk data, never inferred here.
 
+## Not only glue: the native minting lane
+
+Where text analysis, enrichment, or AI-assisted scholarship establishes
+a place **no gazetteer registers**, the registry mints its own record in
+`places.yml` (namespace `np:`) — name, optional coordinates, and a
+**required evidence trail**, so every minted place is a reviewable
+scholarly claim. names.yml rows then cite `np:<ID>` like any other ref.
+Gazetteers stay the authorities for what they cover; the native lane
+exists for what they don't yet.
+
 See [the schema](schema.html) for the full grammar and
 [prior art](prior-art.html) for why this layer exists at all.
 

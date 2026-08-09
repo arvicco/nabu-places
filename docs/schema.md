@@ -1,6 +1,6 @@
 # The schema
 
-Two YAML files; plain data, no code.
+Three YAML files; plain data, no code.
 
 ## names.yml
 
@@ -35,6 +35,31 @@ Rules (validator-enforced):
 - Duplicate section keys and duplicate name keys are refused (YAML
   last-wins silently loses rows otherwise).
 
+## places.yml — the native minting lane
+
+The registry is not only glue: where scholarship (text analysis,
+enrichment, AI-assisted argument) establishes a place **no gazetteer
+registers**, mint a record here and cite it from names.yml as `np:<ID>`.
+
+```yaml
+KARKAR_SU:
+  name: Karkar (the Umma-province waterway station)
+  lat: 31.9
+  lon: 45.7
+  evidence: >-
+    Identified from the join of CDLI texts P123456/P234567 (the barge
+    itineraries name it between Umma and KI.AN); argument in <ref>.
+  refs: [cigs:JOK]   # related records — context, never identity
+```
+
+Rules (validator-enforced): ids match `[A-Z][A-Z0-9_]{1,23}` (the CIGS
+mnemonic style); `name` and **`evidence` are required** — a minted place
+is a reviewable scholarly claim; `lat`/`lon` come together or not at all
+(absent is honest, never 0,0); `refs` cite *gazetteer* records as context
+only — if a gazetteer actually holds the place, **match it in names.yml
+instead of minting**; every `np:` ref in names.yml must have a record
+here.
+
 ## namespaces.yml
 
 ```yaml
@@ -47,7 +72,8 @@ pleiades:
 Every ref's `namespace:` must be declared and its id must match
 `id_shape` anchored whole. Current namespaces: `pleiades`, `tm`
 (Trismegistos Geo), `cigs` (site mnemonics, e.g. `GIR` — no per-place
-URL), `geonames`.
+URL), `geonames`, and `np` — this registry's own minted records
+(places.yml).
 
 ## Doctrine, restated as constraints
 

@@ -1,0 +1,25 @@
+# places.yml — the registry's OWN minted place records (namespace `np:`).
+#
+# nabu-places is not only glue between existing gazetteers (owner ruling,
+# 2026-08-09): where text analysis, enrichment, or AI-assisted scholarship
+# establishes a place NO gazetteer registers — a findspot named only in a
+# corpus, a site identified by joining textual evidence — the registry can
+# MINT its own record here and names.yml rows cite it as `np:<ID>`.
+#
+# A minted record is a scholarly claim, so `evidence:` is REQUIRED — the
+# trail a reviewer can follow (texts joined, argument made, who/what made
+# it). `refs:` may point at RELATED gazetteer records (a parent region, a
+# nearby identified site) — context, never an equivalence claim: if a
+# gazetteer actually holds the place, match it in names.yml instead of
+# minting. Coordinates are optional and honest (absent ≠ 0,0).
+#
+#   <ID>:                      # [A-Z][A-Z0-9_]{1,23} — the cigs mnemonic style
+#     name: <display name>
+#     lat: <float>             # optional, WGS84
+#     lon: <float>             # optional
+#     evidence: <REQUIRED — the scholarship trail>
+#     refs: [pleiades:912855]  # optional related records (context, not identity)
+#
+# No records minted yet — the lane exists; the first mint should arrive
+# with its evidence, not before.
+{}

@@ -19,6 +19,26 @@ namespaces.each do |ns, decl|
 end
 shapes = namespaces.transform_values { |d| /\A#{d["id_shape"]}\z/ }
 
+# places.yml — the native `np:` records (minted by scholarship). Every entry
+# needs a name and an evidence trail; np refs in names.yml must exist here.
+minted = YAML.safe_load_file(File.join(ROOT, "places.yml")) || {}
+np_shape = /\A#{namespaces.fetch("np").fetch("id_shape")}\z/
+minted.each do |id, rec|
+  errors << "places.yml: #{id}: id fails the np shape" unless id.to_s.match?(np_shape)
+  unless rec.is_a?(Hash) && !rec["name"].to_s.strip.empty?
+    errors << "places.yml: #{id}: needs a name"
+    next
+  end
+  errors << "places.yml: #{id}: a minted record REQUIRES evidence" if rec["evidence"].to_s.strip.empty?
+  errors << "places.yml: #{id}: lat without lon (or vice versa)" if rec.key?("lat") ^ rec.key?("lon")
+  Array(rec["refs"]).each do |ref|
+    ns, rid = ref.to_s.split(":", 2)
+    errors << "places.yml: #{id}: unknown namespace in related ref #{ref.inspect}" unless shapes.key?(ns)
+    errors << "places.yml: #{id}: related refs cite gazetteers, never np (mint one record, not a chain)" if ns == "np"
+    errors << "places.yml: #{id}: related ref id #{rid.inspect} fails the #{ns} shape" if shapes.key?(ns) && ns != "np" && !rid.to_s.match?(shapes[ns])
+  end
+end
+
 raw = File.read(File.join(ROOT, "names.yml"))
 # YAML silently last-wins on duplicate keys (the P61-3 shadowing incident);
 # refuse duplicates structurally: top-level source keys and per-section
@@ -54,6 +74,8 @@ names.each do |source, rows|
             errors << "#{where}: unknown namespace #{ns.inspect} in #{ref.inspect}"
           elsif id.nil? || !id.match?(shapes[ns])
             errors << "#{where}: id #{id.inspect} fails #{ns} shape"
+          elsif ns == "np" && !minted.key?(id)
+            errors << "#{where}: np ref #{id.inspect} has no places.yml record"
           end
         end
       elsif refs = row["refs"]
