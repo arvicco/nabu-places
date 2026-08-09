@@ -1,5 +1,7 @@
 # nabu-places
 
+**Project site: [arvicco.github.io/nabu-places](https://arvicco.github.io/nabu-places)** — the case, the schema, and the prior art.
+
 A small, curated registry of **place-matching decisions**: which gazetteer
 identity each source's verbatim place-name string denotes. Born from
 [Nabu](https://github.com/arvicco/nabu)'s holdings (the
