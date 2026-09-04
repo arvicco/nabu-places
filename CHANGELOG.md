@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- `namespaces.yml`: + `chgis` (CHGIS/TGAZ, the China Historical GIS
+  Temporal Gazetteer, Harvard–Fudan; id shape `hvd_\d+`, TGAZ
+  placename URI). Consumer: Nabu's P96 chgis place-index module
+  (82,117 historical placenames, CC0) — refs like `chgis:hvd_1` may
+  now enter decisions and crosswalks.
+
 ## Unreleased — 2026-08-08 (the mint)
 
 - Schema: `names.yml` (source → verbatim string → decision row; statuses
