@@ -2537,3 +2537,69 @@ aes:
   Western Desert:
     status: region
     note: regional bin, not a place (P64-1)
+kanripo:
+  # First decision wave for the Kanseki Repository × CHGIS text-mining
+  # round (2026-09-26): the review board's real-geography names. The
+  # generic-vocabulary collisions of the same board (40 names) live in
+  # the consumer's stop list, not here; unlisted names stay honestly
+  # unmatched.
+  杜陵:
+    refs:
+    - chgis:hvd_70633
+    status: matched
+    note: >-
+      the Han county under 京兆尹 (CHGIS span 23–264) — the geographic
+      reading throughout (e.g. 田何以齊田徙杜陵, the Yi-transmission
+      biographies); attestations also collide with the verb phrase
+      杜+陵犯 ("block encroachment"), which rides the attestation grain,
+      not this identity
+  江北:
+    status: region
+    note: >-
+      "north of the (Yangzi) river" — a region descriptor (種橘江北成枳,
+      置軍江北); the sole CHGIS candidate (hvd_153535, a 1911 Guangxi
+      village) is a homonym, not this referent
+  西江:
+    status: region
+    note: >-
+      the West River and "western river(s)" hydrography (the 彭蠡/三江
+      commentaries); the CHGIS candidate is a 1911 Fujian village homonym
+  天竺:
+    status: region
+    note: >-
+      India (天竺黄, 天竺之言地水火風); the CHGIS candidate is a 1911
+      Daxing village homonym
+  三江:
+    status: region
+    note: >-
+      the Three Rivers of the 禹貢 (三江既入震澤厎定) — classical
+      hydrography whose referent set is itself a commentarial debate;
+      the three CHGIS village candidates are homonyms
+  中都:
+    status: rejected
+    note: >-
+      real referents exist — Confucius's stewardship town in Lu
+      (乘田委吏中都), the 中都亭侯 marquisate, the Jin capital — but the
+      sole CHGIS candidate (hvd_137890, a 1911 Shanghang village) is
+      none of them
+  平江:
+    status: rejected
+    note: >-
+      corpus readings are 平江府 natives (平江崑山人) and 字X平/江都人
+      boundary crossings; the sole candidate (hvd_162476, a 1911 Guizhou
+      village) is neither
+  京口:
+    status: rejected
+    note: >-
+      the real 京口 is Zhenjiang (京口閔康之, 京口說義); both CHGIS
+      candidates are 1911 Fujian village homonyms
+  南城:
+    status: rejected
+    note: >-
+      readings are the 南城侯 marquisate and 建昌南城 (the Jiangxi
+      county); both candidates are 1911 village homonyms
+  王城:
+    status: rejected
+    note: >-
+      the Zhou royal capital at Luoyang (王入于王城, Zuozhuan); both
+      candidates are 1911 village homonyms
