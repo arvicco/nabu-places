@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+- `names.yml`: + `kanripo` section, 10 rows — the first decisions from
+  the Kanseki Repository × CHGIS text-mining review (top-50 board by
+  document spread, 2026-09-26): 1 matched (杜陵 → `chgis:hvd_70633`,
+  the Han county under 京兆尹, span 23–264), 4 region records (江北 ·
+  西江 · 天竺 · 三江 — real geography no CHGIS administrative row
+  matches; every offered candidate a 1911 village homonym), 5 rejected
+  wrong-identities with the real referent named in the note (中都 ·
+  平江 · 京口 · 南城 · 王城). The board's 40 generic-vocabulary
+  collisions went to the consumer's stop list, not this registry;
+  unlisted names stay honestly unmatched.
+
 - `namespaces.yml`: + `chgis` (CHGIS/TGAZ, the China Historical GIS
   Temporal Gazetteer, Harvard–Fudan; id shape `hvd_\d+`, TGAZ
   placename URI). Consumer: Nabu's P96 chgis place-index module
