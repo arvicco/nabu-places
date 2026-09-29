@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- `namespaces.yml`: + `nrct` — the 日本歴史地名大系 placename dataset
+  (80,502 entries, CC BY 4.0, DOI 10.20676/00000448; Heibonsha's
+  historical gazetteer as published machine-readable by ROIS-DS/NII
+  geoshape). Id shape `\d{12}` (the dataset's own 12-digit ids,
+  censused over the full 2025-07-19 CSV cut); the URI template is the
+  dataset's per-entry resource page. Opens the Japanese places lane:
+  the consumer derives an `nrct` place-index slice (name keys = 地名
+  verbatim + reading) on the chgis mold.
+
 - `names.yml`: + `kanripo` section, 10 rows — the first decisions from
   the Kanseki Repository × CHGIS text-mining review (top-50 board by
   document spread, 2026-09-26): 1 matched (杜陵 → `chgis:hvd_70633`,
