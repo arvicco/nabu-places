@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- 2026-10-10 · namespaces.yml: the `thurayya:` namespace — the
+  al-Ṯurayyā Gazetteer of the early Islamic world (Romanov, Seydi et
+  al.; data CC BY 4.0 per the project's DATA-LICENSE.md, 2026-09-22).
+  Id shape is upstream's own recipe: transliteration stem +
+  tenth-degree coordinate stamp + class letter (R/S/W/O), e.g.
+  BAGHDAD_443E333N_S. 2,331 referenceable places (xroads route
+  junctions carry placeholder names and are not referenced).
+
 - `namespaces.yml`: + `nrct` — the 日本歴史地名大系 placename dataset
   (80,502 entries, CC BY 4.0, DOI 10.20676/00000448; Heibonsha's
   historical gazetteer as published machine-readable by ROIS-DS/NII
