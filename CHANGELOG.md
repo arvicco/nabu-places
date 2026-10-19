@@ -2,6 +2,36 @@
 
 ## Unreleased
 
+- 2026-10-20 · `names.yml`: + `eebo-tcp` section, 63 rows — the
+  early-modern imprint towns of EEBO-TCP (60,326 hand-keyed English
+  prints, 1473–1700). Keys are the consumer's parse-time bare town: the
+  catalogue's imprint place (ESTC-style "Imprinted at London :",
+  "Londini :", "[London? :", "In the Savoy [i.e. London] :") read to the
+  English town name, cataloguer [i.e.] corrections outranking the
+  printed imprint, so one key covers every period spelling. Every town
+  at ≥ 3 documents: 63 matched rows reach 58,602 of the 58,971 placed
+  documents (99.4%; London alone 51,697). Each row cites a GeoNames
+  populated place, a TGN inhabited place and a Wikidata item, all three
+  cross-verified live (2026-10-20: GeoNames feature class P, TGN place
+  type, GeoNames and Wikidata points within 15 km). Notes settle the
+  homonyms: Boston is Massachusetts (no Lincolnshire imprint occurs),
+  "Cambridge, Mass." is its own key, Newcastle is upon Tyne, Westminster
+  and Southwark are the historic districts, Bruges takes TGN 7007867
+  (Wikidata's second TGN id is an East Flanders homonym). Deliberately
+  unlisted (207 names, 369 documents): region/country imprints
+  (England, Scotland, Holland, Netherlands, Lancashire, France,
+  Switzerland — 147 documents, no town identity), the damaged fragment
+  "Ondon" (3), and the < 3-document tail (199 names, 219 documents —
+  two-place imprints, unmarked misprints, fictitious towns, minor
+  presses) — unmatched, visibly.
+  No Pleiades refs: the imprint names the early-modern town, and the
+  Roman-layer identity stays crosswalk data.
+
+- `namespaces.yml`: + `wikidata` (id shape `Q\d+`, CC0) and `tgn`
+  (Getty Thesaurus of Geographic Names, id shape `\d+`, ODC-By 1.0) —
+  the early-modern gazetteers the eebo-tcp section cites beside
+  GeoNames.
+
 - 2026-10-19 · `names.yml`: the cdli provenience wave, 63 rows over
   the 134 composites CDLI's catalogue carries with no decision
   (22,726 documents). 35 matched — 28 through CIGS v1.7 sites held

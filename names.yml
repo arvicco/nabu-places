@@ -2935,3 +2935,441 @@ kanripo:
     note: >-
       the Zhou royal capital at Luoyang (王入于王城, Zuozhuan); both
       candidates are 1911 village homonyms
+# eebo-tcp (2026-10-20): EEBO-TCP imprint towns. Keys are the consumer's
+# parse-time bare town (the BIBLFULL PUBPLACE stripped of its period
+# furniture — "Imprinted at London :", "Londini :", "[London? :" all read
+# London; cataloguer [i.e.] corrections outrank the printed imprint), so
+# one row covers every spelling. Every town at >= 3 documents in the
+# 60,326-file census; each row cross-verified live against all three
+# gazetteers (GeoNames populated-place record, TGN inhabited place,
+# Wikidata item; points within 15 km). Regions, two-place imprints,
+# damaged fragments and the <3-document tail stay unlisted.
+eebo-tcp:
+  London:
+    refs:
+    - geonames:2643743
+    - tgn:7011781
+    - wikidata:Q84
+    status: matched
+  Edinburgh:
+    refs:
+    - geonames:2650225
+    - tgn:7009546
+    - wikidata:Q23436
+    status: matched
+  Oxford:
+    refs:
+    - geonames:2640729
+    - tgn:7011931
+    - wikidata:Q34217
+    status: matched
+  Dublin:
+    refs:
+    - geonames:2964574
+    - tgn:7001306
+    - wikidata:Q1761
+    status: matched
+  Cambridge:
+    refs:
+    - geonames:2653941
+    - tgn:7010874
+    - wikidata:Q350
+    status: matched
+    note: >-
+      Cambridge, England; the New England Cambridge is its own key
+      (Cambridge, Mass.) — the consumer splits on the imprint's own
+      Mass./New England signal
+  Amsterdam:
+    refs:
+    - geonames:2759794
+    - tgn:7006952
+    - wikidata:Q727
+    status: matched
+    note: >-
+      the imprint as written; clandestine English prints carrying an
+      uncorrected Amsterdam imprint are the imprint's claim (cataloguer
+      [i.e.] corrections are honored consumer-side)
+  Boston:
+    refs:
+    - geonames:4930956
+    - tgn:7013445
+    - wikidata:Q100
+    status: matched
+    note: >-
+      Boston, Massachusetts: every Boston imprint in the corpus is the
+      New England press (ESTC writes Boston [Lincolnshire] for the
+      English town; no such imprint occurs)
+  Saint-Omer:
+    refs:
+    - geonames:2977845
+    - tgn:7011062
+    - wikidata:Q208793
+    status: matched
+    note: >-
+      the English Jesuit college press, Pas-de-Calais
+  Antwerp:
+    refs:
+    - geonames:2803138
+    - tgn:7007856
+    - wikidata:Q12892
+    status: matched
+  Paris:
+    refs:
+    - geonames:2988507
+    - tgn:7008038
+    - wikidata:Q90
+    status: matched
+  York:
+    refs:
+    - geonames:2633352
+    - tgn:7011995
+    - wikidata:Q42462
+    status: matched
+  Douai:
+    refs:
+    - geonames:3021000
+    - tgn:7008458
+    - wikidata:Q193826
+    status: matched
+  Aberdeen:
+    refs:
+    - geonames:2657832
+    - tgn:7009782
+    - wikidata:Q36405
+    status: matched
+  Westminster:
+    refs:
+    - geonames:2634341
+    - tgn:7018905
+    - wikidata:Q189960
+    status: matched
+    note: >-
+      the historic town of Westminster (Caxton's press, the Abbey
+      precinct) — the Wikidata area item and TGN's Westminster
+      neighborhood, not the modern City of Westminster borough
+  Middelburg:
+    refs:
+    - geonames:2750896
+    - tgn:7006752
+    - wikidata:Q52101
+    status: matched
+  Glasgow:
+    refs:
+    - geonames:2648579
+    - tgn:7017283
+    - wikidata:Q4093
+    status: matched
+  "Cambridge, Mass.":
+    refs:
+    - geonames:4931972
+    - tgn:7013527
+    - wikidata:Q49111
+    status: matched
+    note: >-
+      Cambridge, Massachusetts (the Harvard/Green press); the consumer
+      mints this key from the imprint's own Mass. / New England / Nov.
+      Angl. qualifier
+  The Hague:
+    refs:
+    - geonames:2747373
+    - tgn:7006810
+    - wikidata:Q36600
+    status: matched
+  Rouen:
+    refs:
+    - geonames:2982652
+    - tgn:7008929
+    - wikidata:Q30974
+    status: matched
+  Wesel:
+    refs:
+    - geonames:2810678
+    - tgn:7005168
+    - wikidata:Q4011
+    status: matched
+    note: >-
+      Wesel on the Lower Rhine: mostly the cataloguer's [i.e. Wesel?]
+      reading of the 1540s-50s Protestant exile-press false imprints
+      (London, Rome, Marburg, Strasbourg)
+  Leith:
+    refs:
+    - geonames:2644641
+    - tgn:7009547
+    - wikidata:Q1018540
+    status: matched
+    note: >-
+      Leith, the port burgh of Edinburgh (now within the city)
+  Bristol:
+    refs:
+    - geonames:2654675
+    - tgn:7011198
+    - wikidata:Q23154
+    status: matched
+  New York:
+    refs:
+    - geonames:5128581
+    - tgn:7007567
+    - wikidata:Q60
+    status: matched
+  Rotterdam:
+    refs:
+    - geonames:2747891
+    - tgn:7006792
+    - wikidata:Q34370
+    status: matched
+  Philadelphia:
+    refs:
+    - geonames:4560349
+    - tgn:7014406
+    - wikidata:Q1345
+    status: matched
+  Leiden:
+    refs:
+    - geonames:2751773
+    - tgn:7006809
+    - wikidata:Q43631
+    status: matched
+  Leuven:
+    refs:
+    - geonames:2792482
+    - tgn:7007949
+    - wikidata:Q118958
+    status: matched
+  Kilkenny:
+    refs:
+    - geonames:2963398
+    - tgn:7007184
+    - wikidata:Q109092
+    status: matched
+    note: >-
+      the city (the Confederate press), not the county
+  Cologne:
+    refs:
+    - geonames:2886242
+    - tgn:7004446
+    - wikidata:Q365
+    status: matched
+  Emden:
+    refs:
+    - geonames:2930596
+    - tgn:7005300
+    - wikidata:Q4174
+    status: matched
+  Dordrecht:
+    refs:
+    - geonames:2756669
+    - tgn:7006798
+    - wikidata:Q26421
+    status: matched
+  Southwark:
+    refs:
+    - geonames:2637299
+    - tgn:7011786
+    - wikidata:Q5273898
+    status: matched
+    note: >-
+      historic Southwark at the London Bridge foot — the district, not
+      the modern borough
+  Exeter:
+    refs:
+    - geonames:2649808
+    - tgn:7011953
+    - wikidata:Q134672
+    status: matched
+  Delft:
+    refs:
+    - geonames:2757345
+    - tgn:7006804
+    - wikidata:Q690
+    status: matched
+  Shrewsbury:
+    refs:
+    - geonames:2637891
+    - tgn:7014597
+    - wikidata:Q201970
+    status: matched
+  Newcastle:
+    refs:
+    - geonames:2641673
+    - tgn:7012026
+    - wikidata:Q1425428
+    status: matched
+    note: >-
+      Newcastle upon Tyne — the imprint's bare 'Newcastle' (printing
+      there from 1639; no Newcastle-under-Lyme imprint occurs)
+  St Andrews:
+    refs:
+    - geonames:2638864
+    - tgn:7009562
+    - wikidata:Q207736
+    status: matched
+  Waterford:
+    refs:
+    - geonames:2960992
+    - tgn:7006731
+    - wikidata:Q183551
+    status: matched
+  Cork:
+    refs:
+    - geonames:2965140
+    - tgn:7007168
+    - wikidata:Q36647
+    status: matched
+  Ghent:
+    refs:
+    - geonames:2797656
+    - tgn:7007887
+    - wikidata:Q1296
+    status: matched
+  Canterbury:
+    refs:
+    - geonames:2653877
+    - tgn:7012044
+    - wikidata:Q29303
+    status: matched
+  Geneva:
+    refs:
+    - geonames:2660646
+    - tgn:7007279
+    - wikidata:Q71
+    status: matched
+  Strasbourg:
+    refs:
+    - geonames:2973783
+    - tgn:7012346
+    - wikidata:Q6602
+    status: matched
+  Ipswich:
+    refs:
+    - geonames:2646057
+    - tgn:7012004
+    - wikidata:Q184775
+    status: matched
+  Bruges:
+    refs:
+    - geonames:2800931
+    - tgn:7007867
+    - wikidata:Q12994
+    status: matched
+    note: >-
+      TGN 7007867 (West Flanders); Wikidata also lists 7245567, an East
+      Flanders homonym
+  Mechelen:
+    refs:
+    - geonames:2791537
+    - tgn:7008736
+    - wikidata:Q162022
+    status: matched
+  Reims:
+    refs:
+    - geonames:2984114
+    - tgn:7011060
+    - wikidata:Q41876
+    status: matched
+  Brussels:
+    refs:
+    - geonames:2800866
+    - tgn:7007868
+    - wikidata:Q239
+    status: matched
+  Worcester:
+    refs:
+    - geonames:2633563
+    - tgn:7015155
+    - wikidata:Q1646181
+    status: matched
+    note: >-
+      Worcester, England (not the Massachusetts city)
+  Zürich:
+    refs:
+    - geonames:2657896
+    - tgn:7007302
+    - wikidata:Q72
+    status: matched
+  Norwich:
+    refs:
+    - geonames:2641181
+    - tgn:7012005
+    - wikidata:Q130191
+    status: matched
+  Basel:
+    refs:
+    - geonames:2661604
+    - tgn:7007269
+    - wikidata:Q78
+    status: matched
+  Gateshead:
+    refs:
+    - geonames:2648773
+    - tgn:7010026
+    - wikidata:Q216372
+    status: matched
+  Hemel Hempstead:
+    refs:
+    - geonames:2647138
+    - tgn:7011875
+    - wikidata:Q3532
+    status: matched
+    note: >-
+      every occurrence is a cataloguer conjecture
+  La Rochelle:
+    refs:
+    - geonames:3006787
+    - tgn:7009264
+    - wikidata:Q82185
+    status: matched
+  Liège:
+    refs:
+    - geonames:2792413
+    - tgn:7007945
+    - wikidata:Q3992
+    status: matched
+  Vlissingen:
+    refs:
+    - geonames:2745392
+    - tgn:7006750
+    - wikidata:Q10084
+    status: matched
+    note: >-
+      Flushing in the imprints
+  Hamburg:
+    refs:
+    - geonames:2911298
+    - tgn:7005289
+    - wikidata:Q1055
+    status: matched
+  Heidelberg:
+    refs:
+    - geonames:2907911
+    - tgn:7005177
+    - wikidata:Q2966
+    status: matched
+  Loreto:
+    refs:
+    - geonames:3174567
+    - tgn:7003983
+    - wikidata:Q124110
+    status: matched
+    note: >-
+      Loreto in the Marche (the Holy House) — the imprint as written
+  Milan:
+    refs:
+    - geonames:3173435
+    - tgn:7005903
+    - wikidata:Q490
+    status: matched
+  Utrecht:
+    refs:
+    - geonames:2745912
+    - tgn:7006926
+    - wikidata:Q803
+    status: matched
+  Wolston:
+    refs:
+    - geonames:2633692
+    - tgn:7445249
+    - wikidata:Q2096723
+    status: matched
+    note: >-
+      Wolston, Warwickshire (Wolston Priory, a Marprelate press site,
+      1589)
