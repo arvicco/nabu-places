@@ -555,6 +555,338 @@ cdli:
     - cigs:HAT
     - pleiades:283602441
     status: matched
+  # Provenience wave (2026-10-19): the composites CDLI's catalogue carries
+  # with no seed row — current spellings of seed keys (alias), sites CIGS
+  # v1.7 holds under a different composite (CIGS site id + its Pleiades
+  # record; the ancient and modern names both agree), and Pleiades/TM
+  # records found by name for sites CIGS lacks. Unidentified or ambiguous
+  # names stay unlisted (identity-default).
+  Ebla (mod. Tell Mardikh):
+    refs:
+    - cigs:EBA
+    - pleiades:869702586
+    status: matched
+    note: 'CIGS EBA: Ebla = Tall Mardīkh'
+  Bābili (mod. Babylon):
+    refs:
+    - cigs:BAB
+    - pleiades:893951
+    status: matched
+    note: >-
+      CIGS BAB: Babylon (Akkadian Bābili) = Bābil; the Egyptian Babylon (Old
+      Cairo) is a homonym, rejected
+  Bābili (mod. Babylon) ?:
+    alias_of: Bābili (mod. Babylon)
+    certainty: low
+  Bābili (mod. Babylon)?:
+    alias_of: Bābili (mod. Babylon)
+    certainty: low
+  Bābili (mod. Babylon)a:
+    alias_of: Bābili (mod. Babylon)
+    note: a stray trailing character in the upstream string
+  Kalhu (mod. Nimrud):
+    refs:
+    - cigs:NIM
+    - pleiades:894019
+    status: matched
+    note: 'CIGS NIM: Kalhu = Nimrūd'
+  Kalhu (mod. Nimrud) ?:
+    alias_of: Kalhu (mod. Nimrud)
+    certainty: low
+  Kish (mod. Tell Uhaimir):
+    refs:
+    - cigs:KSH
+    - pleiades:894028
+    status: matched
+    note: >-
+      Tell Uhaimir is the western, main mound of the Kish site complex; CIGS
+      KSH and Pleiades 894028 are the complex records
+  Kish (mod. Tell Uhaimir) ?:
+    alias_of: Kish (mod. Tell Uhaimir)
+    certainty: low
+  Kish (mod. Tell Ingharra):
+    refs:
+    - cigs:KSH
+    - pleiades:894028
+    status: matched
+    note: >-
+      Tell Ingharra is the eastern mound of the Kish site complex (ancient Hursagkalama);
+      neither gazetteer splits it from the complex record
+  Kish (mod. Tell Ingharra) ?:
+    alias_of: Kish (mod. Tell Ingharra)
+    certainty: low
+  Kish (mod. Tell Barguthiat):
+    refs:
+    - cigs:BAR
+    - pleiades:894000
+    status: matched
+    certainty: low
+    note: >-
+      the Barguthiat mound in the Kish area, which CIGS BAR identifies as Girumu;
+      refs denote the findspot mound, upstream files it under Kish
+  Hursagkalama (mod. Ingharra):
+    refs:
+    - tm:52534
+    status: matched
+    note: >-
+      the eastern Kish city at Tell Ingharra; TM 52534 Hursagkalamma (unlocated
+      in TM); no separate Pleiades or CIGS record
+  Šaduppum (mod. Tell Harmal):
+    refs:
+    - cigs:SDP
+    - pleiades:821129014
+    status: matched
+    note: 'CIGS SDP: Šaduppûm = Tall Ḥarmal'
+  Šaduppum (mod. Tell Harmal) ?:
+    alias_of: Šaduppum (mod. Tell Harmal)
+    certainty: low
+  Šuruppak (mod. Fara):
+    alias_of: Shuruppak (mod. Fara)
+    note: the current upstream spelling of the seed key
+  Šuruppak (mod. Fara) ?:
+    alias_of: Shuruppak (mod. Fara)
+    certainty: low
+  Alalakh (mod. Tell Açana):
+    refs:
+    - cigs:ALA
+    - pleiades:309866128
+    status: matched
+    note: 'CIGS ALA: Alalakh (mod. Tell Açana/Atshana)'
+  Kabnak (mod. Haft Tepe):
+    refs:
+    - cigs:KBN
+    - pleiades:379400932
+    status: matched
+    note: 'CIGS KBN: Kabnak (mod. Haft Tappeh)'
+  Kabnak (mod. Haft Tepe) ?:
+    alias_of: Kabnak (mod. Haft Tepe)
+    certainty: low
+  Borsippa (mod. Birs Nimrud):
+    refs:
+    - cigs:BOR
+    - pleiades:893964
+    status: matched
+    note: 'CIGS BOR: Borsippa = Birs Nimrūd'
+  Borsippa (mod. Birs Nimrud) ?:
+    alias_of: Borsippa (mod. Birs Nimrud)
+    certainty: low
+  Dilbat (mod. Deilam):
+    refs:
+    - cigs:DLB
+    - pleiades:893987
+    status: matched
+    note: 'CIGS DLB: Dilbat = Tall al-Dilaiym'
+  Dilbat (mod. Deilam) ?:
+    alias_of: Dilbat (mod. Deilam)
+    certainty: low
+  Dūr-Abī-ēšuḫ (mod. uncertain):
+    refs:
+    - pleiades:972476923
+    status: matched
+    note: >-
+      Pleiades' Dur-Abiesuh settlement record, itself unlocated: the site is
+      unidentified on the ground
+  Dūr-Abī-ēšuḫ (mod. uncertain) ?:
+    alias_of: Dūr-Abī-ēšuḫ (mod. uncertain)
+    certainty: low
+  Zabalam (mod. Ibzaikh):
+    refs:
+    - cigs:ZAB
+    - pleiades:921099766
+    status: matched
+    note: 'CIGS ZAB: Zabalam = Tall Ibzaīykh'
+  Zabalam (mod. Ibzaikh) ?:
+    alias_of: Zabalam (mod. Ibzaikh)
+    certainty: low
+  Me-Turan (mod. Tell Haddad):
+    refs:
+    - cigs:HDD
+    - pleiades:894042
+    status: matched
+    note: >-
+      CIGS HDD: Me-Turran = Tall Ḥadād; the neighbouring Tell as-Sib record
+      (CIGS LSB) is a different mound
+  Lagaba (mod. uncertain):
+    refs:
+    - pleiades:225152488
+    status: matched
+    note: >-
+      Pleiades' Lagaba settlement record, itself unlocated: the site is unidentified
+      on the ground
+  Lagaba (mod. uncertain) ?:
+    alias_of: Lagaba (mod. uncertain)
+    certainty: low
+  Elbonia ?:
+    status: rejected
+    note: >-
+      upstream's placeholder provenience for modern forgeries (a fictional country),
+      not a toponym
+  Abdju (mod. Abydos, Egypt):
+    refs:
+    - pleiades:756512
+    - tm:34
+    status: matched
+    note: >-
+      the Egyptian Abydos (Pleiades Abydos/Ebot; TM 34, crosswalked); the Hellespontine
+      Abydos is a homonym, rejected
+  Šibaniba (mod. Tell Billa):
+    refs:
+    - cigs:SHI
+    - pleiades:237391811
+    status: matched
+    note: 'CIGS SHI: Šibaniba = Tall Billah'
+  Nagar (mod. Tell Brak):
+    refs:
+    - cigs:BRK
+    - pleiades:874735
+    status: matched
+    note: 'CIGS BRK: Nagar = Tall Brāk'
+  Nagar (mod. Tell Brak) ?:
+    alias_of: Nagar (mod. Tell Brak)
+    certainty: low
+  Nagar (mod. Tell Brak),:
+    alias_of: Nagar (mod. Tell Brak)
+    note: a stray trailing comma in the upstream string
+  Imgur-Enlil (mod. Balawat):
+    refs:
+    - cigs:BLW
+    - tm:54483
+    status: matched
+    note: >-
+      CIGS BLW: Imgur-Enlil = Balāwāt; TM 54483 sits on Balawat. The Pleiades
+      id CIGS cites (90032637) does not resolve in the 2026-10 Pleiades dump;
+      Babylon's inner city wall of the same name is a homonym, rejected
+  Imgur-Enlil (mod. Balawat) ?:
+    alias_of: Imgur-Enlil (mod. Balawat)
+    certainty: low
+  Kesh (mod. Wilaya) ?:
+    alias_of: Kesh (mod. Wilaya)
+    certainty: low
+  Sirara (mod. Tell Zurghul):
+    refs:
+    - cigs:NGN
+    - pleiades:912909
+    status: matched
+    note: >-
+      Sirara is the Nanše sanctuary quarter of Nigin at Zurghul (Gudea's building
+      inscriptions); CIGS NGN: Nigin = Ishān Zurghul
+  Ecbatana (mod. uncertain):
+    refs:
+    - cigs:HMD
+    - pleiades:903021
+    status: matched
+    note: >-
+      Ecbatana is Hamadān (the Hegmataneh mound); CIGS HMD and Pleiades 903021
+      both identify it
+  Agamatanu (mod. uncertain):
+    alias_of: Ecbatana (mod. uncertain)
+    note: the Akkadian form of Ecbatana's name
+  Irisaĝrig (mod. uncertain):
+    alias_of: Irisagrig (mod. uncertain)
+    note: the current upstream spelling of the seed key
+  Irisaĝrig (mod. uncertain) ?:
+    alias_of: Irisagrig (mod. uncertain)
+    certainty: low
+  Tabetu (mod. Tell Taban):
+    refs:
+    - cigs:TAB
+    - pleiades:874754
+    status: matched
+    note: 'CIGS TAB: Ṭābetu (mod. Tell Taban)'
+  Umma region (mod. Tell Jokha region):
+    status: region
+    note: regional bin around Umma, not a findspot
+  Unqi (mod. Tell Ta'ynat ):
+    alias_of: Unqi (mod. Tell Ta'ynat)
+    note: a stray space in the upstream string
+  Nineveh (mod. Nebi Yunus):
+    refs:
+    - cigs:NNV
+    - pleiades:874621
+    status: matched
+    note: >-
+      Nebi Yunus is Nineveh's second citadel mound; the refs are the city records
+  Gišša (mod. Umm al-Aqarib):
+    refs:
+    - pleiades:344945222
+    status: matched
+    note: >-
+      the located Pleiades record (Tall Umm al-ʻAjarib); Pleiades 533622483
+      (Tell Umm al-Aqarib, unlocated) appears to duplicate it
+  Dilmun (mod. A'ali, Bahrain):
+    refs:
+    - cigs:DIL
+    - pleiades:574183541
+    status: matched
+    note: 'CIGS DIL: Dilmun (mod. A''ali Bahrain), the burial-mound field'
+  Apqu-ša-Adad (mod. Tell Abu Marya):
+    refs:
+    - cigs:QUA
+    - pleiades:874723
+    status: matched
+    note: 'CIGS QUA: Apqu-ša-Adad = Tall Abū Māriyā'
+  Malgium (Tell Yassir) ?:
+    refs:
+    - cigs:TYA
+    status: matched
+    certainty: low
+    note: >-
+      upstream ?-qualified; CIGS TYA: Malgium = Tulūl Yassir (no Pleiades record)
+  Šahdad (Kerman, Iran):
+    refs:
+    - cigs:SHD
+    status: matched
+    note: 'CIGS SHD: Shahdād (no Pleiades record)'
+  Šaddikanni (mod. Tell Ajaja):
+    refs:
+    - cigs:AJJ
+    - pleiades:874688
+    status: matched
+    note: 'CIGS AJJ: Shaddikanni (mod. Tell Ajaja)'
+  Kulišhinaš (mod. uncertain):
+    refs:
+    - cigs:AMD
+    - pleiades:874318
+    status: matched
+    certainty: low
+    note: >-
+      CIGS AMD keys Kulišhinaš to Amuda, where the upstream string says uncertain
+  Chagar Bazar:
+    alias_of: Ašnakkum (mod. Chagar Bazar)
+    note: the modern site name alone
+  Thêbai (mod. Thebes, Beoticia, Greece):
+    refs:
+    - cigs:THE
+    - pleiades:541138
+    status: matched
+    note: 'CIGS THE: Boeotian Thebes'
+  Emar? (mod. Tell Meskene?):
+    alias_of: Emar (mod. Tell Meskene)
+    certainty: low
+  Curium (mod. Kourion, Cyprus):
+    refs:
+    - cigs:KOU
+    - pleiades:707549
+    status: matched
+    note: 'CIGS KOU: Curium = Kourion'
+  Carchemish (mod. Europos):
+    alias_of: Karkemish (mod. Djerabis)
+    note: Europos is Carchemish's Hellenistic name
+  Kar-Mullissu (mod. Karamles):
+    refs:
+    - pleiades:682032457
+    status: matched
+    note: >-
+      Pleiades' Kar-Mullissu settlement at Karamles; 863362570 (Kar-Mullissi)
+      appears to duplicate it
+  Kesh (mod. Wilaya):
+    refs:
+    - pleiades:762762282
+    status: matched
+    note: >-
+      the Tell Wilaya mound record, per the composite's modern name; the identification
+      of Kesh with Wilaya is itself debated (the key carries upstream's no-break
+      spaces)
 oracc:
   Adab:
     refs:
