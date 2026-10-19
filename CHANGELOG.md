@@ -2,6 +2,28 @@
 
 ## Unreleased
 
+- 2026-10-19 · `names.yml`: the cdli provenience wave, 63 rows over
+  the 134 composites CDLI's catalogue carries with no decision
+  (22,726 documents). 35 matched — 28 through CIGS v1.7 sites held
+  under a differing composite (CIGS id + its Pleiades record; ancient
+  and modern names agree, e.g. Ebla = Tall Mardīkh, Bābili = Babylon,
+  Kalhu = Nimrūd; Imgur-Enlil takes TM 54483 because the Pleiades id
+  CIGS cites no longer resolves), 7 through Pleiades/TM records found
+  by name where CIGS has none (Dūr-Abī-ēšuḫ, Lagaba, Abdju/Abydos,
+  Kesh at Tell Wilaya, Gišša at Umm al-Aqarib, Kar-Mullissu,
+  Hursagkalama); 3 at certainty low (Kish at Barguthiat — CIGS's
+  Girumu mound; Kulišhinaš, which CIGS keys to Amuda against the
+  composite's "uncertain"; upstream-?-qualified Malgium). 26 aliases — upstream
+  ?-qualified variants (low), current spellings of seed keys
+  (Šuruppak, Irisaĝrig), stray-character variants, Agamatanu →
+  Ecbatana, Carchemish (mod. Europos) → Karkemish, Chagar Bazar →
+  Ašnakkum. 1 region (Umma region), 1 rejected (Elbonia, upstream's
+  placeholder for modern forgeries). Reach: 22,104 of the 22,726
+  documents. 71 names (424 documents) deliberately unlisted —
+  unidentified Neo-Assyrian/Neo-Babylonian settlements with no
+  gazetteer record, fragmentary names, a two-site composite, and
+  homonym-ambiguous strings.
+
 - 2026-10-10 · namespaces.yml: the `thurayya:` namespace — the
   al-Ṯurayyā Gazetteer of the early Islamic world (Romanov, Seydi et
   al.; data CC BY 4.0 per the project's DATA-LICENSE.md, 2026-09-22).
