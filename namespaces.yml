@@ -30,6 +30,14 @@ thurayya:
   name: "al-Ṯurayyā Gazetteer — the early Islamic world (Romanov, Seydi et al.)"
   id_shape: '[A-Z0-9-]+_\d{3}[EW]\d{3}[NS]_[RSWO]'
   uri: https://althurayya.github.io/
+wikidata:
+  name: Wikidata
+  id_shape: 'Q\d+'
+  uri: https://www.wikidata.org/wiki/{id}
+tgn:
+  name: Getty TGN — Thesaurus of Geographic Names
+  id_shape: '\d+'
+  uri: http://vocab.getty.edu/page/tgn/{id}
 np:
   name: nabu-places native records (places.yml — minted by scholarship, evidence required)
   id_shape: '[A-Z][A-Z0-9_]{1,23}'
