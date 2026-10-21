@@ -2,6 +2,23 @@
 
 ## Unreleased
 
+- 2026-10-21 · `names.yml`: re-census of seven rows whose verbatim key no
+  longer occurred in the consumer's live place names.
+  `aes`: the corpus's coarse findspot regions now reach the place axis
+  only where the per-text AED header names no site. Every Delta (47
+  texts), Nubia (133) and Western Desert (2) text carries a site, so
+  those three region rows are removed; the AED header's own labels for
+  the other two regions replace the corpus's English ones —
+  "Western Asia and Europe" → "Vorderasien und Europa" (1 text),
+  "Eastern Desert" → "Wüste östlich des Niltals und Küste des Roten
+  Meeres (Staatsgebiet Ägypten und Sudan)" (16 texts), both still
+  `region`.
+  `eebo-tcp`: "Cambridge, Mass." → "Cambridge, Mass" (59 documents) —
+  the consumer's place axis strips the imprint's trailing period;
+  "Hemel Hempstead" removed — all of its 5 documents carry the town only
+  as a ?-marked conjecture, which this section deliberately leaves
+  unmatched (as London?, Oxford?, Wesel?).
+
 - 2026-10-20 · `names.yml`: + `eebo-tcp` section, 63 rows — the
   early-modern imprint towns of EEBO-TCP (60,326 hand-keyed English
   prints, 1473–1700). Keys are the consumer's parse-time bare town: the
