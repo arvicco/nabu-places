@@ -2,6 +2,37 @@
 
 ## Unreleased
 
+- 2026-10-21 · `names.yml`: seven new source sections + an `aes`
+  insert — 558 rows deciding 12,122 of 12,262 placed documents in the
+  consumer's newest place-axis sections, every ref (Wikidata, GeoNames
+  populated place, TGN inhabited place; Pleiades/TM for ancient sites)
+  read back live. Per section:
+  `ndl-kotenseki` (182 rows, 7,436/7,562 docs) — Edo/Meiji imprint
+  towns and period spellings (京 → Kyoto, 東都/江戸 → Edo, 浪華 →
+  Osaka, 京城 → Keijō/Seoul with the six Edo-period Kyoto uses noted),
+  15 rows citing nrct where the dataset holds the town, 28 region
+  rows, 18 rejected multi-place strings, 2 ghost keys.
+  `korba` (96 rows, 1,573/1,575) — 17th–18th-c. Polish printing and
+  court towns, Polish exonyms matched (Lipsk, Królewiec, Ryga), the
+  corpus's own regional classification as region rows, the two
+  "Ziemie W. Ks. Lit" spellings folded.
+  `corpus-gysseling` (153 rows, 2,226/2,226) — the 13th-c. Low
+  Countries charter towns, atlas regions as region rows.
+  `corpus-oudnederlands` (13 rows, 19/20).
+  `ref` (64 rows, 126/126) — Schreibort scriptoria and towns, hedged
+  values at low certainty.
+  `dharma-deccan` (29 rows, 432/445) — the pl: site keys joined to
+  Pleiades/Wikidata.
+  `coptic-scriptorium` (16 rows, 309/309) — monasteries and
+  settlements (Atripe/Edfu/This on Pleiades); the two unlocated
+  monasteries aliased at low certainty onto their towns.
+  `aes` insert (5 rows, 191 docs) — the AED thesaurus region labels
+  as region rows.
+  Deliberately unlisted: 25 names, each with its evidence in the
+  section comments. Dropped-as-wrong upstream ids noted per row
+  (Kanheri's GeoNames hill, White Monastery's and Polotsk's misfiled
+  TGN records, Putten's homonym point).
+
 - 2026-10-21 · `names.yml`: re-census of seven rows whose verbatim key no
   longer occurred in the consumer's live place names.
   `aes`: the corpus's coarse findspot regions now reach the place axis
