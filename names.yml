@@ -2864,6 +2864,38 @@ aes:
     note: >-
       regional bin, not a place — the AED text header's own label for the
       corpus's "Eastern Desert" findspot region
+  Routen zum Roten Meer:
+    status: region
+    note: >-
+      regional bin, not a place — the AED label for the Eastern Desert
+      routes to the Red Sea; the header notes locate the 36 graffiti
+      variously (Wadi Umm Hode by Gebel Muailha, Wadi Dungash beside Wadi
+      Beza, south of / on the way to the Wadi Hammamat)
+  westliches Ufer:
+    status: region
+    note: >-
+      "the west bank" — an AED thesaurus subunit label shared by three
+      nodes: the Theban West Bank for 143 of the 148 texts (notes such as
+      "in einem Grab in Theben-West gefunden"), two other west-bank nodes
+      for 5 Old Kingdom and Late Ramesside texts; a topographic bin, not
+      one place
+  1. Katarakt bis Dakke:
+    status: region
+    note: >-
+      regional bin, not a place — Lower Nubia from the First Cataract to
+      Dakka (the AED label)
+  Niltal südlich von Assiut bis zum 1. Katarakt:
+    status: region
+    note: >-
+      regional bin, not a place — the Nile valley from Assiut to the First
+      Cataract (the AED label; one header adds "vermutlich auch aus
+      Theben")
+  Fajjum:
+    status: region
+    note: >-
+      the Fayum as a region (the AED label); the header note places the
+      find at Kom Medinet Ghurab (Petrie's excavations, per Fischer-Elfert,
+      JEA 84, 1998) — the label itself names the oasis, not the site
 kanripo:
   # First decision wave for the Kanseki Repository × CHGIS text-mining
   # round (2026-09-26): the review board's real-geography names. The
@@ -3360,3 +3392,3418 @@ eebo-tcp:
     note: >-
       Wolston, Warwickshire (Wolston Priory, a Marprelate press site,
       1589)
+
+# dharma-deccan (2026-10-21): the findspots of the Sātavāhana-era
+# inscriptions (Andrew Ollett's Sātavāhana Inscriptions corpus, carried in
+# the DHARMA tfb-satavahana-epigraphy repository). Keys are the verbatim
+# origPlace/placeName text; upstream's own place key (placeName/@key, e.g.
+# pl:Valūraka for Karle, pl:Dhānyakaṭaka for Amarāvatī and Dharanikota) is
+# quoted in each note — it is the corpus's own identity claim and settles
+# spelling variants (Karle/Kārle share pl:Valūraka). Where the findspot is
+# a rock-cut cave complex, the row cites the cave complex, not the nearby
+# village; where Ollett's key is the ancient town and Pleiades holds it,
+# the Pleiades record rides beside the modern identity (Barrington-grade
+# points: Pleiades coordinates for Amaravati and Nevasa sit 10–25 km off
+# the modern points). 29 rows over 37 names (432 of 445 documents);
+# 8 one-to-four-document findspots stay unlisted — villages with no
+# gazetteer record or with unresolved homonyms (Andhau, Beḷvāḍigi,
+# Candankhedā, Hipparagi, Kol, Pāle, Vaḍagāvi, Vāsana).
+dharma-deccan:
+  Kanaganahalli:
+    refs:
+    - wikidata:Q6360221
+    status: matched
+    note: >-
+      the Buddhist stūpa site on the Bhima, Chitapur taluk, Kalaburagi
+      district (upstream key pl:Kanaganahalli; the Aśokan and Sātavāhana
+      stūpa labels); not the Mandya-district homonym. Wikidata's point is
+      the coarse shared Sannati/Kanaganahalli coordinate
+  Sannati:
+    refs:
+    - wikidata:Q7418839
+    status: matched
+    note: >-
+      the excavated early-historic town on the Bhima beside Kanaganahalli,
+      Chitapur taluk, Kalaburagi district (upstream key pl:Sannati)
+  Amarāvatī:
+    refs:
+    - pleiades:49855
+    - wikidata:Q2087762
+    - geonames:1278917
+    status: matched
+    note: >-
+      the Amaravati mahācaitya site on the Krishna, Palnadu district,
+      Andhra Pradesh; upstream keys it to the ancient city pl:Dhānyakaṭaka
+      (shared with the Dharanikota key, its adjoining town). Pleiades
+      49855 is the Barrington Atlas Amaravati (map 5 E3, coarse point)
+  Kuḍā:
+    refs:
+    - wikidata:Q15040928
+    status: matched
+    note: >-
+      the Kuda rock-cut caves, Raigad district (upstream key pl:Kuḍā;
+      findspot text "Kuḍā, Cave No. 1")
+  Junnar:
+    refs:
+    - pleiades:50012
+    - wikidata:Q2445461
+    - geonames:1268761
+    status: matched
+    note: >-
+      Junnar, Pune district — the town whose surrounding cave groups
+      (Lenyadri, Shivneri, Tulja, Manmodi) carry the inscriptions
+      (upstream key pl:Junnar); Pleiades 50012 is the Barrington Junnar
+  Nasik:
+    refs:
+    - pleiades:50162
+    - wikidata:Q7130537
+    status: matched
+    note: >-
+      the Pāṇḍavleṇī (Nasik) caves above Nashik — every findspot text
+      names a cave ("Cave No. 18" …); upstream keys the string to the
+      ancient town pl:Nāsikya, which Pleiades 50162 (Nasika) holds
+  Karle:
+    refs:
+    - wikidata:Q6372431
+    status: matched
+    note: >-
+      the Karla (Karli) caitya caves near Lonavala, Pune district; upstream
+      key pl:Valūraka, the ancient name the Nahapāna-era donations use
+  Kārle:
+    alias_of: Karle
+    note: diacritic spelling of the same findspot (same upstream key pl:Valūraka)
+  Bhājā:
+    refs:
+    - wikidata:Q854709
+    status: matched
+    note: the Bhaja caves, Pune district (upstream key pl:Bhājā; "cave 17")
+  Pauni:
+    refs:
+    - wikidata:Q2719440
+    - geonames:1260022
+    status: matched
+    note: >-
+      Pauni, Bhandara district, Vidarbha — the stūpa site at the
+      Jagannātha Ṭekḍī mound named in the findspot text (upstream key
+      pl:Pauni)
+  Pitalkhorā:
+    refs:
+    - wikidata:Q15040934
+    status: matched
+    note: the Pitalkhora caves, Chhatrapati Sambhajinagar district (upstream key pl:Pitalkhorā)
+  Kanheri:
+    refs:
+    - wikidata:Q1356198
+    - tgn:1103310
+    status: matched
+    note: >-
+      the Kanheri caves, Sanjay Gandhi National Park, Mumbai; upstream key
+      pl:Kṛṣṇagiri, the caves' ancient name (GeoNames 1268067, which
+      Wikidata lists, is the hill, not the caves — not cited)
+  Mahāḍ:
+    refs:
+    - wikidata:Q2238564
+    - tgn:1076109
+    - geonames:1264489
+    status: matched
+    note: >-
+      Mahad, Raigad district (upstream key pl:Mahāḍ); the inscriptions sit
+      in the Mahad cave group (Gandharpale, wikidata Q15040923) — the row
+      cites the town the string names
+  Koṇḍāṇe:
+    refs:
+    - wikidata:Q15040927
+    status: matched
+    note: the Kondana caves, Raigad district (upstream key pl:Koṇḍāṇe)
+  Beḍsā:
+    refs:
+    - wikidata:Q4879428
+    status: matched
+    note: the Bedse caves, Maval taluk, Pune district (upstream key pl:Beḍsā)
+  Śelarvāḍī:
+    refs:
+    - wikidata:Q15040935
+    status: matched
+    note: the Shelarwadi caves, Pune district (upstream key pl:Śelarvāḍī)
+  Nāṇeghāṭ, Mahārāṣṭra:
+    refs:
+    - wikidata:Q3309717
+    status: matched
+    note: >-
+      the Naneghat pass cave (Nāyanikā's inscription and the royal portrait
+      labels), Pune district (upstream key pl:Nāṇeghāṭ)
+  Nāḍsur:
+    refs:
+    - wikidata:Q15040931
+    status: matched
+    note: the Nadsur caves, Raigad district (upstream key pl:Nāḍsur)
+  Sanchi:
+    refs:
+    - wikidata:Q181123
+    - geonames:9855411
+    status: matched
+    note: >-
+      the Sanchi stūpa complex, Raisen district, Madhya Pradesh — the
+      south-gateway architrave inscription (upstream key pl:Sāñcī)
+  Nāgārjunakoṇḍa:
+    refs:
+    - pleiades:50153
+    - wikidata:Q749108
+    status: matched
+    note: the Ikṣvāku-era site in the Krishna valley (upstream key pl:Vijayapurī, its ancient name)
+  Nevāsā:
+    refs:
+    - pleiades:50167
+    - wikidata:Q7003750
+    - geonames:1261487
+    status: matched
+    note: >-
+      Nevasa, Ahilyanagar district — the excavated mound (1954–56 trench E;
+      upstream key pl:Nevāsā); Pleiades 50167 is the Barrington Nevasa
+  Karāḍh:
+    refs:
+    - wikidata:Q2445542
+    - tgn:1075756
+    - geonames:1267904
+    status: matched
+    note: >-
+      Karad, Satara district — upstream key pl:Karahākaṭaka, the ancient
+      town named in donor records (the Karad caves lie beside it)
+  Koḍavali:
+    refs:
+    - wikidata:Q107568853
+    status: matched
+    note: >-
+      the Buddhist site at Kodavali near Pithapuram, Kakinada district —
+      rock-cut wells at the dhanam ḍibbā mound, the Caṇḍa Sātakarṇi year-11
+      inscription (upstream key pl:Koḍavali)
+  Dharanikota:
+    refs:
+    - pleiades:50219
+    - wikidata:Q3634620
+    status: matched
+    note: >-
+      Dharanikota beside Amaravati on the Krishna (upstream key
+      pl:Dhānyakaṭaka, shared with Amarāvatī — the ancient city spans
+      both); Pleiades 50219 Dharanikota/Pitoura
+  Banavāsi:
+    refs:
+    - pleiades:49895
+    - wikidata:Q2427885
+    - geonames:1277407
+    status: matched
+    note: >-
+      Banavasi, Uttara Kannada — the findspot is the Madhukeśvara temple
+      precinct (upstream key pl:Vaijayantī, the ancient name; Ptolemy's
+      Banaouasei); not the Kurnool-district homonym
+  China:
+    refs:
+    - wikidata:Q5100085
+    - geonames:1274155
+    status: matched
+    certainty: low
+    note: >-
+      the year-27 inscription of Gautamīputra Śrī Yajña Sātakarṇi known in
+      the literature as the "China" (Chinna) inscription — Chinaganjam,
+      Bapatla district on the Andhra coast; the bare upstream string
+      (key pl:China) gives no district, so the identification rests on the
+      inscription's published name
+  Myākadoni:
+    refs:
+    - wikidata:Q12447479
+    status: matched
+    certainty: low
+    note: >-
+      the Myakadoni inscription of Puḷumāvi (year 8, the Sātavāhanihāra
+      record) was found in the old Adoni taluk; Myakadona village, Pedda
+      Kadubur mandal (carved from Adoni), Kurnool district is the only
+      gazetteer candidate — the spelling differs, so certainty low
+  Gaṅgaperūru:
+    refs:
+    - wikidata:Q15697056
+    status: matched
+    certainty: low
+    note: >-
+      Gangaperuru, Vontimitta mandal, YSR (Kadapa) district — the only
+      gazetteer holder of the name; the upstream record gives no district
+  Kurnool:
+    refs:
+    - wikidata:Q3635276
+    - geonames:1265491
+    status: matched
+    certainty: low
+    note: >-
+      the city, as the bare string reads; the findspot text ("Kurnool,
+      immediately below the preceding inscription") reads like a
+      district-level attribution copied from a rock-inscription record, so
+      the city/district grain is upstream-ambiguous
+
+# coptic-scriptorium (2026-10-21): the manuscripts' provenance places —
+# the TEI header's origPlace where given, else its placeName (the codex's
+# home monastery or findspot, after the PAThs atlas attributions), never
+# the places a text mentions. Keys verbatim, typos included ("St.
+# Macariuus" is the header's own spelling). All 16 names (309 documents)
+# decided. The two monasteries no gazetteer holds — St Mercurius at Edfu
+# (the MERC. codices) and St Michael near al-Hamuli (the MICH. codices) —
+# are aliased at low certainty onto the nearest gazetteer identity the
+# header itself pairs them with (Edfu; Hamuli), each saying so.
+coptic-scriptorium:
+  White Monastery:
+    refs:
+    - pleiades:756530
+    - wikidata:Q202661
+    - geonames:358294
+    - tm:3121
+    status: matched
+    note: >-
+      Shenoute's monastery (Dayr Anbā Shinūda) west of Sohag — the MONB.
+      codices; Pleiades 756530 "Apa Senouthou (monastery)" (same point
+      as the Wikidata item, which does not yet carry the Pleiades id);
+      TGN 6006493, which Wikidata lists, files the monastery under
+      Maṭrūḥ governorate and is not cited
+  St. Mercurius Monastery:
+    alias_of: Edfu
+    certainty: low
+    note: >-
+      the monastery of St Mercurius at Edfu (the MERC. codices, Budge's
+      British Library volumes); the header pairs it with placeName Edfu.
+      No gazetteer registers the monastery itself — the Edfu identity
+      stands in, hence low certainty
+  Hagr Edfu:
+    alias_of: Edfu
+    certainty: low
+    note: >-
+      "Hagr Edfu", the desert edge west of Edfu where the monastery of St
+      Mercurius stood (the colophon locality of the MERC. codices); no
+      gazetteer registers the locality — the Edfu identity stands in
+  Edfu:
+    refs:
+    - pleiades:785974
+    - wikidata:Q239107
+    - geonames:355635
+    - tm:269
+    status: matched
+    note: Edfu (Apollonopolis Magna), Upper Egypt
+  Atripe:
+    refs:
+    - pleiades:756538
+    - wikidata:Q755738
+    - geonames:359743
+    - tm:5162
+    status: matched
+    note: >-
+      Coptic Atripe = Athribis of Upper Egypt (Triphieion), outside
+      Sohag — the White Monastery's district (the Canons of Apa Johannes);
+      not Athribis of the Delta (Pleiades 727078)
+  Upper Egypt:
+    status: region
+    note: regional bin, not a place — the header's attribution of a Budge codex (CMCL. siglum) to Upper Egypt at large
+  Hamuli:
+    refs:
+    - wikidata:Q12186088
+    status: matched
+    note: >-
+      al-Hamuli, village in the Yusuf al-Siddiq markaz, south-western
+      Fayum — near which the monastery of St Michael (the 1910 Hamuli
+      find, the MICH. codices) stood; the Wikidata item carries no point
+  Monastery of the Archangel Michael:
+    alias_of: Hamuli
+    certainty: low
+    note: >-
+      the monastery of the Archangel Michael near al-Hamuli in the Fayum
+      (MICH. siglum, Pierpont Morgan codices; the header's placeName reads
+      Fayyum); no gazetteer registers the monastery itself — the Hamuli
+      village identity stands in
+  Monastery of Saint Macarius:
+    refs:
+    - pleiades:727104
+    - wikidata:Q3320218
+    - geonames:352829
+    status: matched
+    note: >-
+      Dayr Abū Maqār in the Wadi al-Natrun (Scetis) — the Bohairic MACA.
+      codices; Pleiades 727104 "Deir Abou Makar". Wikidata's English label
+      reads "of Alexandria" but the item is the Wadi al-Natrun monastery
+      (same Pleiades id and point)
+  Monastery of St. Macariuus:
+    alias_of: Monastery of Saint Macarius
+    note: the header's misspelling of the same monastery
+  This:
+    refs:
+    - pleiades:756659
+    - wikidata:Q1153959
+    - tm:2400
+    status: matched
+    note: >-
+      This/Thinis near Girga, Upper Egypt — the PAThs attribution of the
+      Turin papyrus codices (GIOV. siglum, e.g. the Life of Apa Aphou)
+  purchased in the Fayum:
+    status: region
+    note: >-
+      a dealer's purchase locus, not a findspot — the Fayum as region
+      only (Wikidata Q1399125, Pleiades 170198552 name the oasis); no
+      place identity is claimed
+  South of Assiut (?):
+    status: region
+    note: >-
+      upstream's hedged regional attribution ("south of Assiut", queried)
+      — a regional bin, not a place
+  Sheikh Abd el-Qurna West Bank of Luxor:
+    refs:
+    - pleiades:779439862
+    - wikidata:Q241042
+    - geonames:8224894
+    status: matched
+    note: >-
+      the Sheikh Abd el-Qurna hill on the Theban West Bank — the monastic
+      settlement among its tombs (the amulet's "monastery")
+  Nag Hammadi:
+    refs:
+    - wikidata:Q270754
+    - geonames:351434
+    status: matched
+    note: >-
+      the town after which the codices are named; the 1945 find was at
+      Jabal al-Ṭārif near the town, ancient Chenoboskion lying across the
+      river (Pleiades 756545) — the row cites what the string names
+  Hermopolis:
+    refs:
+    - pleiades:756574
+    - wikidata:Q732908
+    - tgn:7534548
+    - geonames:355952
+    - tm:816
+    status: matched
+    note: >-
+      Hermopolis Magna (Ashmunein) — a Vienna CPR letter via papyri.info,
+      whose bare "Hermopolis" is the Hermopolite metropolis; not
+      Hermopolis Mikra or the Delta homonym
+
+# ref (2026-10-21): the Reference Corpus of Early New High German
+# (ReF, 1350–1650) — the CorA header's place of writing/printing,
+# verbatim: bare town names, the header's dialect tags ("whchal.",
+# "ohchal"), hedges ("wohl", "wahrsch.", "viell.", "(?)", "(unklar)"),
+# and institutions within a town. Hedged values alias their plain town at
+# low certainty; houses and abbeys inside a town alias the town (the city
+# identity, said in the note); the one multi-place value is rejected for
+# the consumer to split. Refs follow the eebo-tcp pattern (Wikidata + the
+# GeoNames populated-place record + TGN inhabited place where each is
+# verified); administrative-unit GeoNames ids Wikidata also lists are not
+# cited, so a few small towns carry Wikidata (+ TGN) only. All 64 names
+# (126 documents) decided.
+ref:
+  "Straßburg":
+    refs:
+    - wikidata:Q6602
+    - geonames:2973783
+    - tgn:7012346
+    status: matched
+    note: >-
+      Strasbourg (the imperial city, Alsace); not the Carinthian
+      Straßburg
+  "Köln":
+    refs:
+    - wikidata:Q365
+    - geonames:2886242
+    - tgn:7004446
+    status: matched
+  "Nürnberg":
+    refs:
+    - wikidata:Q2090
+    - geonames:2861650
+    - tgn:7004334
+    status: matched
+  "Augsburg":
+    refs:
+    - wikidata:Q2749
+    - geonames:2954172
+    - tgn:7004324
+    status: matched
+  "Wien":
+    refs:
+    - wikidata:Q1741
+    - geonames:2761369
+    - tgn:7003321
+    status: matched
+    note: >-
+      the city (TGN 7003321), not the Land (TGN 7003030)
+  "Regensburg":
+    refs:
+    - wikidata:Q2978
+    - geonames:2849483
+    - tgn:7013496
+    status: matched
+  "Erfurt":
+    refs:
+    - wikidata:Q1729
+    - geonames:2929670
+    - tgn:7024031
+    status: matched
+  "Breslau":
+    refs:
+    - wikidata:Q1799
+    - geonames:3081368
+    - tgn:7007601
+    status: matched
+    note: >-
+      Breslau = Wrocław
+  "Basel":
+    refs:
+    - wikidata:Q78
+    - geonames:2661604
+    - tgn:7007269
+    status: matched
+  "Ulm":
+    refs:
+    - wikidata:Q3012
+    - geonames:2820256
+    - tgn:7005187
+    status: matched
+  "Tübingen":
+    refs:
+    - wikidata:Q3806
+    - geonames:2820860
+    - tgn:7004426
+    status: matched
+  "Trier":
+    refs:
+    - wikidata:Q3138
+    - geonames:2821164
+    status: matched
+  "München":
+    refs:
+    - wikidata:Q1726
+    - geonames:2867714
+    - tgn:7004333
+    status: matched
+  "Leipzig":
+    refs:
+    - wikidata:Q2079
+    - geonames:2879139
+    - tgn:7012329
+    status: matched
+  "Simmern":
+    refs:
+    - wikidata:Q275636
+    - geonames:2832013
+    status: matched
+    note: >-
+      Simmern im Hunsrück, the Palatine-Simmern residence where
+      Hieronymus Rodler printed (Kunst des Messens, Fierrabras)
+  "Mainz":
+    refs:
+    - wikidata:Q1720
+    - geonames:2874225
+    - tgn:7004449
+    status: matched
+  "Konstanz":
+    refs:
+    - wikidata:Q3834
+    - geonames:2885679
+    - tgn:7005174
+    status: matched
+  "Graz":
+    refs:
+    - wikidata:Q13298
+    - geonames:2778067
+    - tgn:7003097
+    status: matched
+  "Frankfurt am Main":
+    refs:
+    - wikidata:Q1794
+    - geonames:2925533
+    - tgn:7005293
+    status: matched
+  "Eisleben":
+    refs:
+    - wikidata:Q484870
+    - tgn:1036645
+    status: matched
+    note: >-
+      Lutherstadt Eisleben (Mansfeld)
+  "Zürich":
+    refs:
+    - wikidata:Q72
+    - geonames:2657896
+    - tgn:7007302
+    status: matched
+  "Wittenberg":
+    refs:
+    - wikidata:Q6837
+    - geonames:7303020
+    status: matched
+    note: >-
+      Lutherstadt Wittenberg (Electoral Saxony)
+  "Stuttgart":
+    refs:
+    - wikidata:Q1022
+    - geonames:2825297
+    - tgn:7004425
+    status: matched
+  "Sterzing":
+    refs:
+    - wikidata:Q263305
+    status: matched
+    note: >-
+      Sterzing/Vipiteno, South Tyrol — the Sterzing play archive
+  "Sorau":
+    refs:
+    - wikidata:Q148849
+    - geonames:3080644
+    status: matched
+    note: >-
+      Sorau = Żary, Lower Lusatia (the 1381 Landregister)
+  "Schwaz":
+    refs:
+    - wikidata:Q583485
+    - tgn:7003247
+    status: matched
+    note: >-
+      Schwaz in Tyrol (the 1524 Hymnarius print)
+  "Rottweil":
+    refs:
+    - wikidata:Q82960
+    - geonames:2843636
+    - tgn:7012685
+    status: matched
+  "Oppenheim":
+    refs:
+    - wikidata:Q518690
+    status: matched
+    note: >-
+      Oppenheim on the Rhine, Köbel's press (Rechenbüchlein 1517)
+  "Mühlhausen":
+    refs:
+    - wikidata:Q14925
+    - geonames:2867996
+    status: matched
+    note: >-
+      Mühlhausen in Thuringia (the Thüringische Chronik, 1599); not
+      Mulhouse in Alsace
+  "Marburg":
+    refs:
+    - wikidata:Q3869
+    - geonames:2873759
+    status: matched
+    note: >-
+      Marburg an der Lahn; not Maribor (German Marburg an der Drau)
+  "Luzern":
+    refs:
+    - wikidata:Q4191
+    - geonames:2659811
+    - tgn:7007280
+    status: matched
+    note: >-
+      the city, not the canton
+  "Luxemburg (Lützemburg)":
+    refs:
+    - wikidata:Q1842
+    - geonames:2960316
+    - tgn:7006254
+    status: matched
+    note: >-
+      the city of Luxembourg (the 1631 Cusanus print), the parenthesis
+      the imprint spelling; not the country
+  "Kassel":
+    refs:
+    - wikidata:Q2865
+    - geonames:2892518
+    - tgn:7004431
+    status: matched
+  "Innsbruck":
+    refs:
+    - wikidata:Q1735
+    - geonames:2775220
+    - tgn:7003249
+    status: matched
+  "Ingolsstadt":
+    refs:
+    - wikidata:Q3004
+    - geonames:2895992
+    status: matched
+    note: >-
+      Ingolstadt — the header's misspelling, kept verbatim
+  "Heidelberg":
+    refs:
+    - wikidata:Q2966
+    - geonames:2907911
+    - tgn:7005177
+    status: matched
+  "Dresden":
+    refs:
+    - wikidata:Q1731
+    - geonames:2935022
+    - tgn:7004455
+    status: matched
+  "Coburg":
+    refs:
+    - wikidata:Q14821
+    - geonames:2939951
+    status: matched
+  "Brieg":
+    refs:
+    - wikidata:Q214640
+    - geonames:3102459
+    status: matched
+    note: >-
+      Brieg = Brzeg, Silesia
+  "Bautzen":
+    refs:
+    - wikidata:Q14835
+    - geonames:2951881
+    status: matched
+  "Bamberg":
+    refs:
+    - wikidata:Q3936
+    - geonames:2952984
+    - tgn:7004325
+    status: matched
+  "Lauingen":
+    refs:
+    - wikidata:Q572921
+    status: matched
+    note: >-
+      Lauingen an der Donau (Rauwolf's travels, 1582)
+  "Buchau (bei Biberach)":
+    refs:
+    - wikidata:Q496489
+    - geonames:2953534
+    - tgn:1038316
+    status: matched
+    note: >-
+      Bad Buchau on the Federsee near Biberach — the header's own
+      disambiguation
+  "whchal., Bern":
+    refs:
+    - wikidata:Q70
+    - geonames:2661552
+    - tgn:7007557
+    status: matched
+    note: >-
+      Bern; the prefix is the header's dialect tag (westhochalemannisch),
+      not part of the place
+  "Nördlingen (?)":
+    refs:
+    - wikidata:Q489902
+    - geonames:2861914
+    status: matched
+    certainty: low
+    note: >-
+      upstream-queried Nördlingen
+  "wohl Schloß Erlach/Bern":
+    refs:
+    - wikidata:Q2240905
+    status: matched
+    certainty: low
+    note: >-
+      "wohl" — probably Erlach castle in the canton of Bern (Niklaus
+      Manuel, Landvogt of Erlach from 1523: Der Ablaßkrämer, 1525);
+      upstream-hedged
+  "regensburg":
+    alias_of: "Regensburg"
+    note: >-
+      lower-case spelling of the same header value
+  "Frankfurt/Main":
+    alias_of: "Frankfurt am Main"
+    note: >-
+      slash spelling of the same town
+  "Zürich, ohchal":
+    alias_of: "Zürich"
+    note: >-
+      the suffix is the header's dialect tag (osthochalemannisch)
+  "whchal., Basel":
+    alias_of: "Basel"
+    note: >-
+      the prefix is the header's dialect tag (westhochalemannisch)
+  "wahrsch. Basel":
+    alias_of: "Basel"
+    certainty: low
+    note: >-
+      "wahrscheinlich" — upstream-hedged
+  "viell. Heidelberg":
+    alias_of: "Heidelberg"
+    certainty: low
+    note: >-
+      "vielleicht" — upstream-hedged
+  "Regensburg (?)":
+    alias_of: "Regensburg"
+    certainty: low
+    note: >-
+      upstream-queried
+  "Augsburg (unklar)":
+    alias_of: "Augsburg"
+    certainty: low
+    note: >-
+      "unklar" — upstream-hedged
+  "(Erfurt?)":
+    alias_of: "Erfurt"
+    certainty: low
+    note: >-
+      upstream-queried
+  "Augsburg (St. Ulrich und Afra)":
+    alias_of: "Augsburg"
+    note: >-
+      the Benedictine abbey of SS. Ulrich and Afra within Augsburg — the
+      city identity
+  "Straßburg, Kloster zum grünen Wörth":
+    alias_of: "Straßburg"
+    note: >-
+      the Hospitaller house zum Grünen Wörth within Strasbourg — the city
+      identity
+  "Reuerinnenkloster St. Magdalena Straßburg":
+    alias_of: "Straßburg"
+    note: >-
+      the penitent sisters' convent of St Mary Magdalene within
+      Strasbourg — the city identity
+  "Pütrich-Regelhaus München":
+    alias_of: "München"
+    note: >-
+      the Pütrich Franciscan tertiaries' house within Munich — the city
+      identity
+  "Köln (aber in Zweigdruckerei in Marburg erschienen)":
+    alias_of: "Marburg"
+    note: >-
+      the header itself corrects the imprint: printed at a Cologne
+      press's branch in Marburg (1537) — the production place is Marburg
+  "Schlesien":
+    status: region
+    note: >-
+      Silesia — a region (the Trebnitz psalter, 14th c.), not a place
+  "Nordbayern":
+    status: region
+    note: >-
+      northern Bavaria — a regional bin, not a place
+  "Entstehungsort wahrscheinlich Raum Villingen":
+    status: region
+    note: >-
+      "probably the Villingen area" (the Donaueschingen Passion play) — a
+      hedged area, not a place; Villingen itself is wikidata Q47501154
+  "Hall, Brixen, Meran, Innsbruck, Wien":
+    status: rejected
+    note: >-
+      multi-place value — the charter of Duke Rudolf IV for the Tyrolean
+      towns (1363–65) names five; no single identity, the consumer should
+      split
+
+# ndl-kotenseki (2026-10-21): the publication places of the National Diet
+# Library's classical-books collection (古典籍). Keys are the NDL
+# bibliographic record's 出版地 list as the consumer reads it — each
+# location verbatim, brackets stripped, several locations joined by "; ".
+# The digitized item IS the print or manuscript, so the place is the
+# artifact's own production place (the eebo-tcp imprint stance). The
+# strings are the imprints' historical spellings — 京 · 洛陽 · 皇都 for
+# Kyoto, 東都 · 江府 · 武江 for Edo, 浪華 · 摂陽 for Osaka, and the
+# literary toponyms of Ming–Qing Chinese imprints (金陵, 錢塘, 呉郡) — so
+# one matched row per place carries the refs and every other spelling is
+# an alias (one hop). Edo-period and modern spellings of one city are
+# separate rows only where the refs differ (江戸 also cites the Edo item;
+# 東京 does not). Matched rows cite Wikidata + GeoNames (+ TGN where the
+# Wikidata item carries it), every id read back live 2026-10-21; nrct is
+# cited only where the NRCT historical-placename dataset holds the
+# imprint's own town or village (it has no rows for the great cities —
+# 京都, 江戸/東京, 大坂 — so none is forced). Province names (尾張, 勢州,
+# 摂州 …) are region rows; multi-place values are rejected rows naming
+# the split. 196 names, 7,562 document-place pairs; 182 rows reach 7,436; deliberately
+# unlisted: Chinese literary toponyms the records do not settle (南城,
+# 大原, 遂州, 天都, 長塘, 石馬, 蘭陵, 呉山), and a handful of Japanese
+# village strings whose referent among homonyms the record cannot fix
+# (阪本村, 川北村 (三重縣), 山田村 (三重縣), 下国分町 (宮城縣), 大隈,
+# 和国) — unmatched, visibly.
+ndl-kotenseki:
+  # --- Kyoto ---
+  京都:
+    refs:
+    - wikidata:Q34600
+    - geonames:1857910
+    - tgn:7004603
+    status: matched
+    note: >-
+      Kyoto; the row every classical spelling of the imperial capital
+      folds onto (京, 京師, 洛陽, 洛中, 洛, 花洛, 京洛, 洛東, 平安, 平安城,
+      皇都, 帝都, 帝畿, 神京, 京兆, 西京, 亰師, 四條)
+  京:
+    alias_of: 京都
+    note: "京 — the capital, i.e. Kyoto, in Muromachi–Edo imprints (五山版 禪林類聚 1367, 寛文 本草綱目)"
+  京師:
+    alias_of: 京都
+    note: "京師 — every record is a Japanese-era imprint (元禄–享和), so Kyoto, not Beijing"
+  洛陽:
+    alias_of: 京都
+    note: "洛陽 — the Chinese capital name used for Kyoto"
+  洛中:
+    alias_of: 京都
+  洛:
+    alias_of: 京都
+  花洛:
+    alias_of: 京都
+  京洛:
+    alias_of: 京都
+  洛東:
+    alias_of: 京都
+    note: "洛東 — eastern Kyoto (Higashiyama); folded to the city"
+  平安:
+    alias_of: 京都
+    note: "平安 — Heian-kyō"
+  平安城:
+    alias_of: 京都
+  皇都:
+    alias_of: 京都
+    note: "皇都 — the imperial capital; every record a Japanese-era imprint (寛文–文化)"
+  帝都:
+    alias_of: 京都
+  帝都 (京都):
+    alias_of: 京都
+    note: "the record's own gloss names Kyoto"
+  帝畿:
+    alias_of: 京都
+    note: "帝畿 — the capital district; both records are Kyoto imprints (貞享4, 元祿2)"
+  神京:
+    alias_of: 京都
+  京兆:
+    alias_of: 京都
+    note: "京兆 — the capital; 藤貞幹 好古日録 (寛政9) is a Kyoto imprint"
+  西京:
+    alias_of: 京都
+    note: "西京 — Kyoto (the record is 元和3, long before the Meiji 東京/西京 pair)"
+  亰師:
+    alias_of: 京都
+    note: "亰 is the variant graph of 京"
+  四條:
+    alias_of: 京都
+    note: "四條 — Shijō, the Kyoto street of the printing houses; folded to the city"
+  皇城:
+    alias_of: 京都
+    certainty: low
+    note: "皇城 — \"the imperial city\"; one Japanese imprint (享保3) — Kyoto by period usage, not stated"
+  京城:
+    refs:
+    - wikidata:Q8684
+    - geonames:1835848
+    - tgn:7002223
+    status: matched
+    note: >-
+      Keijō/Seoul — 842 of the 848 records are colonial-period Seoul
+      prints (李朝実録 太白山本 1930, 李朝実録仏教鈔存 1937, 朝鮮民暦
+      1917); six Edo-period Japanese imprints (貞享4–享保18: 薬種目録,
+      汾陽無徳禪師語録, 卍山和尚東林後録, 昔男時世妝, 唐土秘事の海) use
+      京城 in its Japanese sense of Kyoto — the verbatim key cannot split
+      them, so the majority referent stands
+  # --- Edo / Tokyo ---
+  江戸:
+    refs:
+    - wikidata:Q215646
+    - wikidata:Q7473516
+    - geonames:1850147
+    - tgn:7004472
+    status: matched
+    note: >-
+      Edo — cites the Edo item beside the modern city (Tokyo's former
+      city / special wards; GeoNames and TGN hold only the modern place);
+      the row the Edo-period spellings fold onto (東都, 江府, 武江, 江都,
+      東武, 武陽, 武府, 御江都, 江城, 江城下)
+  東都:
+    alias_of: 江戸
+    note: "東都 — the eastern capital, Edo"
+  江府:
+    alias_of: 江戸
+  武江:
+    alias_of: 江戸
+    note: "武江 — Edo in Musashi"
+  江都:
+    alias_of: 江戸
+    note: "江都 — Edo (every record a Japanese-era imprint: 享保武鑑, 江戸分間繪圖); not Yangzhou"
+  東武:
+    alias_of: 江戸
+  武陽:
+    alias_of: 江戸
+  御江都:
+    alias_of: 江戸
+  江城:
+    alias_of: 江戸
+    note: "江城 — the Edo castle town; one 享保元 Japanese reprint"
+  江城下:
+    alias_of: 江戸
+  武府:
+    alias_of: 江戸
+    certainty: low
+    note: "武府 — read as the Musashi seat, Edo; one undated nagauta print (色竹)"
+  東京:
+    refs:
+    - wikidata:Q7473516
+    - geonames:1850147
+    - tgn:7004472
+    status: matched
+    note: "Tokyo — the former city / today's special wards (the Metropolis item Q1490 is the prefecture)"
+  東亰:
+    alias_of: 東京
+    note: "亰 is the variant graph of 京"
+  浅草:
+    refs:
+    - wikidata:Q720644
+    - geonames:7535478
+    - tgn:1003994
+    status: matched
+    note: "Asakusa, the Edo/Tokyo district (Taitō); kept at its own grain"
+  金杉村 (東京府):
+    refs:
+    - nrct:130000235200
+    status: matched
+    note: >-
+      Kanasugi village, Tokyo-fu (now Negishi/Minowa, Taitō) — the NRCT
+      row under 台東区; the other two NRCT 金杉村 rows lie in Chiba and
+      Saitama, outside the record's own (東京府) gloss
+  # --- Osaka ---
+  大坂:
+    refs:
+    - wikidata:Q35765
+    - geonames:1853909
+    - tgn:7004756
+    status: matched
+    note: >-
+      Osaka — 大坂 is the Edo-period spelling (大阪 from early Meiji);
+      every Osaka spelling folds here (大阪, 浪華, 浪花, 浪速, 難波, 摂陽,
+      攝陽, 摂府, 阪府, 阪陽, 坂陽, 摂都, 攝城)
+  大阪:
+    alias_of: 大坂
+  浪華:
+    alias_of: 大坂
+    note: "浪華/浪花/浪速/難波 — Naniwa, the classical name of Osaka"
+  浪花:
+    alias_of: 大坂
+  浪速:
+    alias_of: 大坂
+  難波:
+    alias_of: 大坂
+  摂陽:
+    alias_of: 大坂
+    note: "摂陽 — Osaka as the seat of Settsu"
+  攝陽:
+    alias_of: 大坂
+  摂府:
+    alias_of: 大坂
+  阪府:
+    alias_of: 大坂
+  阪陽:
+    alias_of: 大坂
+  坂陽:
+    alias_of: 大坂
+  摂都:
+    alias_of: 大坂
+  摂都 (大阪):
+    alias_of: 大坂
+    note: "the record's own gloss names Osaka"
+  攝城:
+    alias_of: 大坂
+  # --- Ise Yamada (today's Ise city) ---
+  山田 (伊勢):
+    refs:
+    - wikidata:Q328067
+    - geonames:1861450
+    - tgn:1080249
+    status: matched
+    note: >-
+      Yamada in Ise (Ujiyamada, merged 1955 into today's Ise city) — the
+      printing town of the 伊勢暦 Ise calendars; the Yamada spellings
+      fold here
+  宇治山田:
+    alias_of: 山田 (伊勢)
+  宇治山田町 (三重県):
+    alias_of: 山田 (伊勢)
+  山田 (三重県):
+    alias_of: 山田 (伊勢)
+  山田 (宇治山田):
+    alias_of: 山田 (伊勢)
+  伊勢山田:
+    alias_of: 山田 (伊勢)
+  伊勢度會郡山田:
+    alias_of: 山田 (伊勢)
+  山田八日市場町 (三重縣):
+    refs:
+    - nrct:240000256000
+    - wikidata:Q328067
+    status: matched
+    note: "Yōkaichiba-chō, a ward of Yamada (NRCT 八日市場町 under 伊勢市)"
+  丹生村 (三重県):
+    refs:
+    - nrct:240000221100
+    - wikidata:Q17213591
+    status: matched
+    note: >-
+      Nyū village, Taki district — the 伊勢丹生暦 calendar press; the
+      only Mie 丹生村 in NRCT (多気郡 勢和村丹生)
+  # --- other Japanese towns ---
+  名古屋:
+    refs:
+    - wikidata:Q11751
+    - geonames:1856057
+    - tgn:7004736
+    status: matched
+  長崎:
+    refs:
+    - wikidata:Q38234
+    - geonames:1856152
+    - tgn:7004735
+    status: matched
+  長嵜:
+    alias_of: 長崎
+    note: "嵜 — variant graph of 崎"
+  若山:
+    refs:
+    - wikidata:Q200747
+    - geonames:1848936
+    - tgn:7004866
+    status: matched
+    note: "若山 — the Edo-period writing of Wakayama (Kii's castle town)"
+  泉南:
+    refs:
+    - wikidata:Q193428
+    - geonames:1853167
+    - tgn:1081185
+    status: matched
+    note: >-
+      泉南 "south Izumi" — Sakai: both works are the classic Sakai
+      prints (天文版論語 1533; 阿佐井野宗瑞's 新編名方類證醫書大全 1528)
+  南都:
+    refs:
+    - wikidata:Q169134
+    - geonames:1855604
+    - tgn:7004739
+    status: matched
+    note: "南都 — Nara (the 南都暦 Nara calendars)"
+  奈良:
+    alias_of: 南都
+  勢州洞津:
+    refs:
+    - wikidata:Q203027
+    - geonames:1849796
+    - tgn:7004827
+    status: matched
+    note: "洞津/安濃津 — Anotsu, the old name of Tsu in Ise"
+  洞津:
+    alias_of: 勢州洞津
+  安濃津:
+    alias_of: 勢州洞津
+  津:
+    alias_of: 勢州洞津
+  駿府:
+    refs:
+    - wikidata:Q174691
+    - geonames:1851714
+    - tgn:7004816
+    status: matched
+    note: "Sunpu — the Edo-period name of Shizuoka"
+  静岡:
+    alias_of: 駿府
+  水戸:
+    refs:
+    - wikidata:Q204249
+    - geonames:2111899
+    - tgn:7004660
+    status: matched
+  仙台:
+    refs:
+    - wikidata:Q46747
+    - geonames:2111149
+    - tgn:7004809
+    status: matched
+  徳島:
+    refs:
+    - wikidata:Q207309
+    - geonames:1850156
+    - tgn:7004894
+    - nrct:370000084400
+    status: matched
+  広島:
+    refs:
+    - wikidata:Q34664
+    - geonames:1862415
+    - tgn:7004499
+    status: matched
+  廣嶋:
+    alias_of: 広島
+  甲府:
+    refs:
+    - wikidata:Q201932
+    - geonames:1859096
+    - tgn:1140416
+    status: matched
+  彦根:
+    refs:
+    - wikidata:Q386635
+    - geonames:1862636
+    - tgn:7004485
+    - nrct:250000276600
+    status: matched
+  岐阜:
+    refs:
+    - wikidata:Q45798
+    - geonames:1863641
+    - tgn:7004481
+    - nrct:210000161600
+    status: matched
+  富山:
+    refs:
+    - wikidata:Q204266
+    - geonames:1849876
+    - tgn:7004860
+    status: matched
+  前橋:
+    refs:
+    - wikidata:Q201613
+    - geonames:1857842
+    - tgn:1080705
+    status: matched
+  高崎:
+    refs:
+    - wikidata:Q336438
+    - geonames:1851002
+    - tgn:7004820
+    status: matched
+  盛岡:
+    refs:
+    - wikidata:Q200077
+    - geonames:2111834
+    - tgn:7004681
+    status: matched
+  秋田:
+    refs:
+    - wikidata:Q17139
+    - geonames:2113719
+    - tgn:7004842
+    status: matched
+  横浜:
+    refs:
+    - wikidata:Q38283
+    - geonames:1848354
+    - tgn:7004836
+    status: matched
+  大垣:
+    refs:
+    - wikidata:Q384926
+    - geonames:1854703
+    status: matched
+  佐賀:
+    refs:
+    - wikidata:Q209766
+    - geonames:1853274
+    - tgn:7004890
+    status: matched
+  大津:
+    refs:
+    - wikidata:Q202907
+    - geonames:1853574
+    status: matched
+    note: "Ōtsu on Lake Biwa (柏木如亭 詩本草 1860); NRCT's two Ōtsu 大津町 rows are wards, not cited"
+  那覇:
+    refs:
+    - wikidata:Q181966
+    - geonames:1856035
+    - tgn:1080927
+    - nrct:480000024700
+    status: matched
+  長野:
+    refs:
+    - wikidata:Q128849
+    - geonames:1856209
+    - tgn:7004880
+    - nrct:200000298700
+    status: matched
+    note: "Nagano (Zenkōji town — NRCT 長野村（善光寺町）); 島木赤彦 西水行吟 1897"
+  日光:
+    refs:
+    - wikidata:Q235753
+    - geonames:1855395
+    - tgn:7004741
+    status: matched
+  若松:
+    refs:
+    - wikidata:Q237699
+    - geonames:6822148
+    - tgn:7004467
+    status: matched
+    note: "Aizu-Wakamatsu — the record is the 会津暦 (Aizu calendar), so not the Kitakyūshū Wakamatsu"
+  倉鋪:
+    refs:
+    - wikidata:Q467487
+    - geonames:1858311
+    - tgn:7004599
+    - nrct:340000264100
+    status: matched
+    certainty: low
+    note: >-
+      倉鋪 — read as Kurashiki (鋪 for 敷); one work, 古屋野意春 萬國一覽圖説
+      1810; the spelling, not the record, carries the identification
+  三島町 (静岡県):
+    refs:
+    - wikidata:Q653478
+    - geonames:1856977
+    - tgn:1080810
+    - nrct:220000019500
+    status: matched
+  三嶋:
+    alias_of: 三島町 (静岡県)
+    certainty: low
+    note: "三嶋 — read as Mishima in Izu (the Mishima calendar town); the record gives no province"
+  関 (美濃):
+    refs:
+    - wikidata:Q860647
+    - geonames:1852765
+    - nrct:210000212300
+    status: matched
+  五条町 (奈良県):
+    refs:
+    - wikidata:Q602571
+    - geonames:1863590
+    - tgn:1079993
+    - nrct:300000101200
+    status: matched
+  石卷村 (宮城縣):
+    refs:
+    - wikidata:Q270814
+    - geonames:2112576
+    - nrct:040000207700
+    status: matched
+  桐生新町 (栃木県):
+    refs:
+    - wikidata:Q634022
+    - geonames:1859405
+    - nrct:100000211700
+    status: matched
+    note: >-
+      Kiryū Shinmachi — today in Gunma; the (栃木県) gloss is period-true
+      (Yamada district belonged to Tochigi prefecture 1871–1876)
+  興津町 (靜岡縣):
+    refs:
+    - wikidata:Q100255630
+    - nrct:220000163200
+    status: matched
+    note: "Okitsu (the Tōkaidō post town, NRCT 興津宿; now Shimizu-ku, Shizuoka)"
+  海野 (信濃小縣):
+    refs:
+    - wikidata:Q11559352
+    status: matched
+    note: "Unno-juku, Chiisagata district (now Tōmi); NRCT's 海野町 is the Ueda street, not this place"
+  新潟県葛塚町:
+    refs:
+    - wikidata:Q11620928
+    status: matched
+    note: "Kuzutsuka town, Kitakanbara district (1901–1955; now Kita-ku, Niigata)"
+  比叡山:
+    refs:
+    - wikidata:Q748040
+    status: matched
+    note: "Mount Hiei (the Enryakuji presses)"
+  高野山:
+    refs:
+    - wikidata:Q535065
+    - geonames:1858606
+    - tgn:1080336
+    status: matched
+    note: "Kōyasan (the 高野版 temple presses)"
+  越前一乗谷:
+    refs:
+    - wikidata:Q2968274
+    status: matched
+    note: >-
+      Ichijōdani, the Asakura seat in Echizen — the 一乗谷版 八十一難經
+      (天文5, 1536); the Wikidata item is the historic site
+  有馬:
+    refs:
+    - wikidata:Q4790673
+    - geonames:1865111
+    status: matched
+    note: "Arima Onsen (有馬山温泉小鑑, 貞享2)"
+  # --- Korea ---
+  密陽府:
+    refs:
+    - wikidata:Q42096
+    - geonames:1841149
+    status: matched
+  密州:
+    alias_of: 密陽府
+    note: >-
+      密州 — Miryang: the record (松雲大師奮忠紓難録, 1739) is the Samyeong
+      memorial print of Miryang's 表忠祠, not the Chinese 密州 (Zhucheng)
+  梨陽面 (全羅南道和順郡):
+    refs:
+    - wikidata:Q12611997
+    - geonames:8690593
+    status: matched
+  # --- Taiwan / Manchuria ---
+  臺北:
+    refs:
+    - wikidata:Q1867
+    - geonames:1668341
+    status: matched
+  奉天:
+    refs:
+    - wikidata:Q11720
+    - geonames:2034937
+    status: matched
+    note: "奉天 — Mukden/Shenyang (奉天通志, 1934)"
+  # --- China ---
+  北平:
+    refs:
+    - wikidata:Q956
+    - geonames:1816670
+    - tgn:7001758
+    status: matched
+    note: "北平 — Beijing (Republican-era imprints and one Qing literary use)"
+  上海:
+    refs:
+    - wikidata:Q8686
+    - geonames:1796236
+    status: matched
+  蘇松上海:
+    alias_of: 上海
+    note: "Shanghai of the Su(zhou)–Song(jiang) circuit"
+  金陵:
+    refs:
+    - wikidata:Q16666
+    - geonames:1799962
+    - tgn:7001892
+    status: matched
+    note: "金陵 — Nanjing (the 1590 Jinling 本草綱目)"
+  呉郡:
+    refs:
+    - wikidata:Q42622
+    - geonames:1886760
+    status: matched
+    note: "呉郡 — Suzhou; the row 呉門, 呉縣 and 蘇州 fold onto"
+  呉門:
+    alias_of: 呉郡
+  呉縣:
+    alias_of: 呉郡
+  蘇州:
+    alias_of: 呉郡
+  錢塘:
+    refs:
+    - wikidata:Q4970
+    - geonames:1808926
+    status: matched
+    note: "錢塘 — Hangzhou (Qiantang county); 仁和 is Hangzhou's other county seat"
+  仁和:
+    alias_of: 錢塘
+  呉江:
+    refs:
+    - wikidata:Q1371372
+    status: matched
+  寧波:
+    refs:
+    - wikidata:Q42780
+    - geonames:1799397
+    - tgn:7023881
+    status: matched
+  羊城:
+    refs:
+    - wikidata:Q16572
+    - geonames:1809858
+    status: matched
+    note: "羊城 — \"City of Rams\", Guangzhou"
+  儀徴:
+    refs:
+    - wikidata:Q1375588
+    - geonames:1786410
+    status: matched
+  蕭山:
+    refs:
+    - wikidata:Q592727
+    - geonames:1789993
+    status: matched
+  建陽:
+    refs:
+    - wikidata:Q639862
+    - geonames:1793477
+    - tgn:1069199
+    status: matched
+    note: "Jianyang, the Fujian book-trade town (the Masha 麻沙 presses)"
+  潭陽:
+    alias_of: 建陽
+    certainty: low
+    note: "潭陽 — the Jianyang booksellers' place-name (書林潭陽); a Ming record (崇禎17), not Korea's Damyang"
+  新安:
+    refs:
+    - wikidata:Q11071942
+    status: matched
+    note: >-
+      新安 — Huizhou prefecture (新安郡): the 1601 素問 is 吳勉學's Xin'an
+      print; Huizhou has no GeoNames place, the Wikidata item is the
+      historical prefecture
+  晉安:
+    refs:
+    - wikidata:Q68481
+    - geonames:1810821
+    status: matched
+    certainty: low
+    note: "晉安 — the Jin-dynasty commandery name of Fuzhou; one Ming record (前唐十二家詩, 萬暦31)"
+  遵義:
+    status: rejected
+    note: >-
+      the records are 古逸叢書 (光緒8–10, 1882–84), cut in Tokyo at the
+      Chinese legation under 黎庶昌; 遵義 names the editor's home
+      (遵義黎氏), not the production place — matching Zunyi would put a
+      Tokyo print in Guizhou
+  # --- other countries ---
+  伯林:
+    refs:
+    - wikidata:Q64
+    - geonames:2950159
+    status: matched
+    note: "伯林 — Berlin"
+  # --- regions ---
+  尾張:
+    status: region
+    note: "Owari province (Nagoya's province) — no town named"
+  尾州:
+    status: region
+    note: "Owari province"
+  尾陽:
+    status: region
+    note: "Owari province (literary)"
+  張州:
+    status: region
+    note: "Owari province (literary)"
+  伊勢:
+    status: region
+    note: "Ise province"
+  勢州:
+    status: region
+    note: "Ise province"
+  摂州:
+    status: region
+    note: "Settsu province"
+  濃州:
+    status: region
+    note: "Mino province"
+  濃州路:
+    status: region
+    note: "Mino province (\"the Mino road\")"
+  信陽:
+    status: region
+    note: "Shinano province (literary)"
+  紀州:
+    status: region
+    note: "Kii province"
+  山城:
+    status: region
+    note: "Yamashiro province (Kyoto's province) — no town named"
+  城州:
+    status: region
+    note: "Yamashiro province"
+  和州:
+    status: region
+    note: "Yamato province"
+  駿河国:
+    status: region
+    note: "Suruga province"
+  陸奥:
+    status: region
+    note: "Mutsu province"
+  近江:
+    status: region
+    note: "Ōmi province"
+  越後:
+    status: region
+    note: "Echigo province"
+  播州:
+    status: region
+    note: "Harima province"
+  加州:
+    status: region
+    note: "Kaga province"
+  出雲:
+    status: region
+    note: "Izumo province"
+  武州:
+    status: region
+    note: "Musashi province"
+  佐渡:
+    status: region
+    note: "Sado province (the island)"
+  三州:
+    status: region
+    note: >-
+      a province pair-name: Mikawa (三河) by the common abbreviation, or
+      the Satsuma–Ōsumi–Hyūga "three provinces"; either way a region
+  岩手県:
+    status: region
+    note: "Iwate prefecture"
+  全羅道:
+    status: region
+    note: "Jeolla province, Korea"
+  朝鮮:
+    status: region
+    note: "Korea (the country)"
+  楚北:
+    status: region
+    note: "楚北 — Hubei (northern Chu)"
+  # --- placeholders ---
+  〓溪:
+    status: ghost
+    note: "〓 is the record's missing-glyph mark (外字); the place cannot be read"
+  〓建:
+    status: ghost
+    note: "〓 is the record's missing-glyph mark (外字); the place cannot be read"
+  # --- multi-place values ---
+  京; 江戸:
+    status: rejected
+    note: "multi-place value (Kyoto + Edo co-publishers) — no single identity; the consumer should split"
+  大坂; 京:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  江戸; 大坂:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  大坂; 江戸:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  皇都; 攝陽:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  水戸; 江都:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  摂城; 東都:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  長﨑; 大坂:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  尾張; 信濃:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  洛下; 彦根:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  大阪; 江戸:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  大坂; 江府:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  大坂; 京都:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  佐賀; 京師:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  京都; 尾州:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  京都; 大阪:
+    status: rejected
+    note: "multi-place value — no single identity; the consumer should split"
+  〓陽; 江戸:
+    status: rejected
+    note: "multi-place value (one half a missing-glyph placeholder) — no single identity; the consumer should split"
+
+# korba (2026-10-21): KorBa, the manually annotated subcorpus 2.0 of the
+# Electronic Corpus of 17th- and 18th-century Polish Texts (IJP PAN). Keys
+# are the header's pubPlace role="place" value (the place of printing or,
+# for manuscripts, of writing — e.g. the village of a court book); where
+# the header names no town, the consumer falls back to pubPlace
+# role="region", the corpus's own regional classification (Wielkopolska,
+# Małopolska, Ziemie Ruskie, ...), which this section records as region
+# rows. Polish exonyms of foreign towns (Lipsk, Królewiec, Ryga, Rzym)
+# match the town; homonyms are settled by the header's region value and
+# the document itself (named in the notes). Refs: a Wikidata item, the
+# GeoNames populated place (feature class P), and the TGN inhabited
+# place where Wikidata carries one that TGN confirms. Census: 98 names,
+# 1,575 documents; 86 matched, 6 region, 1 alias, 3 rejected multi-place
+# values. Deliberately unlisted: Ostrów (1 document — a 1628 letter whose
+# text means a river island "na Ostrowiu", not an identifiable town) and
+# Honiatycze (1 document — two villages of the name, near Hrubieszów and
+# near Mykolaiv, both in the Ruthenian lands; nothing in the 1722 manor
+# description decides between them).
+korba:
+  Warszawa:
+    refs:
+    - geonames:756135
+    - tgn:7007833
+    - wikidata:Q270
+    status: matched
+  Kraków:
+    refs:
+    - geonames:3094802
+    - tgn:7007652
+    - wikidata:Q31487
+    status: matched
+  Wilno:
+    refs:
+    - geonames:593116
+    - tgn:7006521
+    - wikidata:Q216
+    status: matched
+    note: >-
+      Vilnius — the Polish exonym, upstream region Ziemie W. Ks.
+      Litewskiego
+  Lwów:
+    refs:
+    - geonames:702550
+    - tgn:7003382
+    - wikidata:Q36036
+    status: matched
+    note: >-
+      Lviv — the Polish exonym, upstream region Ziemie Ruskie
+  Poznań:
+    refs:
+    - geonames:3088171
+    - tgn:7007756
+    - wikidata:Q268
+    status: matched
+  Gdańsk:
+    refs:
+    - geonames:3099434
+    - tgn:7007660
+    - wikidata:Q1792
+    status: matched
+  Lublin:
+    refs:
+    - geonames:765876
+    - wikidata:Q37333
+    status: matched
+  Kalisz:
+    refs:
+    - geonames:3096880
+    - wikidata:Q52842
+    status: matched
+    note: >-
+      the Greater Poland town (upstream region Wielkopolska), not the
+      Masovian or Pomeranian village homonyms
+  Toruń:
+    refs:
+    - geonames:3083271
+    - wikidata:Q47554
+    status: matched
+  Wrocław:
+    refs:
+    - geonames:3081368
+    - tgn:7007601
+    - wikidata:Q1799
+    status: matched
+  Królewiec:
+    refs:
+    - geonames:554234
+    - tgn:7013050
+    - wikidata:Q4120832
+    status: matched
+    note: >-
+      Königsberg in Prussia (the Polish exonym; upstream region Pomorze
+      i Prusy) — the Wikidata item is the historic city, the
+      GeoNames/TGN records its continuation, Kaliningrad; not Krolevets
+      (Sumy oblast) or the Masovian village
+  Leszno:
+    refs:
+    - geonames:3093524
+    - tgn:1049207
+    - wikidata:Q52892
+    status: matched
+    note: >-
+      the Greater Poland town (upstream region Wielkopolska; the Unity
+      of Brethren press), not the Masovian village
+  Żółkiew:
+    refs:
+    - geonames:687093
+    - wikidata:Q864836
+    status: matched
+    note: >-
+      Zhovkva, Lviv oblast — the Polish name; upstream region Ziemie
+      Ruskie
+  Zamość:
+    refs:
+    - geonames:753866
+    - wikidata:Q145972
+    status: matched
+  Brzeg:
+    refs:
+    - geonames:3102459
+    - wikidata:Q214640
+    status: matched
+    note: >-
+      Brzeg on the Oder (Brieg; upstream region Śląsk), not the Łódź-
+      voivodeship village
+  Sandomierz:
+    refs:
+    - geonames:759603
+    - wikidata:Q193177
+    status: matched
+  Oliwa:
+    refs:
+    - geonames:3090147
+    - tgn:4008183
+    - wikidata:Q1447540
+    status: matched
+    note: >-
+      Oliwa (Oliva), the Cistercian abbey town, now a district of Gdańsk
+      — upstream region Pomorze i Prusy; its documents are prints of the
+      Oliwa Cistercian press (Textor)
+  Halicz:
+    refs:
+    - geonames:709034
+    - wikidata:Q146450
+    status: matched
+    note: >-
+      Halych — the sejmik town of the Halicz land (the documents are
+      Lauda sejmikowe halickie); upstream region Ziemie Ruskie
+  Supraśl:
+    refs:
+    - geonames:757758
+    - wikidata:Q1906334
+    status: matched
+    note: >-
+      the Basilian monastery town and press (Drukarnia Bazylianów) in
+      Podlachia; one document (a 1752 print) carries upstream region
+      Mazowsze, the rest Ziemie W. Ks. Litewskiego — same town
+  Lubcz:
+    refs:
+    - geonames:625712
+    - wikidata:Q2596991
+    status: matched
+    note: >-
+      Lubcz on the Niemen (Liubča, Belarus) — every document is a print
+      of Piotr Blastus Kmita's Lubcz press (1610s–1620s); upstream
+      region Ziemie W. Ks. Lit(ewskiego); not the Polish village
+      homonyms
+  Poczajów:
+    refs:
+    - geonames:697006
+    - wikidata:Q149060
+    status: matched
+    note: >-
+      Pochaiv — the Lavra press; upstream region Ziemie Ruskie
+  Lipsk:
+    refs:
+    - geonames:2879139
+    - tgn:7012329
+    - wikidata:Q2079
+    status: matched
+    note: >-
+      Leipzig — the Polish exonym; upstream region zagranica (abroad),
+      so not the Podlachian town Lipsk
+  Kijów:
+    refs:
+    - geonames:703448
+    - tgn:7010171
+    - wikidata:Q1899
+    status: matched
+    note: >-
+      Kyiv — the Polish exonym; upstream region Ziemie Ruskie
+  Częstochowa:
+    refs:
+    - geonames:3100946
+    - wikidata:Q103217
+    status: matched
+  Braniewo:
+    refs:
+    - geonames:3102677
+    - wikidata:Q160814
+    status: matched
+    note: >-
+      Braniewo (Braunsberg) in Warmia; upstream region Pomorze i Prusy
+  Łowicz:
+    refs:
+    - geonames:3093066
+    - tgn:7007581
+    - wikidata:Q109992
+    status: matched
+  Wisznia:
+    refs:
+    - geonames:692301
+    - wikidata:Q1026911
+    status: matched
+    note: >-
+      Sądowa Wisznia (Sudova Vyshnia) — the documents are Lauda
+      wiszeńskie, the resolutions of the Przemyśl-land sejmik, which met
+      at Sądowa Wisznia; not the river or the Horodok-raion village
+      Vyshnia
+  Raków:
+    refs:
+    - geonames:760657
+    - wikidata:Q1013344
+    status: matched
+    note: >-
+      Raków in the Sandomierz voivodeship — the Polish Brethren (Arian)
+      centre; the documents are Arian prints (Sebastian Sternacki's
+      Raków press, Psalmy i pieśni ariańskie); upstream region
+      Małopolska; not Rakaŭ (Belarus) or the other village homonyms
+  Amsterdam:
+    refs:
+    - geonames:2759794
+    - tgn:7006952
+    - wikidata:Q727
+    status: matched
+    note: >-
+      upstream region zagranica (abroad)
+  Wysoka k. Łańcuta:
+    refs:
+    - geonames:754509
+    - wikidata:Q8040546
+    status: matched
+    note: >-
+      Wysoka near Łańcut ("k." = koło, near) — the village of the land
+      books (Księgi gruntowe wsi Wysoka k. Łańcuta), 3 km from Łańcut
+  Ptaszkowa:
+    refs:
+    - geonames:760953
+    - wikidata:Q7256649
+    status: matched
+    note: >-
+      the village of the court books (Księgi gromadzkie wsi Ptaszkowa),
+      Nowy Sącz county
+  Krowodrza:
+    refs:
+    - geonames:3094616
+    - wikidata:Q11748397
+    status: matched
+    note: >-
+      the village of the court books (Księgi gromadzkie wsi Krowodrza),
+      since annexed by Kraków — the historic settlement, not the modern
+      Krowodrza district
+  Kasina Wielka:
+    refs:
+    - geonames:769443
+    - wikidata:Q749921
+    status: matched
+    note: >-
+      the village of the court books (Księgi gromadzkie wsi Kasina
+      Wielka)
+  Grodno:
+    refs:
+    - geonames:627904
+    - wikidata:Q181376
+    status: matched
+    note: >-
+      Hrodna — the Polish name; upstream region Ziemie W. Ks.
+      Litewskiego
+  Berdyczów:
+    refs:
+    - geonames:712441
+    - wikidata:Q158799
+    status: matched
+    note: >-
+      Berdychiv — the Discalced Carmelite press; upstream region Ziemie
+      Ruskie
+  Wola Jasienicka:
+    refs:
+    - geonames:755275
+    - wikidata:Q8029455
+    status: matched
+    note: >-
+      the village of the court books (Księga gromadzka wsi Wola
+      Jasienicka), Brzozów county
+  Słuck:
+    refs:
+    - geonames:621741
+    - wikidata:Q201243
+    status: matched
+    note: >-
+      Slutsk — the Polish name; upstream region Ziemie W. Ks.
+      Lit(ewskiego)
+  Koło:
+    refs:
+    - geonames:3095797
+    - tgn:1049151
+    - wikidata:Q52853
+    status: matched
+    note: >-
+      the Greater Poland town on the Warta (upstream region
+      Wielkopolska); the three documents are 1607 rokosz-era political
+      tracts (Pisma polityczne z czasów rokoszu Zebrzydowskiego) dated
+      there
+  Czernihów:
+    refs:
+    - geonames:710735
+    - wikidata:Q157053
+    status: matched
+    note: >-
+      Chernihiv — the Polish name; upstream region Ziemie Ruskie
+  Łaszczów:
+    refs:
+    - geonames:766692
+    - wikidata:Q2167485
+    status: matched
+  Ryga:
+    refs:
+    - geonames:456172
+    - tgn:7006484
+    - wikidata:Q1773
+    status: matched
+    note: >-
+      Riga — the Polish exonym; upstream region Inflanty (Livonia)
+  Nieśwież:
+    refs:
+    - geonames:624700
+    - wikidata:Q201230
+    status: matched
+    note: >-
+      Nesvizh — the Radziwiłł seat; upstream region Ziemie W. Ks.
+      Litewskiego
+  Laszki Murowane:
+    refs:
+    - geonames:700607
+    - wikidata:Q7223616
+    status: matched
+    note: >-
+      Laszki Murowane (Murovane), Staryi Sambir area, Lviv oblast — the
+      former town with the castle (Zamek w Laszkach Murowanych, Wikidata
+      Q12105755, sits at the same point); the documents are the 1748
+      castle description; not the Pustomyty-raion village Murovane
+  Koniecpol:
+    refs:
+    - geonames:3095330
+    - wikidata:Q1003267
+    status: matched
+  Elbląg:
+    refs:
+    - geonames:3099759
+    - tgn:7007656
+    - wikidata:Q104712
+    status: matched
+  Dermań:
+    refs:
+    - wikidata:Q4158992
+    status: matched
+    note: >-
+      Dermań (Derman), Rivne oblast — the Holy Trinity monastery where
+      Meletius Smotrytsky, its archimandrite, wrote the Apologia (1628);
+      the monastery stands in today's Dermań Drugi, the item cited; no
+      GeoNames record found
+  Czerna:
+    refs:
+    - geonames:3101030
+    - wikidata:Q3495489
+    status: matched
+    note: >-
+      Czerna near Krzeszowice — the Discalced Carmelite monastery whose
+      subjects' court records these are (Sprawy sądowe poddanych
+      klasztoru OO. Karmelitów w Czernej); upstream region Małopolska
+  Białystok:
+    refs:
+    - geonames:776069
+    - wikidata:Q761
+    status: matched
+    note: >-
+      upstream region Podlasie
+  Żytomierz:
+    refs:
+    - geonames:686967
+    - wikidata:Q156713
+    status: matched
+    note: >-
+      Zhytomyr — the Polish name
+  Łuck:
+    refs:
+    - geonames:702569
+    - wikidata:Q7550
+    status: matched
+    note: >-
+      Lutsk — the Polish name
+  Złoczów:
+    refs:
+    - geonames:686896
+    - wikidata:Q623594
+    status: matched
+    note: >-
+      Zolochiv, Lviv oblast — the Polish name
+  Wieliczka:
+    refs:
+    - geonames:755889
+    - wikidata:Q472621
+    status: matched
+  Torki:
+    refs:
+    - geonames:756832
+    - wikidata:Q7825871
+    status: matched
+    note: >-
+      Torki near Medyka, Przemyśl county — the village of the court book
+      (Księga gromadzka wsi Torki), whose text names the neighbouring
+      Medyka; not Torky in Radekhiv raion
+  Szawle:
+    refs:
+    - geonames:594739
+    - wikidata:Q134712
+    status: matched
+    note: >-
+      Šiauliai — the Polish name
+  Skole:
+    refs:
+    - geonames:693658
+    - tgn:1059464
+    - wikidata:Q913962
+    status: matched
+    note: >-
+      Skole, Lviv oblast — the document is the 1698 ordinance for the
+      Tuchla estate (włość tuchelska) near Skole
+  Sierpc:
+    refs:
+    - geonames:3085941
+    - tgn:1049456
+    - wikidata:Q928392
+    status: matched
+  Siemiatycze:
+    refs:
+    - geonames:759320
+    - wikidata:Q218980
+    status: matched
+  Rzym:
+    refs:
+    - geonames:3169070
+    - tgn:7000874
+    - wikidata:Q220
+    status: matched
+    note: >-
+      Rome — the Polish exonym; upstream region zagranica (abroad). The
+      early-modern city; the ancient Roma (pleiades:423025) is not this
+      imprint's referent
+  Radzięcin:
+    refs:
+    - geonames:760717
+    - wikidata:Q7281876
+    status: matched
+    note: >-
+      Radzięcin near Frampol (Biłgoraj county) — the owner's seat where
+      the Frampol Jewish privilege (Jewish Privileges in the Polish
+      Commonwealth, vol. II) was issued
+  Płock:
+    refs:
+    - geonames:3088825
+    - tgn:7007754
+    - wikidata:Q104725
+    status: matched
+  Przybyszów:
+    refs:
+    - geonames:3087866
+    - wikidata:Q607054
+    status: matched
+    note: >-
+      Przybyszów near Szczekociny (Włoszczowa county) — Kościuszko's
+      1794 proclamation is dated from the field of the Szczekociny
+      campaign (June 1794), fought around this village; the Lubusz,
+      Subcarpathian and Greater Poland Przybyszów homonyms do not fit
+      upstream's Małopolska
+  Przemyśl:
+    refs:
+    - geonames:761168
+    - wikidata:Q208473
+    status: matched
+  Połock:
+    refs:
+    - geonames:623317
+    - wikidata:Q200797
+    status: matched
+    note: >-
+      Polotsk — the Polish name. Wikidata's TGN id for this item
+      (1058551) resolves to a Chelyabinsk-oblast homonym in TGN, so no
+      TGN ref is cited
+  Potylicz:
+    refs:
+    - geonames:696426
+    - wikidata:Q4374741
+    status: matched
+    note: >-
+      Potelych, Lviv oblast (Zhovkva raion) — the document is the 1718
+      estate inventory of a Potylicz burgher
+  Poddubce:
+    refs:
+    - wikidata:Q775054
+    status: matched
+    certainty: low
+    note: >-
+      Poddębce/Poddubce (Piddubne), Sokal raion, Lviv oblast — inferred
+      from the 1703 testament of Marianna Dunin (castellan's wife of
+      Lubaczów), which disposes of the estates Machnów, Korni and Karów:
+      Machnów (50.36 N 23.61 E) and Karów (Kariv, 50.35 N 23.80 E) lie
+      6–8 km either side of this village (50.35 N 23.72 E); the
+      Volhynian (Lutsk raion) and Khmelnytsky-oblast Piddubtsi are the
+      set-aside homonyms; no GeoNames record found
+  Piotrków:
+    refs:
+    - geonames:3088972
+    - wikidata:Q158004
+    status: matched
+    note: >-
+      Piotrków Trybunalski (the Sieradz voivodeship, Greater Poland
+      province — upstream region Wielkopolska)
+  Pilica:
+    refs:
+    - geonames:3089010
+    - wikidata:Q555053
+    status: matched
+    note: >-
+      the town (Jewish privilege of Pilica), not the river
+  Owrucz:
+    refs:
+    - geonames:698131
+    - wikidata:Q27039
+    status: matched
+    note: >-
+      Ovruch — the Polish name; the document is the Owrucz castle-court
+      book (Księga grodzka owrucka)
+  Oppawa:
+    refs:
+    - geonames:3068927
+    - tgn:7011718
+    - wikidata:Q156080
+    status: matched
+    note: >-
+      Opava (Troppau) — the Polish name; upstream region Śląsk; the
+      Szyndler press
+  Oleśnica:
+    refs:
+    - geonames:3090170
+    - wikidata:Q138229
+    status: matched
+    note: >-
+      Oleśnica in Lower Silesia (upstream region Śląsk), not the
+      Świętokrzyskie town
+  Nowogród Siewierski:
+    refs:
+    - geonames:699753
+    - wikidata:Q147758
+    status: matched
+    note: >-
+      Novhorod-Siverskyi — the Polish name
+  Nancy:
+    refs:
+    - geonames:2990999
+    - tgn:7008412
+    - wikidata:Q40898
+    status: matched
+    note: >-
+      upstream region zagranica (abroad)
+  Mińsk:
+    refs:
+    - geonames:625144
+    - tgn:7014820
+    - wikidata:Q2280
+    status: matched
+    note: >-
+      Minsk (upstream region Ziemie W. Ks. Litewskiego), not Mińsk
+      Mazowiecki
+  Mir:
+    refs:
+    - geonames:625128
+    - tgn:1057021
+    - wikidata:Q922668
+    status: matched
+    note: >-
+      Mir (Belarus), the Radziwiłł town — upstream's place for the
+      Nieśwież-volume Jewish privilege; upstream region Ziemie W. Ks.
+      Lit
+  Lwówek:
+    refs:
+    - geonames:3092639
+    - wikidata:Q1005905
+    status: matched
+    note: >-
+      Lwówek, Nowy Tomyśl county (upstream region Wielkopolska) — not
+      Lwówek Śląski or the Masovian village
+  Lubartów:
+    refs:
+    - geonames:765927
+    - wikidata:Q283885
+    status: matched
+  Kwidzyn:
+    refs:
+    - geonames:3094086
+    - wikidata:Q326582
+    status: matched
+    note: >-
+      Kwidzyn (Marienwerder), West Prussia — the 1780 Publicandum dla
+      Prus Zachodnich
+  Kuniów:
+    refs:
+    - wikidata:Q4247198
+    status: matched
+    note: >-
+      Kuniv, Khmelnytsky oblast (historic Volhynia; upstream region
+      Ziemie Ruskie) — the castle inventory (Inwentarz zamku w
+      Kuniowie); not the Opole-voivodeship village Kuniów; no GeoNames
+      record found
+  Komborska Wola:
+    refs:
+    - geonames:755261
+    - wikidata:Q8029470
+    status: matched
+    note: >-
+      Wola Komborska, Krosno county — upstream writes the inverted form;
+      the village of the court book (Księga gromadzka wsi Komborska
+      Wola)
+  Kamieniec Podolski:
+    refs:
+    - geonames:706950
+    - tgn:7012019
+    - wikidata:Q193965
+    status: matched
+    note: >-
+      Kamianets-Podilskyi — the Polish name
+  Jędrzejów:
+    refs:
+    - geonames:770157
+    - wikidata:Q249259
+    status: matched
+  Jarosław:
+    refs:
+    - geonames:770380
+    - wikidata:Q721928
+    status: matched
+    note: >-
+      Jarosław on the San (upstream region Ziemie Ruskie), not Yaroslavl
+  Janowiec:
+    refs:
+    - geonames:770441
+    - wikidata:Q2688480
+    status: matched
+    note: >-
+      Janowiec on the Vistula (Puławy county; historic Sandomierz
+      voivodeship, upstream region Małopolska) — the 1606 rokosz tract's
+      place; the small Podkarpackie village homonym is not a plausible
+      imprint/dating place
+  Grotniki:
+    refs:
+    - geonames:3098231
+    - wikidata:Q5610749
+    status: matched
+    note: >-
+      Grotniki near Włoszakowice (Leszno county; upstream region
+      Wielkopolska) — the court book names the Włoszakowice church; not
+      the Zgierz-county Grotniki, which dates only from 1905
+  Biały Kamień:
+    refs:
+    - wikidata:Q2602343
+    status: matched
+    note: >-
+      Bilyi Kamin, Zolochiv raion, Lviv oblast — the document is the
+      Biały Kamień kahal privilege ("kahałowi białokamienieckiemu"); not
+      the Wałbrzych district; no GeoNames record found
+  Antwerpia:
+    refs:
+    - geonames:2803138
+    - tgn:7007856
+    - wikidata:Q12892
+    status: matched
+    note: >-
+      Antwerp — the Polish exonym; upstream region zagranica (abroad)
+  Wielkopolska:
+    status: region
+    note: >-
+      Greater Poland — the historic province/land (upstream's own
+      regional classification); the place axis carries it where the text
+      names no town
+  Małopolska:
+    status: region
+    note: >-
+      Lesser Poland — the historic province/land (upstream's own
+      regional classification); the place axis carries it where the text
+      names no town
+  Ziemie Ruskie:
+    status: region
+    note: >-
+      the Ruthenian lands of the Crown (Red Ruthenia, Volhynia, Podolia,
+      the Kyiv lands) — upstream's own regional classification
+  Pomorze i Prusy:
+    status: region
+    note: >-
+      Pomerania and Prussia (Royal and Ducal Prussia, Gdańsk Pomerania)
+      — upstream's own regional classification
+  Mazowsze:
+    status: region
+    note: >-
+      Mazovia — upstream's own regional classification
+  Ziemie W. Ks. Lit:
+    status: region
+    note: >-
+      the lands of the Grand Duchy of Lithuania (Ziemie Wielkiego
+      Księstwa Litewskiego) — upstream's own regional classification;
+      the abbreviated spelling (upstream's "Ziemie W. Ks. Lit.", the
+      consumer strips the trailing period), the full spelling is an
+      alias
+  Ziemie W. Ks. Litewskiego:
+    alias_of: Ziemie W. Ks. Lit
+    note: >-
+      the full spelling of the same regional label (lands of the Grand
+      Duchy of Lithuania)
+  Warszawa-Lwów:
+    status: rejected
+    note: >-
+      multi-place value (5 documents; upstream region "inny") — a joint
+      Warsaw–Lviv imprint has no single identity; the consumer should
+      split
+  Drezno-Lipsk:
+    status: rejected
+    note: >-
+      multi-place value (2 documents; upstream region zagranica) —
+      Dresden and Leipzig, no single identity; the consumer should split
+  Warszawa-Lipsk:
+    status: rejected
+    note: >-
+      multi-place value (1 document; upstream region "inny") — Warsaw
+      and Leipzig, no single identity; the consumer should split
+
+# corpus-gysseling (2026-10-21): the localisations of Corpus Gysseling
+# (INT/IvdNT; the 13th-century Middle Dutch originals). Keys are the
+# corpus's own place-table names (plaats.txt — modern Dutch forms, with
+# its own (B)/(NL) disambiguators), reached through each document's first
+# localisation marker; where a document carries a region code but no
+# place, the consumer falls back to the region-table name (regio.txt), so
+# the nine region names are keys too. 153 names, 2,226 documents: 138
+# towns, villages and abbeys matched (each a Wikidata item, plus the
+# GeoNames populated place and Getty TGN record where they exist,
+# GeoNames feature class and distance cross-checked live 2026-10-21),
+# 13 region rows (the region table, the count of Holland's chancery,
+# districts and lordships), 2 two-place localisations rejected.
+# Corpus spellings that differ from the modern name (Aksel, Grauw,
+# Zieriksee, Zutfen, Mörs, Kuik …) are the keys as written; the note
+# names the modern place.
+corpus-gysseling:
+  Brugge:
+    refs:
+    - geonames:2800931
+    - tgn:7007867
+    - wikidata:Q12994
+    status: matched
+  Gent:
+    refs:
+    - geonames:2797656
+    - tgn:7007887
+    - wikidata:Q1296
+    status: matched
+  Mechelen:
+    refs:
+    - geonames:2791537
+    - tgn:7008736
+    - wikidata:Q162022
+    status: matched
+  Dordrecht:
+    refs:
+    - geonames:2756669
+    - tgn:7006798
+    - wikidata:Q26421
+    status: matched
+  Aardenburg:
+    refs:
+    - geonames:2760096
+    - tgn:1047597
+    - wikidata:Q955
+    status: matched
+  Utrecht:
+    refs:
+    - geonames:2745912
+    - tgn:7006926
+    - wikidata:Q803
+    status: matched
+    note: >-
+      the city of Utrecht (the place table's entry), not the
+      province
+  Lissewege:
+    refs:
+    - geonames:2792266
+    - tgn:7007947
+    - wikidata:Q1924402
+    status: matched
+  Grimbergen:
+    refs:
+    - geonames:2797114
+    - tgn:1026456
+    - wikidata:Q633063
+    status: matched
+  Brussel:
+    refs:
+    - geonames:2800866
+    - tgn:7007868
+    - wikidata:Q239
+    status: matched
+  Geraardsbergen:
+    refs:
+    - geonames:2797638
+    - tgn:7007888
+    - wikidata:Q499532
+    status: matched
+  Aalst:
+    refs:
+    - geonames:2803448
+    - tgn:7006843
+    - wikidata:Q13121
+    status: matched
+  Hulst:
+    refs:
+    - geonames:2753439
+    - wikidata:Q81100
+    status: matched
+  Maldegem:
+    refs:
+    - geonames:2791857
+    - tgn:1026585
+    - wikidata:Q12896
+    status: matched
+  Eeklo:
+    refs:
+    - geonames:2798987
+    - tgn:1026406
+    - wikidata:Q12440
+    status: matched
+  Breda:
+    refs:
+    - geonames:2758401
+    - tgn:7006827
+    - wikidata:Q40844
+    status: matched
+  Oudenaarde:
+    refs:
+    - geonames:2789529
+    - tgn:7007972
+    - wikidata:Q12992
+    status: matched
+  Zieriksee:
+    refs:
+    - geonames:2743913
+    - wikidata:Q81076
+    status: matched
+    note: >-
+      modern Zierikzee (Schouwen-Duiveland); the corpus's spelling
+  Oudenburg:
+    refs:
+    - geonames:2789519
+    - tgn:1026663
+    - wikidata:Q835128
+    status: matched
+  Middelburg:
+    refs:
+    - geonames:2750896
+    - tgn:7006752
+    - wikidata:Q52101
+    status: matched
+  Evergem:
+    refs:
+    - geonames:2798551
+    - tgn:1026420
+    - wikidata:Q12997
+    status: matched
+  Damme:
+    refs:
+    - geonames:2799885
+    - wikidata:Q323408
+    status: matched
+  Antwerpen:
+    refs:
+    - geonames:2803138
+    - tgn:7007856
+    - wikidata:Q12892
+    status: matched
+  Ninove:
+    refs:
+    - geonames:2790114
+    - tgn:7007963
+    - wikidata:Q385026
+    status: matched
+  Erps:
+    refs:
+    - geonames:2798668
+    - wikidata:Q124623282
+    status: matched
+    note: >-
+      the village of Erps (now Erps-Kwerps, Kortenberg); GeoNames holds
+      the merged village Erps-Kwerps
+  Assenede:
+    refs:
+    - geonames:2803026
+    - tgn:1026295
+    - wikidata:Q12901
+    status: matched
+  Sint-Genesius-Rode:
+    refs:
+    - geonames:2786700
+    - tgn:7252618
+    - wikidata:Q841597
+    status: matched
+  Kloosterzande:
+    refs:
+    - geonames:2752611
+    - wikidata:Q945131
+    status: matched
+  Aksel:
+    refs:
+    - geonames:2759594
+    - wikidata:Q1616240
+    status: matched
+    note: >-
+      modern Axel (Zeeuws-Vlaanderen); the corpus's Flemish spelling
+  Sint-Pieters-Leeuw:
+    refs:
+    - geonames:2786559
+    - tgn:1026737
+    - wikidata:Q688790
+    status: matched
+  Maastricht:
+    refs:
+    - geonames:2751283
+    - tgn:7006862
+    - wikidata:Q1309
+    status: matched
+  Gentbrugge:
+    refs:
+    - tgn:1026443
+    - wikidata:Q680916
+    status: matched
+  Duffel:
+    refs:
+    - geonames:2799090
+    - wikidata:Q615109
+    status: matched
+  Delft:
+    refs:
+    - geonames:2757345
+    - tgn:7006804
+    - wikidata:Q690
+    status: matched
+  Bergen-op-Zoom:
+    refs:
+    - geonames:2759145
+    - tgn:7006822
+    - wikidata:Q192508
+    status: matched
+  Veurne:
+    refs:
+    - geonames:2784804
+    - wikidata:Q506707
+    status: matched
+  Velzeke:
+    refs:
+    - geonames:2784903
+    - tgn:7030165
+    - wikidata:Q1995379
+    status: matched
+    note: >-
+      the village of Velzeke (now Velzeke-Ruddershove, Zottegem);
+      GeoNames and TGN hold the merged section
+  Rijnsburg:
+    refs:
+    - geonames:2748104
+    - wikidata:Q1615333
+    status: matched
+  Oedelem:
+    refs:
+    - geonames:2789948
+    - tgn:1026645
+    - wikidata:Q1023248
+    status: matched
+  Monster:
+    refs:
+    - geonames:2750630
+    - wikidata:Q969531
+    status: matched
+  Leefdaal:
+    refs:
+    - geonames:2793054
+    - wikidata:Q773208
+    status: matched
+  Kleve:
+    refs:
+    - geonames:2887835
+    - wikidata:Q6842
+    status: matched
+    note: >-
+      Kleve (Cleves) on the Lower Rhine, the corpus's Nederrijn region
+  Grauw:
+    refs:
+    - geonames:2755382
+    - wikidata:Q2682639
+    status: matched
+    note: >-
+      modern Graauw (Hulst); the corpus's spelling
+  Drongen:
+    refs:
+    - geonames:2799108
+    - tgn:1026401
+    - wikidata:Q1260195
+    status: matched
+  Arkel:
+    refs:
+    - geonames:2759673
+    - wikidata:Q1165364
+    status: matched
+  Wolvertem:
+    refs:
+    - wikidata:Q3471888
+    status: matched
+  Willebroek:
+    refs:
+    - geonames:2783632
+    - tgn:1026814
+    - wikidata:Q695278
+    status: matched
+  Sluis:
+    refs:
+    - geonames:2747117
+    - wikidata:Q2065987
+    status: matched
+  Sinaai:
+    refs:
+    - wikidata:Q3475052
+    status: matched
+  Oostkamp:
+    refs:
+    - geonames:2789751
+    - tgn:1026653
+    - wikidata:Q742892
+    status: matched
+  Oostburg:
+    refs:
+    - geonames:2749541
+    - wikidata:Q1615032
+    status: matched
+  Nevele:
+    refs:
+    - geonames:2790235
+    - wikidata:Q822651
+    status: matched
+  Gistel:
+    refs:
+    - geonames:2797517
+    - tgn:1026450
+    - wikidata:Q815948
+    status: matched
+  Calais:
+    refs:
+    - geonames:3029162
+    - tgn:7009002
+    - wikidata:Q6454
+    status: matched
+    note: >-
+      Calais, in the 13th century a town of the county of Flanders; the
+      corpus files it under West-Vlaanderen
+  Boechoute:
+    refs:
+    - geonames:2801729
+    - tgn:7248702
+    - wikidata:Q12986
+    status: matched
+    note: >-
+      modern Boekhoute (Assenede); the corpus's spelling
+  Biezelinge:
+    refs:
+    - geonames:2758965
+    - wikidata:Q858257
+    status: matched
+  Asse:
+    refs:
+    - geonames:2803033
+    - tgn:1026293
+    - wikidata:Q515710
+    status: matched
+  Zutfen:
+    refs:
+    - geonames:2743608
+    - wikidata:Q109535
+    status: matched
+    note: >-
+      modern Zutphen; the corpus's spelling
+  Wateringen:
+    refs:
+    - geonames:2744973
+    - wikidata:Q1615972
+    status: matched
+  Vorst:
+    refs:
+    - geonames:2798139
+    - tgn:7007883
+    - wikidata:Q72946
+    status: matched
+    note: >-
+      Vorst / Forest (Brussels), seat of the Benedictine nunnery of
+      Vorst; Brabant-West in the corpus's region table
+  Saaftinge:
+    refs:
+    - wikidata:Q3461224
+    status: matched
+    note: >-
+      Saeftinghe, the town drowned in the 1570/1584 floods (now the
+      Verdronken Land van Saeftinghe); Wikidata holds it as a lost
+      settlement, no modern GeoNames populated place
+  Roeselare:
+    refs:
+    - geonames:2787889
+    - tgn:7255378
+    - wikidata:Q211037
+    status: matched
+  Noordwijk:
+    refs:
+    - geonames:2749812
+    - wikidata:Q455464
+    status: matched
+    note: >-
+      the medieval village core, Noordwijk-Binnen (GeoNames populated
+      place); the Wikidata item is the municipality — the Groningen and
+      Drenthe homonyms are outside the corpus's Holland-West region
+  Moerkerke:
+    refs:
+    - geonames:2791098
+    - wikidata:Q2765413
+    status: matched
+  Merkem:
+    refs:
+    - geonames:2791304
+    - tgn:1026603
+    - wikidata:Q2326156
+    status: matched
+  Kortrijk:
+    refs:
+    - geonames:2794055
+    - wikidata:Q12995
+    status: matched
+  Kaprijke:
+    refs:
+    - geonames:2794707
+    - tgn:1026526
+    - wikidata:Q12437
+    status: matched
+  Hoeke:
+    refs:
+    - geonames:2795688
+    - wikidata:Q1848627
+    status: matched
+  Heusden (B):
+    refs:
+    - geonames:2795801
+    - wikidata:Q389656
+    status: matched
+    note: >-
+      the corpus's own (B) disambiguator — Heusden near Ghent
+      (Destelbergen), consistent with its Oost-Vlaanderen region; the
+      Dutch town is "Heusden (NL)"
+  Hemiksem:
+    refs:
+    - geonames:2796085
+    - tgn:1026483
+    - wikidata:Q724448
+    status: matched
+  Haarlem:
+    refs:
+    - geonames:2755003
+    - tgn:7007048
+    - wikidata:Q9920
+    status: matched
+  Elmare:
+    refs:
+    - wikidata:Q3231566
+    status: matched
+    note: >-
+      the vanished village and Benedictine priory of Elmare (near
+      Sint-Margriete, Sint-Laureins), a dependency of St Peter's, Ghent
+      — the sample charter is St Peter's business at Oostburg; Wikidata
+      only (lost settlement, no GeoNames populated place)
+  Dworp:
+    refs:
+    - geonames:2799034
+    - tgn:7247975
+    - wikidata:Q576532
+    status: matched
+  Beerst:
+    refs:
+    - geonames:2802430
+    - wikidata:Q2291999
+    status: matched
+  Zottegem:
+    refs:
+    - geonames:2783175
+    - tgn:7008821
+    - wikidata:Q226941
+    status: matched
+  Zevergem:
+    refs:
+    - tgn:7258645
+    - wikidata:Q3471950
+    status: matched
+  Zevekote:
+    refs:
+    - tgn:7258452
+    - wikidata:Q3110851
+    status: matched
+  Zemst:
+    refs:
+    - geonames:2783274
+    - tgn:7008819
+    - wikidata:Q179249
+    status: matched
+  Zaamslag:
+    refs:
+    - geonames:2744122
+    - wikidata:Q741975
+    status: matched
+  Wuustwezel:
+    refs:
+    - geonames:2783416
+    - tgn:1026818
+    - wikidata:Q912045
+    status: matched
+  Wissekerke:
+    refs:
+    - geonames:2744317
+    - wikidata:Q1848139
+    status: matched
+    certainty: low
+    note: >-
+      read as Wissenkerke on Noord-Beveland — the sample charter
+      (Florens of Hainaut to the nuns of Noordijk) disposes of land "in
+      nortbeuelant te wissenkerke"; the corpus localisation is not
+      further qualified, and the Bazel (Kruibeke) castle homonym
+      Wissekerke is outside its Zeeland region
+  Watervliet:
+    refs:
+    - geonames:2783966
+    - wikidata:Q14987
+    status: matched
+  Waalwijk:
+    refs:
+    - geonames:2745123
+    - wikidata:Q9879
+    status: matched
+  Vladslo:
+    refs:
+    - geonames:2784508
+    - wikidata:Q1411366
+    status: matched
+  Vianen:
+    refs:
+    - geonames:2745580
+    - wikidata:Q10052
+    status: matched
+  Viane:
+    refs:
+    - wikidata:Q3472771
+    status: matched
+  Torhout:
+    refs:
+    - geonames:2785364
+    - tgn:7008017
+    - wikidata:Q270633
+    status: matched
+  Tongeren:
+    refs:
+    - geonames:2785389
+    - tgn:7008015
+    - wikidata:Q190113
+    status: matched
+    note: >-
+      Tongeren (Limburg, Belgium); the medieval town, not the Roman
+      layer
+  Tervuren:
+    refs:
+    - geonames:2785622
+    - tgn:7008010
+    - wikidata:Q456544
+    status: matched
+  Strijtem:
+    refs:
+    - wikidata:Q2489944
+    status: matched
+  Stein:
+    refs:
+    - geonames:2746748
+    - wikidata:Q14389950
+    status: matched
+    note: >-
+      Stein in Dutch Limburg (the lords of Stein; corpus region Limburg)
+      — the sample charter is Arnout van Steyne's
+  Spui:
+    refs:
+    - geonames:2746883
+    - wikidata:Q1822485
+    status: matched
+    note: >-
+      the village of Spui (Terneuzen) in the Axel district — the sample
+      charter's parishes (Stelant, Ossenisse) are its neighbours; not
+      the Holland river Spui
+  Sint-Truiden:
+    refs:
+    - geonames:2786545
+    - tgn:7008735
+    - wikidata:Q37792
+    status: matched
+  Sint-Michielsgestel:
+    refs:
+    - geonames:2747234
+    - wikidata:Q12013374
+    status: matched
+  Sint-Lievens-Houtem:
+    refs:
+    - geonames:2786616
+    - tgn:7252879
+    - wikidata:Q817372
+    status: matched
+  Sint-Katelijne-Waver:
+    refs:
+    - geonames:2786641
+    - tgn:7252904
+    - wikidata:Q696578
+    status: matched
+  Sijsele:
+    refs:
+    - geonames:2786777
+    - wikidata:Q3110841
+    status: matched
+  Schoonhoven:
+    refs:
+    - geonames:2747506
+    - wikidata:Q478036
+    status: matched
+  Schiedam:
+    refs:
+    - geonames:2747596
+    - tgn:7006800
+    - wikidata:Q204709
+    status: matched
+  Rumst:
+    refs:
+    - geonames:2787521
+    - tgn:1026707
+    - wikidata:Q943446
+    status: matched
+  Rijkhoven:
+    refs:
+    - geonames:2788049
+    - wikidata:Q3113113
+    status: matched
+    note: >-
+      Rijkhoven (Bilzen), seat of the Teutonic Order commandery of Alden
+      Biesen
+  Petegem:
+    refs:
+    - wikidata:Q2284987
+    status: matched
+    note: >-
+      Petegem-aan-de-Schelde (Wortegem-Petegem) — the sample text is a
+      rent roll of the provostry of Petegem with Oudenaarde neighbours;
+      the Leie homonym (Petegem-aan-de-Leie, Deinze) is ruled out by
+      that context; Wikidata only (no GeoNames populated place for the
+      section)
+  Perk:
+    refs:
+    - wikidata:Q1884650
+    status: matched
+  Pamel:
+    refs:
+    - geonames:2789346
+    - wikidata:Q2653136
+    status: matched
+  Oostwinkel:
+    refs:
+    - tgn:7251241
+    - wikidata:Q14988
+    status: matched
+  Oostende:
+    refs:
+    - geonames:2789786
+    - tgn:7250954
+    - wikidata:Q12996
+    status: matched
+  Oosteeklo:
+    refs:
+    - geonames:2789792
+    - tgn:7250959
+    - wikidata:Q13123
+    status: matched
+  Neer:
+    refs:
+    - geonames:2750456
+    - wikidata:Q975986
+    status: matched
+    note: >-
+      Neer (Leudal) in Dutch Limburg, consistent with the corpus's
+      Limburg region
+  Naaldwijk:
+    refs:
+    - geonames:2750523
+    - wikidata:Q1613459
+    status: matched
+  Mörs:
+    refs:
+    - geonames:2870221
+    - wikidata:Q3132
+    status: matched
+    note: >-
+      Moers on the Lower Rhine (the corpus's Nederrijn region); the
+      corpus's spelling
+  Meerbeke:
+    refs:
+    - geonames:2791507
+    - tgn:1026596
+    - wikidata:Q1016723
+    status: matched
+  Lekkerkerk:
+    refs:
+    - geonames:2751744
+    - wikidata:Q3143983
+    status: matched
+  Leiden:
+    refs:
+    - geonames:2751773
+    - tgn:7006809
+    - wikidata:Q43631
+    status: matched
+  Kuik:
+    refs:
+    - geonames:2757874
+    - wikidata:Q13635419
+    status: matched
+    note: >-
+      Cuijk on the Maas (the lordship of Cuijk; Middle Dutch Kuik), the
+      corpus's Nederrijn region
+  Krabbendijke:
+    refs:
+    - geonames:2752331
+    - wikidata:Q1669150
+    status: matched
+  Kortenberg:
+    refs:
+    - geonames:2794070
+    - tgn:7030437
+    - wikidata:Q929474
+    status: matched
+  Koksijde:
+    refs:
+    - geonames:2794166
+    - tgn:7008853
+    - wikidata:Q465545
+    status: matched
+    note: >-
+      Koksijde, seat of the Cistercian abbey of Ter Duinen
+  Ieper:
+    refs:
+    - geonames:2795100
+    - tgn:7007899
+    - wikidata:Q102728
+    status: matched
+  Houten:
+    refs:
+    - geonames:2753557
+    - wikidata:Q33446293
+    status: matched
+  Houtave:
+    refs:
+    - wikidata:Q2122300
+    status: matched
+  Heusden (NL):
+    refs:
+    - geonames:2754135
+    - wikidata:Q3134986
+    status: matched
+    note: >-
+      the corpus's own (NL) disambiguator — the Brabant fortified town
+      Heusden (Brabant-Noord), not the Belgian homonym "Heusden (B)"
+  Heinsberg:
+    refs:
+    - geonames:2907201
+    - wikidata:Q14833
+    status: matched
+    note: >-
+      Heinsberg (Rhineland), the corpus's Limburg region (the lords of
+      Heinsberg)
+  Heemskerk:
+    refs:
+    - geonames:2754697
+    - wikidata:Q9926
+    status: matched
+  Harlingen:
+    refs:
+    - geonames:2754817
+    - wikidata:Q60475
+    status: matched
+    note: >-
+      Harlingen (Friesland); the corpus files it under its
+      Oost-Nederland region, which covers the north-east
+  Haastrecht:
+    refs:
+    - geonames:2754978
+    - wikidata:Q2523099
+    status: matched
+  Geertruidenberg:
+    refs:
+    - geonames:2755669
+    - tgn:4004269
+    - wikidata:Q10639634
+    status: matched
+  Eppegem:
+    refs:
+    - geonames:2798714
+    - wikidata:Q2512312
+    status: matched
+  Egmond:
+    refs:
+    - wikidata:Q381632
+    status: matched
+    note: >-
+      Egmond Abbey (Sint-Adelbert, Egmond-Binnen) — the localised
+      charters are issued by the abbots of Egmond ("florens ... abt van
+      egmunde"); the abbey, not one of the three Egmond villages, is the
+      referent
+  Dudzele:
+    refs:
+    - geonames:2799092
+    - tgn:1026402
+    - wikidata:Q3040923
+    status: matched
+  Dilbeek:
+    refs:
+    - geonames:2799365
+    - tgn:1026397
+    - wikidata:Q641134
+    status: matched
+  Deventer:
+    refs:
+    - geonames:2756987
+    - tgn:7006940
+    - wikidata:Q26296883
+    status: matched
+  Dendermonde:
+    refs:
+    - geonames:2799645
+    - tgn:7007872
+    - wikidata:Q13122
+    status: matched
+  Deinze:
+    refs:
+    - geonames:2799746
+    - tgn:1026388
+    - wikidata:Q499313
+    status: matched
+  Blankenberge:
+    refs:
+    - geonames:2801858
+    - tgn:7007864
+    - wikidata:Q328104
+    status: matched
+  Bazel:
+    refs:
+    - geonames:2802529
+    - wikidata:Q597446
+    status: matched
+  Averbode:
+    refs:
+    - wikidata:Q2291533
+    status: matched
+    note: >-
+      Averbode (Scherpenheuvel-Zichem), seat of the Premonstratensian
+      abbey whose charters these are; the settlement item, Wikidata only
+  Amersfoort:
+    refs:
+    - geonames:2759821
+    - wikidata:Q33421377
+    status: matched
+  Alkemade:
+    refs:
+    - wikidata:Q166134
+    status: matched
+    note: >-
+      the medieval ambacht of Alkemade (South Holland), whose successor
+      municipality is the Wikidata item; no single modern populated
+      place
+  Abkoude:
+    refs:
+    - geonames:2760067
+    - wikidata:Q307103
+    status: matched
+    note: >-
+      modern Abcoude (De Ronde Venen); the corpus's spelling
+  "Holland, graf.kans.":
+    status: region
+    note: >-
+      "Holland, grafelijke kanselarij" — charters written in the
+      chancery of the counts of Holland, which the corpus localises to
+      the county, not to a town (the chancery travelled with the count's
+      court); the county of Holland is the honest grain
+  Holland-West:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Holland-West"), reached where a document names no
+      place
+  Holland-Oost:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Holland-Oost"), reached where a document names no
+      place
+  West-Vlaanderen:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "West-Vlaanderen"), reached where a document names no
+      place
+  Oost-Vlaanderen:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Oost-Vlaanderen"), reached where a document names no
+      place
+  Brabant-West:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Brabant-West"), reached where a document names no
+      place
+  Brabant-Oost:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Brabant-Oost"), reached where a document names no
+      place
+  Zeeland:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Zeeland"), reached where a document names no place;
+      not the Brabant village Zeeland (Maashorst)
+  Nederrijn:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Nederrijn", the Lower Rhine), reached where a document
+      names no place
+  Limburg:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's region-table localisation
+      (regio.txt "Limburg", the Maas-Limburg dialect area), reached
+      where a document names no place (Veldeke's Sente Servas, the
+      Glossarium Bernense, Reinaert E); not the town of Limbourg
+  Vier Ambachten:
+    status: region
+    note: >-
+      the Vier Ambachten ("Four Offices": Assenede, Boekhoute, Axel,
+      Hulst), a castellany district of medieval Flanders — a district,
+      not a place
+  Voorne:
+    status: region
+    note: >-
+      the island and lordship of Voorne (South Holland) — the sample
+      charter is Diederic van Voorne, lord of Heenvliet; a lordship, not
+      a place
+  Putten:
+    status: region
+    note: >-
+      the island and lordship of Putten (South Holland), filed under the
+      corpus's Zeeland region — the sample charter is Nicolaas van
+      Putten's; a lordship, not a place (Wikidata's "former island" item
+      carries a point in the Gelderland homonym, so it is not cited)
+  "Lubbeek/Heverlee":
+    status: rejected
+    note: >-
+      two-place localisation — the charter is a Park Abbey (Heverlee)
+      instrument concerning land in the parish of Lubbeek; the corpus
+      pairs both places, no single identity is the claim
+  "Meldert/Tienen":
+    status: rejected
+    note: >-
+      two-place localisation — a vidimus by the aldermen of Tienen of a
+      letter of the aldermen of Meldert (Meldert near Hoegaarden, beside
+      Tienen); the corpus pairs both places, no single identity is the
+      claim
+
+# corpus-oudnederlands (2026-10-21): the localisations of Corpus
+# Oudnederlands (INT/IvdNT v1.0; all surviving Dutch word material
+# 475–1200). Keys are each work's header place (interpGrp type="place"),
+# falling back to its region where the place is empty — so dialect-area
+# names are keys too. 14 names, 20 works: 9 matched (runic findspot
+# villages of Groningen and Friesland, and the abbeys of Egmond,
+# Munsterbilzen and Werden — each a Wikidata item, plus the GeoNames
+# populated place where one exists, cross-checked live 2026-10-21),
+# 4 region rows; "Nederberg" (the Nederbergse doopbelofte, 811–812)
+# stays unlisted — no identification found.
+corpus-oudnederlands:
+  Werden:
+    refs:
+    - wikidata:Q688373
+    status: matched
+    note: >-
+      Werden on the Ruhr (Essen-Werden), read as its Benedictine abbey —
+      the corpus localises the three Mittelfränkische Reimbibel
+      witnesses to Werden without qualification, and in 1200 the place
+      is the abbey and its dependent settlement; the abbey item is the
+      medieval identity
+  Westeremden:
+    refs:
+    - geonames:2744753
+    - wikidata:Q2584769
+    status: matched
+    note: >-
+      Westeremden (Eemsdelta, Groningen), findspot of the runic
+      yew-stick and weaving-sword (terp finds)
+  Toornwerd:
+    refs:
+    - geonames:2746198
+    - wikidata:Q3531994
+    status: matched
+    note: >-
+      Toornwerd (Eemsdelta, Groningen), findspot of the runic comb
+  Raskwerd:
+    refs:
+    - geonames:2748319
+    - wikidata:Q2669928
+    status: matched
+    note: >-
+      modern Rasquert (Het Hogeland; Gronings Raskerd), the terp village
+      that yielded the runic sword hilt — the corpus's "Raskwerd" is the
+      older terp-name spelling
+  Oostum:
+    refs:
+    - geonames:2749338
+    - wikidata:Q2598567
+    status: matched
+    note: >-
+      Oostum (Westerkwartier, Groningen), findspot of the runic comb
+  Munsterbilzen:
+    refs:
+    - wikidata:Q2514380
+    status: matched
+    note: >-
+      Munsterbilzen Abbey (Bilzen) — the text is a name list of the
+      abbey's community; the abbey, not the village, is the referent
+  Egmond:
+    refs:
+    - wikidata:Q381632
+    status: matched
+    note: >-
+      Egmond Abbey (Sint-Adelbert, Egmond-Binnen), where the Leiden
+      Willeram manuscript was written; the abbey, not one of the three
+      Egmond villages, is the referent
+  Britsum:
+    refs:
+    - geonames:2758309
+    - wikidata:Q2177852
+    status: matched
+    note: >-
+      Britsum (Leeuwarden, Friesland), findspot of the runic yew-wood
+      stick
+  Arum:
+    refs:
+    - geonames:2759652
+    - wikidata:Q2444403
+    status: matched
+    note: >-
+      Arum (Súdwest-Fryslân), findspot of the runic miniature sword
+  Utrecht:
+    status: region
+    note: >-
+      the Utrecht baptismal vow (Utrechtse doopbelofte) carries no
+      place, only the region "Utrecht" (the consumer falls back to it) —
+      the diocese/province localisation, not the city
+  Zuid-Nederrijn:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's dialect-area localisation
+      "South Lower Rhine" (the Wachtendonck Psalms and glosses), reached
+      where a work names no place
+  Noord-Nederrijn:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's dialect-area localisation
+      "North Lower Rhine" (the North Lower Rhine blood charm), reached
+      where a work names no place
+  Oostnederrijn-Westfalen:
+    status: region
+    note: >-
+      regional bin, not a place — the corpus's dialect-area localisation
+      "East Lower Rhine–Westphalia" (the horse and worm charm), reached
+      where a work names no place
