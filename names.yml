@@ -2848,27 +2848,22 @@ papyri-ddbdp:
     status: region
     note: regional bin, not a place (P64-1)
 aes:
-  Delta:
-    status: region
-    note: regional bin, not a place (P64-1)
-  Eastern Desert:
-    status: region
-    note: regional bin, not a place (P64-1)
   Middle Egypt (from Kairo to Assiut):
-    status: region
-    note: regional bin, not a place (P64-1)
-  Nubia:
     status: region
     note: regional bin, not a place (P64-1)
   Upper Egypt (South of Assiut):
     status: region
     note: regional bin, not a place (P64-1)
-  Western Asia and Europe:
+  Vorderasien und Europa:
     status: region
-    note: regional bin, not a place (P64-1)
-  Western Desert:
+    note: >-
+      regional bin, not a place — the AED text header's own label for the
+      corpus's "Western Asia and Europe" findspot region
+  Wüste östlich des Niltals und Küste des Roten Meeres (Staatsgebiet Ägypten und Sudan):
     status: region
-    note: regional bin, not a place (P64-1)
+    note: >-
+      regional bin, not a place — the AED text header's own label for the
+      corpus's "Eastern Desert" findspot region
 kanripo:
   # First decision wave for the Kanseki Repository × CHGIS text-mining
   # round (2026-09-26): the review board's real-geography names. The
@@ -3059,7 +3054,7 @@ eebo-tcp:
     - tgn:7017283
     - wikidata:Q4093
     status: matched
-  "Cambridge, Mass.":
+  "Cambridge, Mass":
     refs:
     - geonames:4931972
     - tgn:7013527
@@ -3304,14 +3299,6 @@ eebo-tcp:
     - tgn:7010026
     - wikidata:Q216372
     status: matched
-  Hemel Hempstead:
-    refs:
-    - geonames:2647138
-    - tgn:7011875
-    - wikidata:Q3532
-    status: matched
-    note: >-
-      every occurrence is a cataloguer conjecture
   La Rochelle:
     refs:
     - geonames:3006787
